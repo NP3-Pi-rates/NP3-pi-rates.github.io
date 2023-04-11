@@ -3,7 +3,7 @@ body {
     color: white;
 }
 .main-text {
-    padding: 20vw;
+    padding: 19vw;
     padding-top: 0;
     padding-bottom: 0;
     display: flex;
@@ -45,6 +45,7 @@ body {
     transition: 0.5s ease-in-out;
     margin: 1vw;
     margin-bottom: 0vw;
+    border-radius: 5%;
 }
 .handout img:hover {
     width: 11vw;
