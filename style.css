@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: rgb(20, 20, 20);
     color: white;
 }
 .main-text {
@@ -27,6 +27,10 @@ body {
     display: flex;
     justify-content: center;
 }
+.handout a {
+    color: orange;
+    text-decoration: none;
+}
 .handoutList {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -44,7 +48,7 @@ body {
     height: auto;
     transition: 0.5s ease-in-out;
     margin: 1vw;
-    margin-bottom: 0vw;
+    margin-bottom: 1vw;
     border-radius: 5%;
 }
 .handout img:hover {
@@ -57,15 +61,25 @@ body {
     margin: 0vw;
 }
 .handout img:hover + p{
-    margin-top: 0.5vw;
+    margin-top: 1vw;
     transition: 0.5s ease-in-out;
-    border-radius: 7%;
     box-shadow: 0px 1px 10px gray;
 }
 @media only screen and (max-width: 600px) {
     .handoutList {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        gap: 1vw 2vw;
+    }
+    .handout img {
+        width: 20vw;
+        height: auto;
+    }
+}
+@media only screen and (max-width: 1600px) {
+    .handoutList {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
         gap: 1vw 2vw;
     }
     .handout img {
