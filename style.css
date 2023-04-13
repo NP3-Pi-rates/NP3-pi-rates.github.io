@@ -87,3 +87,15 @@ body {
         height: auto;
     }
 }
+.subjects {
+    padding: 19vw;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: grid;
+    justify-content: center;
+    width: 60vw;
+    height: 20vw;
+    flex-wrap: wrap;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 30pt;
+}
