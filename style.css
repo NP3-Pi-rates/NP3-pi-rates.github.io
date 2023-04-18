@@ -117,3 +117,18 @@ body {
     font-family: "Lucida Console", "Courier New", monospace;
     font-size: 30pt;
 }
+
+.entire-handout {
+    justify-content: none;
+    align-items: none;
+    display: grid;
+    width: 92vw;
+    height: 1000px;
+    row-gap: 20px;
+    grid-template-rows: auto;
+    grid-template-columns: 23vw 23vw 23vw 23vw;
+    padding: 10px;
+    margin: 0 px;
+    border: 5px solid blue
+    
+}
