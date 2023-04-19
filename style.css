@@ -52,10 +52,9 @@ body {
     gap: 1vw 2vw;
     
 }
-
 .handout {
     text-align: center;
-    border: 1px solid #ffffff;
+    
 }
 .handout p {
     margin-top: 1vw;
@@ -142,14 +141,15 @@ body {
     display: grid;
     width: 94vw;
     height: 1fr;
-    row-gap: 20px;
-    column-gap: 2vw;
+    row-gap: 0px;
+    column-gap: 0vw;
     grid-template-rows: 50px auto;
     grid-template-columns: 22vw 22vw 22vw 22vw;
     padding: 10px;
-    margin: 0 px;
-    border: 5px solid blue;
-
+    margin: 0px;
+    border: 5px solid rgb(87, 87, 87);
+    border-radius: 5px;
+    
 }
 
 .entire-handout-titles {
@@ -160,3 +160,13 @@ body {
     height: 100%;
     
 }
+
+.entire-handout > * {
+    border-left: 4px solid #ffffff;
+    border-right: 4px solid #ffffff;
+    border-bottom: 4px solid #ffffff;
+    height: 100%;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+  }
