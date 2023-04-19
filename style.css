@@ -35,9 +35,12 @@ body {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 1vw 2vw;
+    
 }
+
 .handout {
     text-align: center;
+    border: 1px solid #ffffff;
 }
 .handout p {
     margin-top: 1vw;
