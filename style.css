@@ -2,6 +2,21 @@ body {
     background-color: rgb(20, 20, 20);
     color: white;
 }
+.subjects {
+    text-align: center;
+}
+.subjects button {
+    height: 10vh;
+    width: 15vw;
+    font-size: 80%;
+    transition: 0.2s;
+}
+.subjects button:hover {
+    height: 10vh;
+    width: 15vw;
+    font-size: 95%;
+    transition: 0.2s;
+}
 .main-text {
     padding: 19vw;
     padding-top: 0;
