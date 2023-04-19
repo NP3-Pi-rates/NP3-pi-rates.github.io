@@ -2,6 +2,21 @@ body {
     background-color: rgb(20, 20, 20);
     color: white;
 }
+.subjects {
+    text-align: center;
+}
+.subjects button {
+    height: 10vh;
+    width: 15vw;
+    font-size: 80%;
+    transition: 0.2s;
+}
+.subjects button:hover {
+    height: 10vh;
+    width: 15vw;
+    font-size: 95%;
+    transition: 0.2s;
+}
 .main-text {
     padding: 19vw;
     padding-top: 0;
@@ -107,4 +122,41 @@ body {
         transition: 0.5s ease-in-out;
         margin: 0vw;
     }
+}
+.subjects {
+    padding: 19vw;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: grid;
+    justify-content: center;
+    width: 60vw;
+    height: 20vw;
+    flex-wrap: wrap;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 30pt;
+}
+
+.entire-handout {
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    width: 94vw;
+    height: 1fr;
+    row-gap: 20px;
+    column-gap: 2vw;
+    grid-template-rows: 50px auto;
+    grid-template-columns: 22vw 22vw 22vw 22vw;
+    padding: 10px;
+    margin: 0 px;
+    border: 5px solid blue;
+
+}
+
+.entire-handout-titles {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    
 }
