@@ -48,7 +48,7 @@ body {
 }
 .handoutList {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 1vw 2vw;
     
 }
@@ -65,7 +65,7 @@ body {
     height: auto;
     transition: 0.5s ease-in-out;
     margin: 1vw;
-    margin-bottom: 1vw;
+    margin-bottom: 5vw;
     border-radius: 5%;
 }
 .handout img:hover {
@@ -129,10 +129,23 @@ body {
     display: grid;
     justify-content: center;
     width: 60vw;
-    height: 20vw;
+    height: 1fr;
     flex-wrap: wrap;
     font-family: "Lucida Console", "Courier New", monospace;
     font-size: 30pt;
+}
+
+.buttons {
+    padding: 19vw;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    display: grid;
+    justify-content: center;
+    width: 1fr;
+    height: 1fr;
+    flex-wrap: wrap;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 30pt;    
 }
 
 .entire-handout {
@@ -170,3 +183,8 @@ body {
     margin: 0px;
     padding: 0px;
   }
+
+.about-us {
+    display: grid;
+    grid-template-columns: 50vw 50vw;
+}
