@@ -198,3 +198,75 @@ body {
     padding: 10px;
 }
 
+.sidebar{
+    position: fixed;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: #042331;
+    transition: all .5s ease;
+}
+.sidebar header{
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    background: #043336;
+    user-select: none;
+}
+.sidebar ul a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 20px;
+    color: white;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(255, 255, 255, .1);
+    border-bottom: 1px solid black;
+    transition: .4s;
+}
+ul li:hover a{
+    padding-left: 50px;
+}
+.sidebar ul a i{
+    margin-right: 16px;
+}
+#checking{
+    display: none;
+}
+label #butn,label #cancelz{
+    position: absolute;
+    cursor: pointer;
+    background: #f9fafa;
+    border-radius: 0px;
+}
+label #butn{
+    left: 40px;
+    top: 25px;
+    font-size: 35px;
+    color: black;
+    padding: 6x 12px;
+    transition: all .5s;
+}
+label #cancelz{
+    z-index: 1111;
+    left: -195px;
+    top: 17px;
+    font-size: 30px;
+    color: #0a5275;
+    padding: 4px 9px;
+    transition: all 0.5s ease;
+}
+#checking:checked ~ .sidebar{
+    left: 0;
+}
+#checking:checked ~ label #butn{
+    left: 250;
+    opacity: 0;
+    pointer-events: none;
+}
+#checking:checked ~ label #cancelz{
+    left: 195px;
+}
