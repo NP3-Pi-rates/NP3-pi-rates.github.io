@@ -269,4 +269,9 @@ label #cancelz{
 }
 #checking:checked ~ label #cancelz{
     left: 195px;
+    top: 56px;
+    position: sticky    ;
+}
+#butn {
+    height: 4vh;
 }
