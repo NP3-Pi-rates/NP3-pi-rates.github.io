@@ -194,10 +194,6 @@ body {
     grid-template-columns: 1fr;
 }
 
-.about-us > * {
-    padding: 10px;
-}
-
 .sidebar{
     position: fixed;
     left: -250px;
