@@ -205,6 +205,7 @@ body {
     height: 100%;
     background-color: #042331;
     transition: all .5s ease;
+    top: 0px;
 }
 .sidebar header{
     font-size: 22px;
@@ -269,9 +270,15 @@ label #cancelz{
 }
 #checking:checked ~ label #cancelz{
     left: 195px;
-    top: 56px;
+    top: 15px;
     position: sticky    ;
 }
 #butn {
     height: 4vh;
+}
+
+.titles-for-pages {
+    height: 50px;
+    width: 100%;
+    text-align: center;
 }
