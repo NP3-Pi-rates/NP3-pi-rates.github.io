@@ -278,3 +278,10 @@ label #cancelz{
     width: 100%;
     text-align: center;
 }
+
+.grid-of-meeting-photos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
