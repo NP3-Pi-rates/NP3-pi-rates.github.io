@@ -3,7 +3,7 @@ $(document).ready(function() {
     
     setInterval(function() {
       $.get(url, function(data) {
-        $("#viewer-count").text(data);
+        $("viewer-count.txt").text(data);
       });
     }, 5000);
   });
