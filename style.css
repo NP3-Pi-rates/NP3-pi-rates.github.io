@@ -81,46 +81,8 @@ body {
     transition: 0.5s ease-in-out;
     box-shadow: 0px 1px 10px gray;
 }
-@media only screen and (max-width: 600px) {
-    .handoutList {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 1vw 2vw;
-    }
-    .handout img {
-        width: 20vw;
-        height: auto;
-    }
-    .handout img:hover {
-        width: 21vw;
-        height: auto;
-        box-shadow: 0px 5px 10px orange;
-        padding-bottom: 0px;
-        margin-bottom: 0px;
-        transition: 0.5s ease-in-out;
-        margin: 0vw;
-    }
-}
-@media only screen and (max-width: 1600px) {
-    .handoutList {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 1vw 2vw;
-    }
-    .handout img {
-        width: 20vw;
-        height: auto;
-    }
-    .handout img:hover {
-        width: 21vw;
-        height: auto;
-        box-shadow: 0px 5px 10px orange;
-        padding-bottom: 0px;
-        margin-bottom: 0px;
-        transition: 0.5s ease-in-out;
-        margin: 0vw;
-    }
-}
+
+
 .subjects {
     padding: 19vw;
     padding-top: 20px;
