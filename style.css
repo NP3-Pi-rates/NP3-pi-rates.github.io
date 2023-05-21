@@ -336,3 +336,13 @@ label #cancelz{
     display: block;
     opacity: 1;
 }
+
+.grid-of-dropdown {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.top-of-home-page {
+    background-color: orange;
+    min-height: 1fr;
+}
