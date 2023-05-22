@@ -265,7 +265,7 @@ label #cancelz{
 }
 
 .select {
-    background: #0a5275;
+    background: #a0771d;
     color: #fff;
     display: flex;
     justify-content: space-between;
@@ -283,7 +283,7 @@ label #cancelz{
 }
 
 .select:hover {
-    background: #323741;
+    background: #c78d10;
 }
 
 .caret {
@@ -336,10 +336,7 @@ label #cancelz{
     min-height: 100%;
     font-family: 'Courier New', Courier, monospace;
     color: white;
-}
 
-.active{
-    background: #23242a;
 }
 
 .menu-open {
@@ -353,13 +350,12 @@ label #cancelz{
 }
 
 .top-of-home-page {
-    background-color: orange;
+    background-color: rgb(114, 128, 194);
     min-height: 1fr;
 }
 
 .grid-of-dropdown * {
     font-family: 'Courier New', Courier, monospace;
-    display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
