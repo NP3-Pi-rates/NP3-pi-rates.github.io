@@ -272,6 +272,7 @@ label #cancelz{
     align-items: center;
     border: 2px #2a2f3b solid;
     border-radius: 0.5em;
+    padding: 1em;
     cursor: pointer;
     transition: background 0.3s;
 }
@@ -322,10 +323,19 @@ label #cancelz{
     margin: 0.3em 0;
     border-radius: 0.5em;
     cursor: pointer;
+    width: 100%;
 }
 
 .menu li:hover {
     background: #2a2d35;
+}
+
+.menu li * {
+    display: inline-block;
+    min-width: 100%;
+    min-height: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
 }
 
 .active{
@@ -346,3 +356,12 @@ label #cancelz{
     background-color: orange;
     min-height: 1fr;
 }
+
+.grid-of-dropdown * {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
