@@ -321,8 +321,8 @@ label #cancelz{
 }
 
 .menu li {
+    text-decoration: none;
     padding: 0;
-    margin: 1.5em 0;
     border-radius: 0.5em;
     cursor: pointer;
     width: 100%;
@@ -333,18 +333,25 @@ label #cancelz{
     transition: 0.2s;
 }
 
-.menu li * {
-    display: inline-block;
+.menu a * {
+    display: flex;
+    justify-content: center;
+    padding-top: 1.5vw;
+    padding-bottom: 1.5vw;
     width: 100%;
     height: 100%;
     font-family: 'Courier New', Courier, monospace;
     color: white;
     font-size: 20px; 
 }
+.menu a {
+    text-decoration: none;
+}
 
 .menu-open {
     display: block;
     opacity: 1;
+    
 }
 
 .grid-of-dropdown {
