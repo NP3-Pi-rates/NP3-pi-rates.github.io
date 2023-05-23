@@ -1,6 +1,6 @@
 body {
     background-color: rgb(20, 20, 20);
-    color: white;
+    color: rgb(255, 255, 255);
 }
 .subjects {
     text-align: center;
@@ -155,6 +155,7 @@ body {
     grid-template-columns: 1fr;
 }
 
+/*sidebar*/
 .sidebar{
     position: fixed;
     left: -250px;
@@ -246,6 +247,7 @@ label #cancelz{
     grid-template-rows: 1fr;
 }
 
+/*Dropdown styles*/
 .dropdown-settings {
     font-family: 'Courier New', Courier, monospace;
     display: flex;
@@ -255,7 +257,7 @@ label #cancelz{
 }
 
 .dropdown {
-    min-width: 15em;
+    min-width: 0;
     position: relative;
     margin: 2em;
 }
@@ -265,7 +267,7 @@ label #cancelz{
 }
 
 .select {
-    background: #a0771d;
+    background: #d4950d;
     color: #fff;
     display: flex;
     justify-content: space-between;
@@ -283,7 +285,7 @@ label #cancelz{
 }
 
 .select:hover {
-    background: #c78d10;
+    background: #f7ac0c;
 }
 
 .caret {
@@ -319,8 +321,8 @@ label #cancelz{
 }
 
 .menu li {
-    padding: 0.7em 0.5em;
-    margin: 0.3em 0;
+    padding: 0;
+    margin: 1.5em 0;
     border-radius: 0.5em;
     cursor: pointer;
     width: 100%;
@@ -332,11 +334,11 @@ label #cancelz{
 
 .menu li * {
     display: inline-block;
-    min-width: 100%;
-    min-height: 100%;
+    width: 100%;
+    height: 100%;
     font-family: 'Courier New', Courier, monospace;
     color: white;
-
+    font-size: 20px; 
 }
 
 .menu-open {
@@ -350,8 +352,9 @@ label #cancelz{
 }
 
 .top-of-home-page {
-    background-color: rgb(114, 128, 194);
+    background-color: rgb(206, 253, 255);
     min-height: 1fr;
+    color: rgb(125, 132, 145);
 }
 
 .grid-of-dropdown * {

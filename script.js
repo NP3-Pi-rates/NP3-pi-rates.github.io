@@ -6,7 +6,7 @@ dropdowns.forEach(dropdown => {
     const menu = dropdown.querySelector('.menu');
     const options = dropdown.querySelectorAll('.menu li');
     const selected = dropdown.querySelector('.selected')
-
+ 
     select.addEventListener('click', () => {
         select.classList.toggle('select-clicked');
         caret.classList.toggle('caret-rotate');
@@ -24,5 +24,5 @@ dropdowns.forEach(dropdown => {
             });
             option.classList.add('active');
         });
-    });
+    }); 
 });
