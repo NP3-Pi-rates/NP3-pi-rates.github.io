@@ -267,7 +267,7 @@ label #cancelz{
 }
 
 .select {
-    background: #d4950d;
+    background: #e68c17;
     color: #fff;
     display: flex;
     justify-content: space-between;
@@ -285,7 +285,7 @@ label #cancelz{
 }
 
 .select:hover {
-    background: #f7ac0c;
+    background: #8b550d;
 }
 
 .caret {
@@ -330,6 +330,7 @@ label #cancelz{
 
 .menu li:hover {
     background: #2a2d35;
+    transition: 0.2s;
 }
 
 .menu li * {
