@@ -26,6 +26,9 @@ body {
     width: 60vw;
     flex-wrap: wrap;
     font-family: "Lucida Console", "Courier New", monospace;
+    background-color: rgb(206, 253, 255);
+    min-height: 1fr;
+    color: rgb(125, 132, 145);
 }
 .main-text img {
     width: 10vw;
@@ -285,7 +288,7 @@ label #cancelz{
 }
 
 .select:hover {
-    background: #8b550d;
+    background: #ff9d1c;
 }
 
 .caret {
@@ -343,6 +346,7 @@ label #cancelz{
     font-family: 'Courier New', Courier, monospace;
     color: white;
     font-size: 20px; 
+    text-align: center;
 }
 .menu a {
     text-decoration: none;
@@ -372,3 +376,9 @@ label #cancelz{
     flex-wrap: wrap;
 }
 
+.top-left-corner-logo {
+    position: absolute;
+    justify-content: left;
+    top: 5px;
+    left: 20px;
+}
