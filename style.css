@@ -250,6 +250,15 @@ label #cancelz{
     grid-template-rows: 1fr;
 }
 
+.grid-of-meeting-photos img {
+    width: 60vh;
+    height: auto;
+    display: flex;
+    transition: 0.5s ease-in-out;
+    padding-bottom: 5vh;
+    border-radius: 5%;
+}
+
 /*Dropdown styles*/
 .dropdown-settings {
     font-family: 'Courier New', Courier, monospace;
@@ -379,6 +388,12 @@ label #cancelz{
 .top-left-corner-logo {
     position: absolute;
     justify-content: left;
-    top: 5px;
+    top: 10px;
     left: 20px;
+    
+}
+
+.top-left-corner-logo img {
+    height: 77px;
+    width: auto;
 }
