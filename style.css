@@ -21,8 +21,10 @@ body {
     padding: 19vw;
     padding-top: 0;
     padding-bottom: 0;
-    display: flex;
+    display: grid;
+    grid-template-rows: auto;
     justify-content: center;
+    align-items: center;
     width: 60vw;
     flex-wrap: wrap;
     font-family: "Lucida Console", "Courier New", monospace;
@@ -30,10 +32,23 @@ body {
     min-height: 1fr;
     color: rgb(125, 132, 145);
 }
+
+
 .main-text img {
-    width: 10vw;
+    width: 50%;
     height: auto;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
+
+.main-text > * {
+    text-align: center;
+}
+
 .break {
     flex-basis: 100%;
     height: 0;
@@ -74,11 +89,10 @@ body {
     width: 11vw;
     height: auto;
     box-shadow: 0px 5px 10px orange;
-    padding-bottom: 0px;
-    margin-bottom: 0px;
     transition: 0.5s ease-in-out;
-    margin: 0vw;
+
 }
+
 .handout img:hover + p{
     margin-top: 1vw;
     transition: 0.5s ease-in-out;
@@ -123,7 +137,7 @@ body {
     margin: 0px;
     border: 5px solid rgb(87, 87, 87);
     border-radius: 5px;
-    font-size: 20px;
+    font-size: 18px;
     
 }
 
@@ -251,7 +265,7 @@ label #cancelz{
 }
 
 .grid-of-meeting-photos img {
-    width: 60vh;
+    width: 100%;
     height: auto;
     display: flex;
     transition: 0.5s ease-in-out;
@@ -348,8 +362,8 @@ label #cancelz{
 .menu a * {
     display: flex;
     justify-content: center;
-    padding-top: 1.5vw;
-    padding-bottom: 1.5vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
     width: 100%;
     height: 100%;
     font-family: 'Courier New', Courier, monospace;
@@ -394,6 +408,27 @@ label #cancelz{
 }
 
 .top-left-corner-logo img {
-    height: 77px;
-    width: auto;
+    width: 10vw;
+    min-width: 10vh;
+    height: auto;
+}
+
+
+
+@media screen and (max-width: 900px) {
+    .grid-of-dropdown {
+        display: grid;
+        grid-template-rows: 25% 25% 25% 25%;
+        grid-template-columns: 1fr;
+    }
+    .grid-of-meeting-photos {
+        grid-template-columns: auto;
+    }
+    .menu a * {
+        padding-top: 3vw;
+        padding-bottom: 3vw;
+    }
+    .entire-handout {
+        font-size: 14px;
+    }
 }
