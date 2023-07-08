@@ -1,23 +1,24 @@
+/*
+CSS Sections
+    General format for body and anchors
+    Header format
+    About Us Page Images
+    Dropdown menus for home page
+    Handouts and handout grid
+    Adjusting the format based on screen size
+*/
+
+/*General format for body and anchors*/
 body {
     background-color: rgb(20, 20, 20);
     color: rgb(255, 255, 255);
 }
-.subjects {
-    text-align: center;
+a {
+    color: rgb(34, 34, 226);
 }
-.subjects button {
-    height: 10vh;
-    width: 15vw;
-    font-size: 80%;
-    transition: 0.2s;
-}
-.subjects button:hover {
-    height: 10vh;
-    width: 15vw;
-    font-size: 95%;
-    transition: 0.2s;
-}
-.main-text {
+
+/*Header format*/
+.page-header {
     padding: 19vw;
     padding-top: 0;
     padding-bottom: 0;
@@ -30,11 +31,9 @@ body {
     font-family: "Lucida Console", "Courier New", monospace;
     background-color: rgb(206, 253, 255);
     min-height: 1fr;
-    color: rgb(125, 132, 145);
+    color: rgb(105, 108, 119);
 }
-
-
-.main-text img {
+.page-header img {
     width: 50%;
     height: auto;
     justify-content: center;
@@ -42,36 +41,148 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    
 }
-
-.main-text > * {
+.page-header > * {
     text-align: center;
 }
+.top-left-corner-logo img {
+    position: absolute;
+    justify-content: left;
+    top: 10px;
+    left: 20px;
+    width: 10vw;
+    min-width: 10vh;
+    height: auto;
+}
 
-.break {
-    flex-basis: 100%;
-    height: 0;
-  }
+/*About Us Page Images*/
 
+.grid-of-meeting-photos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+.grid-of-meeting-photos img {
+    width: 100%;
+    height: auto;
+    display: flex;
+    transition: 0.5s ease-in-out;
+    padding-bottom: 5vh;
+    border-radius: 5%;
+}
 
-#handoutListContainer {
-    padding-top: 3vh;
+/*Dropdown menus for home page*/
+.dropdown-settings {
+    font-family: 'Courier New', Courier, monospace;
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.dropdown {
+    min-width: 0;
+    position: relative;
+    margin: 2em;
+}
+.dropdown * {
+    box-sizing: border-box;
+}
+.select {
+    background: #e68c17;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px #2a2f3b solid;
+    border-radius: 0.5em;
+    padding: 1em;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+.select-clicked {
+    border: 2px #26489a solid;
+    box-shadow: 0 0 0.8em #26489a;
+}
+.select:hover {
+    background: #ff9d1c;
+}
+.caret {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5 px solid transparent;
+    border-top: 6px solid #fff;
+    transition: 0.3s;
+}
+.caret-rotate {
+    transform: rotate(180deg);
+}
+.menu {
+    list-style: none;
+    padding: 0.2em 0.5em;
+    background: #323741;
+    border:  1px #363a43 solid;
+    box-shadow: 0 0.5em 1em rgba(0,0,0,0.2);
+    border-radius: 0.5em;
+    color: #9fa5b5;
+    position: absolute;
+    top: 3em;
+    left: 50%;
+    width: 100%;
+    transform: translateX(-50%);
+    opacity: 0;
+    display: none;
+    transition: 0.2s;
+    z-index: 1;
+}
+.menu li {
+    text-decoration: none;
+    padding: 0;
+    border-radius: 0.5em;
+    cursor: pointer;
+    width: 100%;
+}
+.menu li:hover {
+    background: #2a2d35;
+    transition: 0.2s;
+}
+.menu a * {
+    display: flex;
+    justify-content: center;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    width: 100%;
+    height: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: 20px; 
+    text-align: center;
+}
+.menu a {
+    text-decoration: none;
+}
+.menu-open {
+    display: block;
+    opacity: 1;
+}
+.grid-of-dropdown {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.grid-of-dropdown * {
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/*Handouts and handout grid*/
+.handout {
+    text-align: center;   
 }
 .handout a {
     color: orange;
     text-decoration: none;
-}
-.handoutList {
-    display: flex;
-    gap: 1vw 2vw;
-    
-}
-.handout {
-    text-align: center;
-    
 }
 .handout p {
     margin-top: 1vw;
@@ -92,38 +203,12 @@ body {
     transition: 0.5s ease-in-out;
 
 }
-
 .handout img:hover + p{
     margin-top: 1vw;
     transition: 0.5s ease-in-out;
     box-shadow: 0px 1px 10px gray;
 }
-
-
-.subjects {
-    padding: 19vw;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    display: grid;
-    justify-content: center;
-    grid-template-rows: 130px auto;
-    width: 60vw;
-    flex-wrap: wrap;
-    font-family: "Lucida Console", "Courier New", monospace;
-
-}
-
-.buttons {
-    padding: 19vw;
-    padding-top: 30px;
-    padding-bottom: 10px;
-    display: block;
-    justify-content: center;
-    font-family: "Lucida Console", "Courier New", monospace;
-    font-size: 25px; 
-}
-
-.entire-handout {
+.worksheet-grid {
     justify-content: center;
     align-items: center;
     display: grid;
@@ -140,17 +225,14 @@ body {
     font-size: 18px;
     
 }
-
-.entire-handout-titles {
+.worksheet-grid-titles {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     width: 100%;
     height: 100%;
-    
 }
-
-.entire-handout > * {
+.worksheet-grid > * {
     border-left: 4px solid #ffffff;
     border-right: 4px solid #ffffff;
     border-bottom: 4px solid #ffffff;
@@ -162,259 +244,11 @@ body {
     align-items: center;
     justify-content: center;
   }
-
 .multi-link-grid {
     display: grid;
 }
-  
-.about-us {
-    display: grid;
-    grid-template-columns: 1fr;
-}
 
-/*sidebar*/
-.sidebar{
-    position: fixed;
-    left: -250px;
-    width: 250px;
-    height: 100%;
-    background-color: #042331;
-    transition: all .5s ease;
-    top: 0px;
-}
-.sidebar header{
-    font-size: 22px;
-    color: white;
-    text-align: center;
-    line-height: 70px;
-    background: #043336;
-    user-select: none;
-}
-.sidebar ul a{
-    display: block;
-    height: 100%;
-    width: 100%;
-    line-height: 65px;
-    font-size: 20px;
-    color: white;
-    padding-left: 40px;
-    box-sizing: border-box;
-    border-top: 1px solid rgba(255, 255, 255, .1);
-    border-bottom: 1px solid black;
-    transition: .4s;
-}
-ul li:hover a{
-    padding-left: 50px;
-}
-.sidebar ul a i{
-    margin-right: 16px;
-}
-#checking{
-    display: none;
-}
-label #butn,label #cancelz{
-    position: absolute;
-    cursor: pointer;
-    background: #f9fafa;
-    border-radius: 0px;
-}
-label #butn{
-    left: 40px;
-    top: 25px;
-    font-size: 35px;
-    color: black;
-    padding: 6x 12px;
-    transition: all .5s;
-}
-label #cancelz{
-    z-index: 1111;
-    left: -195px;
-    top: 17px;
-    font-size: 30px;
-    color: #0a5275;
-    padding: 4px 9px;
-    transition: all 0.5s ease;
-}
-#checking:checked ~ .sidebar{
-    left: 0;
-}
-#checking:checked ~ label #butn{
-    left: 250;
-    opacity: 0;
-    pointer-events: none;
-}
-#checking:checked ~ label #cancelz{
-    left: 195px;
-    top: 15px;
-    position: sticky    ;
-}
-#butn {
-    height: 4vh;
-}
-
-.titles-for-pages {
-    height: 50px;
-    width: 100%;
-    text-align: center;
-}
-
-.grid-of-meeting-photos {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-}
-
-.grid-of-meeting-photos img {
-    width: 100%;
-    height: auto;
-    display: flex;
-    transition: 0.5s ease-in-out;
-    padding-bottom: 5vh;
-    border-radius: 5%;
-}
-
-/*Dropdown styles*/
-.dropdown-settings {
-    font-family: 'Courier New', Courier, monospace;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.dropdown {
-    min-width: 0;
-    position: relative;
-    margin: 2em;
-}
-
-.dropdown * {
-    box-sizing: border-box;
-}
-
-.select {
-    background: #e68c17;
-    color: #fff;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border: 2px #2a2f3b solid;
-    border-radius: 0.5em;
-    padding: 1em;
-    cursor: pointer;
-    transition: background 0.3s;
-}
-
-.select-clicked {
-    border: 2px #26489a solid;
-    box-shadow: 0 0 0.8em #26489a;
-}
-
-.select:hover {
-    background: #ff9d1c;
-}
-
-.caret {
-    width: 0;
-    height: 0;
-    border-left: 5px solid transparent;
-    border-right: 5 px solid transparent;
-    border-top: 6px solid #fff;
-    transition: 0.3s;
-}
-
-.caret-rotate {
-    transform: rotate(180deg);
-}
-
-.menu {
-    list-style: none;
-    padding: 0.2em 0.5em;
-    background: #323741;
-    border:  1px #363a43 solid;
-    box-shadow: 0 0.5em 1em rgba(0,0,0,0.2);
-    border-radius: 0.5em;
-    color: #9fa5b5;
-    position: absolute;
-    top: 3em;
-    left: 50%;
-    width: 100%;
-    transform: translateX(-50%);
-    opacity: 0;
-    display: none;
-    transition: 0.2s;
-    z-index: 1;
-}
-
-.menu li {
-    text-decoration: none;
-    padding: 0;
-    border-radius: 0.5em;
-    cursor: pointer;
-    width: 100%;
-}
-
-.menu li:hover {
-    background: #2a2d35;
-    transition: 0.2s;
-}
-
-.menu a * {
-    display: flex;
-    justify-content: center;
-    padding-top: 2vw;
-    padding-bottom: 2vw;
-    width: 100%;
-    height: 100%;
-    font-family: 'Courier New', Courier, monospace;
-    color: white;
-    font-size: 20px; 
-    text-align: center;
-}
-.menu a {
-    text-decoration: none;
-}
-
-.menu-open {
-    display: block;
-    opacity: 1;
-    
-}
-
-.grid-of-dropdown {
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-}
-
-.top-of-home-page {
-    background-color: rgb(206, 253, 255);
-    min-height: 1fr;
-    color: rgb(125, 132, 145);
-}
-
-.grid-of-dropdown * {
-    font-family: 'Courier New', Courier, monospace;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.top-left-corner-logo {
-    position: absolute;
-    justify-content: left;
-    top: 10px;
-    left: 20px;
-    
-}
-
-.top-left-corner-logo img {
-    width: 10vw;
-    min-width: 10vh;
-    height: auto;
-}
-
-
-
+/*Adjusting the format based on screen size*/
 @media screen and (max-width: 900px) {
     .grid-of-dropdown {
         display: grid;
@@ -428,7 +262,7 @@ label #cancelz{
         padding-top: 3vw;
         padding-bottom: 3vw;
     }
-    .entire-handout {
+    .worksheet-grid {
         font-size: 14px;
     }
 }
