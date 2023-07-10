@@ -26,3 +26,45 @@ dropdowns.forEach(dropdown => {
         });
     }); 
 });
+document.addEventListener('DOMContentLoaded', function() {
+    var returnToTop = document.getElementById('return-to-top');
+  
+  
+    returnToTop.addEventListener('click', function(e) {
+      e.preventDefault();
+      scrollToTop(500); 
+    });
+  
+
+function easeInOutQuad(t, b, c, d) {
+    t /= d / 2;
+    if (t < 1) return (c / 2) * t * t + b;
+    t--;
+    return (-c / 2) * (t * (t - 2) - 1) + b;
+  }
+  
+
+  function scrollToTop(scrollDuration) {
+    var scrollHeight = window.scrollY;
+    var scrollStep = Math.PI / (scrollDuration / 15);
+    var cosParameter = scrollHeight / 2;
+    var scrollCount = 0;
+    var scrollMargin;
+  
+    function step() {
+      setTimeout(function() {
+        if (window.scrollY !== 0) {
+          scrollCount = scrollCount + 1;
+          scrollMargin =
+            cosParameter - cosParameter * Math.cos(scrollCount * scrollStep);
+          window.scrollTo(0, scrollHeight - scrollMargin);
+          step();
+        }
+      }, 15);
+    }
+  
+    step();
+  }
+  
+  });
+  
