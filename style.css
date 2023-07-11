@@ -48,14 +48,23 @@ a {
 .page-header > * {
     text-align: center;
 }
+.page-header-center img {
+    width: 50%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .top-left-corner-logo img {
     position: absolute;
     justify-content: left;
     top: 10px;
     left: 20px;
-    width: 10vw;
-    min-width: 10vh;
-    height: auto;
+    height: 78px;
+    width: auto
 }
 
 /*About Us Page Images*/
@@ -319,5 +328,14 @@ a {
     }
     .all-topics-list a {
         font-size: 16px;
+    }
+    .top-left-corner-logo {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 501px) {
+    .page-header-center img {
+        display: none;
     }
 }
