@@ -6,7 +6,8 @@ CSS Sections
     Dropdown menus for home page
     Handouts and handout grid
     Adjusting the format based on screen size
-    Return to Top and Return to Home
+    Return to...
+    All Topics List
 */
 
 /*General format for body and anchors*/
@@ -30,7 +31,7 @@ a {
     align-items: center;
     width: 60vw;
     flex-wrap: wrap;
-    font-family: "Lucida Console", "Courier New", monospace;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: rgb(214, 250, 252);
     min-height: 1fr;
     color: rgb(0, 0, 0);
@@ -225,7 +226,6 @@ a {
     border: 5px solid rgb(87, 87, 87);
     border-radius: 5px;
     font-size: 18px;
-    
 }
 .worksheet-grid-titles {
     display: flex;
@@ -266,6 +266,16 @@ a {
     color: white;
     font-size: 25px;
 }
+
+/*All Topics List*/
+.all-topics-list li {
+    margin-bottom: 15px;
+    list-style: none;
+}
+.all-topics-list a {
+    font-size: 20px;
+}
+
 /*Adjusting the format based on screen size*/
 @media screen and (min-width: 1500px) {
     .worksheet-grid {
@@ -295,6 +305,9 @@ a {
     a {
         font-size: 16px;
     }
+    .all-topics-list a {
+        font-size: 18px;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -303,5 +316,8 @@ a {
     }
     a {
         font-size: 14px;
+    }
+    .all-topics-list a {
+        font-size: 16px;
     }
 }
