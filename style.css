@@ -18,6 +18,12 @@ body{
     height: 6vh;
     padding: 1vh;
 }
+#pirates-logo {
+    position: absolute;
+    right: 1vw;
+    height: 6vh;
+    padding: 1vh;
+}
 
 #header button {
     cursor: pointer;
@@ -44,4 +50,9 @@ body{
     border: none;
     border-radius: 2vh;
     transition: 0.3s;
+}
+
+.homepage-images {
+    background-color: rgb(255, 188, 111);
+    height: 60vh;
 }
