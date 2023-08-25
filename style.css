@@ -1,359 +1,47 @@
-/*
-CSS Sections
-    Competition survey
-    General format for body and anchors
-    Header format
-    About Us Page Images
-    Dropdown menus for home page
-    Handouts and handout grid
-    Return to...
-    All Topics List
-    Adjusting the format based on screen size
-*/
-
-/*Competition survey*/
-.competition-survey {
-    width: 100%;
-    height: 1fr;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    justify-content: center;
-    align-items: center;
-    font-size: 22px;
+body{
+    background-color: rgb(44, 44, 44);
     color: white;
-    text-align: center;
+    margin: 0;    
 }
 
-.competition-survey a {
-    font-size: 30px;
-}
-
-/*General format for body and anchors*/
-body {
-    background-color: rgb(20, 20, 20);
-    color: rgb(255, 255, 255);
-}
-a {
-    color: rgb(165, 178, 223);
-    font-size: 18px;
-}
-
-/*Header format*/
-.page-header {
-    padding: 19vw;
-    padding-top: 0;
-    padding-bottom: 0;
-    display: grid;
-    grid-template-rows: auto;
-    justify-content: center;
-    align-items: center;
-    width: 60vw;
-    flex-wrap: wrap;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: rgb(214, 250, 252);
-    min-height: 1fr;
-    color: rgb(0, 0, 0);
-}
-.page-header img {
-    width: 50%;
-    height: auto;
-    justify-content: center;
-    align-items: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-.page-header > * {
-    text-align: center;
-}
-.page-header-center img {
-    width: 50%;
-    height: auto;
-    justify-content: center;
-    align-items: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.top-left-corner-logo img {
-    position: absolute;
-    justify-content: left;
-    top: 10px;
-    left: 20px;
-    height: 78px;
-    width: auto
-}
-
-/*About Us Page Images*/
-
-.grid-of-meeting-photos {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-}
-.grid-of-meeting-photos img {
-    width: 100%;
-    height: auto;
+#header {
     display: flex;
-    transition: 0.5s ease-in-out;
-    padding-bottom: 5vh;
-    border-radius: 5%;
-}
-
-/*Dropdown menus for home page*/
-.dropdown-settings {
-    font-family: 'Courier New', Courier, monospace;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
-.dropdown {
-    min-width: 0;
-    position: relative;
-    margin: 2em;
-}
-.dropdown * {
-    box-sizing: border-box;
-}
-.select {
-    background: #e68c17;
-    color: #fff;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border: 2px #2a2f3b solid;
-    border-radius: 0.5em;
-    padding: 1em;
-    cursor: pointer;
-    transition: background 0.3s;
-}
-.select-clicked {
-    border: 2px #26489a solid;
-    box-shadow: 0 0 0.8em #26489a;
-}
-.select:hover {
-    background: #ff9d1c;
-}
-.caret {
-    width: 0;
-    height: 0;
-    border-left: 5px solid transparent;
-    border-right: 5 px solid transparent;
-    border-top: 6px solid #fff;
-    transition: 0.3s;
-}
-.caret-rotate {
-    transform: rotate(180deg);
-}
-.menu {
-    list-style: none;
-    padding: 0.2em 0.5em;
-    background: #323741;
-    border:  1px #363a43 solid;
-    box-shadow: 0 0.5em 1em rgba(0,0,0,0.2);
-    border-radius: 0.5em;
-    color: #9fa5b5;
-    position: absolute;
-    top: 3em;
-    left: 50%;
-    width: 100%;
-    transform: translateX(-50%);
-    opacity: 0;
-    display: none;
-    transition: 0.2s;
-    z-index: 1;
-}
-.menu li {
-    text-decoration: none;
+    margin: 0;
     padding: 0;
-    border-radius: 0.5em;
-    cursor: pointer;
+    height: 8%;
     width: 100%;
-}
-.menu li:hover {
-    background: #2a2d35;
-    transition: 0.2s;
-}
-.menu a * {
-    display: flex;
-    justify-content: center;
-    padding-top: 2vw;
-    padding-bottom: 2vw;
-    width: 100%;
-    height: 100%;
-    font-family: 'Courier New', Courier, monospace;
-    color: white;
-    font-size: 20px; 
-    text-align: center;
-}
-.menu a {
-    text-decoration: none;
-}
-.menu-open {
-    display: block;
-    opacity: 1;
-}
-.grid-of-dropdown {
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-}
-.grid-of-dropdown * {
-    font-family: 'Courier New', Courier, monospace;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+    position: absolute;
+    background-color: orange;
 }
 
-/*Handouts and handout grid*/
-.handout {
-    text-align: center;   
-}
-.handout a {
-    color: orange;
-    text-decoration: none;
-}
-.handout p {
-    margin-top: 1vw;
-    transition: 0.5s ease-in-out;
-}
-.handout img {
-    width: 10vw;
-    height: auto;
-    transition: 0.5s ease-in-out;
-    margin: 1vw;
-    margin-bottom: 5vw;
-    border-radius: 5%;
-}
-.handout img:hover {
-    width: 11vw;
-    height: auto;
-    box-shadow: 0px 5px 10px orange;
-    transition: 0.5s ease-in-out;
-
-}
-.handout img:hover + p{
-    margin-top: 1vw;
-    transition: 0.5s ease-in-out;
-    box-shadow: 0px 1px 10px gray;
-}
-.worksheet-grid {
-    justify-content: center;
-    align-items: center;
-    display: grid;
-    width: 94vw;
-    height: 1fr;
-    row-gap: 0px;
-    column-gap: 0vw;
-    grid-template-rows: 50px auto;
-    grid-template-columns: 22vw 22vw 22vw 22vw;
-    padding: 10px;
-    margin: 0px;
-    border: 5px solid rgb(87, 87, 87);
-    border-radius: 5px;
-    font-size: 18px;
-}
-.worksheet-grid-titles {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-}
-.worksheet-grid > * {
-    border-left: 4px solid #ffffff;
-    border-right: 4px solid #ffffff;
-    border-bottom: 4px solid #ffffff;
-    height: 100%;
-    text-align: center;
-    margin: 0px;
-    padding: 0px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-.multi-link-grid {
-    display: grid;
-}
-.multi-link-grid * {
+#header img {
+    height: 6vh;
     padding: 1vh;
 }
 
-/*Return to...*/
-.return-to {
-    width: 100%;
-    text-align: center;
-    padding-top: 5vh;
-    padding-bottom: 5vh;
-    display: flex;
-    justify-content: center;
-}
-.return-to a {
+#header button {
+    cursor: pointer;
+    height: 3vh;
+    margin: 2.5vh;
+    padding-left: 1vh;
+    padding-right: 1vh;
     color: white;
-    font-size: 25px;
-}
+    background-color: black;
+    border: none;
+    border-radius: 2vh;
+    transition: 1s;
 
-/*All Topics List*/
-.all-topics-list li {
-    margin-bottom: 15px;
-    list-style: none;
+    
 }
-.all-topics-list a {
-    font-size: 20px;
-}
-
-/*Adjusting the format based on screen size*/
-@media screen and (min-width: 1500px) {
-    .worksheet-grid {
-        font-size: 20px;
-    }
-    a {
-        font-size: 20px;
-    }
-}
-
-@media screen and (max-width: 900px) {
-    .grid-of-dropdown {
-        display: grid;
-        grid-template-rows: 25% 25% 25% 25%;
-        grid-template-columns: 1fr;
-    }
-    .grid-of-meeting-photos {
-        grid-template-columns: auto;
-    }
-    .menu a * {
-        padding-top: 3vw;
-        padding-bottom: 3vw;
-    }
-    .worksheet-grid {
-        font-size: 14px;
-    }
-    a {
-        font-size: 16px;
-    }
-    .all-topics-list a {
-        font-size: 18px;
-    }
-}
-
-@media screen and (max-width: 500px) {
-    .worksheet-grid {
-        font-size: 10px;
-    }
-    a {
-        font-size: 14px;
-    }
-    .all-topics-list a {
-        font-size: 16px;
-    }
-    .top-left-corner-logo {
-        display: none;
-    }
-}
-
-@media screen and (min-width: 501px) {
-    .page-header-center img {
-        display: none;
-    }
+#header button:hover {
+    cursor: pointer;
+    height: 3vh;
+    margin: 2.5vh;
+    padding-left: 1vh;
+    padding-right: 1vh;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 2vh;
+    transition: 0.3s;
 }
