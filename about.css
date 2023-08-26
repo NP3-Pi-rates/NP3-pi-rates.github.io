@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(44, 44, 44);
+    color: white;
+    margin: 0;    
+}
+
+
+
+
+#header {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: 8%;
+    width: 100%;
+    background-color: orange;
+}
+
+#header img {
+    height: 6vh;
+    padding: 1vh;
+}
+#pirates-logo {
+    position: absolute;
+    right: 1vw;
+    height: 6vh;
+    padding: 1vh;
+}
+@media screen and (max-width: 730px) {
+    #pirates-logo {
+        position: absolute;
+        left: 1vw;
+        top: 7vh;
+        height: 6vh;
+        padding: 1vh;
+    }
+    #header {
+        height: 14vh;
+    }
+}
+
+#header button {
+    cursor: pointer;
+    height: 3vh;
+    margin: 2.5vh;
+    padding-left: 1vh;
+    padding-right: 1vh;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 2vh;
+    transition: 1s;
+    font-size: 2vh;
+
+    
+}
+#header button:hover {
+    cursor: pointer;
+    height: 3vh;
+    margin: 2.5vh;
+    padding-left: 1vh;
+    padding-right: 1vh;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 2vh;
+    transition: 0.3s;
+}

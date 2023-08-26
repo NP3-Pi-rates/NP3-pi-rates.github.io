@@ -4,8 +4,113 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="guides.css">
 </head>
 <body>
-    
+    <div id="header">
+        <a href="/"><img src="https://natomasunified.org/content/uploads/sites/17/2020/08/NP3H-Logo-Black.png" alt="Np3 Logo"></a>
+        <button onclick="location.href='./guides.html';">Guides/Worksheets</button>
+        <button onclick="location.href='./about.html';">About Us</button>
+        <img src="./images/pi-rates watermark.png" alt="pirates logo" id="pirates-logo">
+    </div>
+    <div class="filter">
+        <label for="tagFilter">Filter by Class:</label>
+        <select id="tagFilter">
+            <option value="all">All</option>
+            <option value="Algebra 1">Algebra 1</option>
+            <option value="Geometry">Geometry</option>
+            <option value="Algebra 2">Algebra 2</option>
+        </select>
+    </div>
+    <table id="data-table">
+        <thead>
+            <tr>
+                <th>Class</th>
+                <th>Name</th>
+                <th>Guide</th>
+                <th>Practice</th>
+                <th>Extra Help</th>
+            </tr>
+        </thead>
+        <tbody id="table-body">
+        </tbody>
+        </table>
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                const tagFilter = document.getElementById("tagFilter");
+                const tableBody = document.getElementById("table-body");
+            
+                async function fetchData() {
+                    const response = await fetch("guides.json");
+                    const data = await response.json();
+                    return data;
+                }
+            
+                async function populateTable() {
+                    const data = await fetchData();
+                    tableBody.innerHTML = "";
+                
+                    data.forEach(item => {
+                        const row = document.createElement("tr");
+                        const tagsCell = document.createElement("td");
+                        tagsCell.textContent = item.tags.join(", ");
+                        const nameCell = document.createElement("td");
+                        nameCell.textContent = item.name;
+                        const guideCell = document.createElement("td");
+                        const guideLink = document.createElement("a");
+                        guideLink.textContent = "Guide";
+                        guideLink.href = item.guideLink;
+                        guideCell.appendChild(guideLink);
+                
+                        const practiceCell = document.createElement("td");
+                        item.practiceLinks.forEach(linkData => {
+                            const practiceLink = document.createElement("a");
+                            practiceLink.textContent = linkData.name;
+                            practiceLink.href = linkData.link;
+                            practiceCell.appendChild(practiceLink);
+                            practiceCell.appendChild(document.createElement("br")); // Add line break between links
+                        });
+                
+                        const extraHelpCell = document.createElement("td");
+                        item.extraHelpLinks.forEach(linkData => {
+                            const extraHelpLink = document.createElement("a");
+                            extraHelpLink.textContent = linkData.name;
+                            extraHelpLink.href = linkData.link;
+                            extraHelpCell.appendChild(extraHelpLink);
+                            extraHelpCell.appendChild(document.createElement("br")); // Add line break between links
+                        });
+                
+                        row.appendChild(tagsCell);
+                        row.appendChild(nameCell);
+                        row.appendChild(guideCell);
+                        row.appendChild(practiceCell);
+                        row.appendChild(extraHelpCell);
+                
+                        tableBody.appendChild(row);
+                    });
+                }
+            
+                tagFilter.addEventListener("change", () => {
+                    const selectedTag = tagFilter.value;
+                    const rows = tableBody.getElementsByTagName("tr");
+                
+                    for (const row of rows) {
+                        const tagsCell = row.querySelector("td:first-child"); // Select the first <td> for tags
+                        const tags = tagsCell.textContent.split(", ");
+                        
+                        if (selectedTag === "all" || tags.includes(selectedTag)) {
+                            row.style.display = ""; // Show the row
+                        } else {
+                            row.style.display = "none"; // Hide the row
+                        }
+                    }
+                
+                
+                });
+            
+                populateTable();
+            });
+            
+            </script>
 </body>
 </html>
