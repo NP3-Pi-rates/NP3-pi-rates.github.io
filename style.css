@@ -4,13 +4,15 @@ body{
     margin: 0;    
 }
 
+
+
+
 #header {
     display: flex;
     margin: 0;
     padding: 0;
     height: 8%;
     width: 100%;
-    position: absolute;
     background-color: orange;
 }
 
@@ -24,6 +26,18 @@ body{
     height: 6vh;
     padding: 1vh;
 }
+@media screen and (max-width: 730px) {
+    #pirates-logo {
+        position: absolute;
+        left: 1vw;
+        top: 7vh;
+        height: 6vh;
+        padding: 1vh;
+    }
+    #header {
+        height: 14vh;
+    }
+}
 
 #header button {
     cursor: pointer;
@@ -36,6 +50,7 @@ body{
     border: none;
     border-radius: 2vh;
     transition: 1s;
+    font-size: 2vh;
 
     
 }
@@ -52,7 +67,41 @@ body{
     transition: 0.3s;
 }
 
+
+
 .homepage-images {
     background-color: rgb(255, 188, 111);
-    height: 60vh;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+}
+.homepage-images img {
+    padding: 1vh;
+    border-radius: 2vh;
+}
+
+@media screen and (max-width: 900px) {
+    .homepage-images img:not(:nth-child(3)) {
+        display: none;
+    }
+    
+}
+
+
+#announcement {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#announcement-content {
+    white-space: pre-line;
+    line-gap-override: 1px;
+}
+#announcement-content a {
+    color: orange;
+}
+#announcement-content * {
+    margin: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
