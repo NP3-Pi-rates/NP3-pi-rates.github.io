@@ -66,3 +66,33 @@ body{
     border-radius: 2vh;
     transition: 0.3s;
 }
+
+.all-text {
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+}
+.text-wrapper {
+    width: 49%;
+    margin-left: 1vw;
+}
+.text-wrapper * {
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 50%;
+}
+
+#mission-statement {
+    width: 50%;
+}
+.images {
+    display: flex;
+    justify-content: center;
+    
+}
+.images img {
+    border-radius: 4vh; 
+    height: 30vh;
+    margin-top: 3vh;
+    margin: 2vw;
+}
