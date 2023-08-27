@@ -85,7 +85,6 @@ body{
         height: 90%;
 }
 
-
 #announcement {
     display: flex;
     justify-content: center;
@@ -101,5 +100,5 @@ body{
 }
 #announcement-content * {
     margin: 0px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
