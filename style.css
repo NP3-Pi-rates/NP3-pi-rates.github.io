@@ -4,9 +4,6 @@ body{
     margin: 0;    
 }
 
-
-
-
 #header {
     display: flex;
     margin: 0;
@@ -14,6 +11,8 @@ body{
     height: 8%;
     width: 100%;
     background-color: orange;
+    min-height: 80px;
+    min-width: 120px;
 }
 
 #header img {
@@ -33,9 +32,12 @@ body{
         top: 7vh;
         height: 6vh;
         padding: 1vh;
+        min-width: 150px;
+        min-height: 40px;
     }
     #header {
         height: 14vh;
+        min-height: 100px;
     }
 }
 
@@ -51,8 +53,7 @@ body{
     border-radius: 2vh;
     transition: 1s;
     font-size: 2vh;
-
-    
+    min-height: 20px;
 }
 #header button:hover {
     cursor: pointer;
@@ -66,8 +67,6 @@ body{
     border-radius: 2vh;
     transition: 0.3s;
 }
-
-
 
 .homepage-images {
     background-color: rgb(255, 188, 111);
@@ -84,9 +83,7 @@ body{
     .homepage-images img:not(:nth-child(3)) {
         display: none;
     }
-    
 }
-
 #announcement {
     display: flex;
     justify-content: center;
