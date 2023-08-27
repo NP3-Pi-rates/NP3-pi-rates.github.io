@@ -108,13 +108,14 @@ body{
     .text-wrapper {
         width: 98%;
         margin: 1vw;
-}
+    }
     .text-wrapper * {
         display: flex;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         width: 100%;
-}
+    }
 
     #mission-statement {
         width: 100%;
     }
+}
