@@ -59,6 +59,8 @@ body{
     #header button {
     padding-left: 0.1vh;
     padding-right: 0.1vh;
+    height: fit-content;
+    padding: 1vw;
     }
 }
 #header button:hover {
@@ -105,17 +107,24 @@ body{
 }
 
 @media screen and (max-width: 500px) {
+    .all-text {
+        display: block;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        width: 94vw;
+        margin: 3vw
+}
     .text-wrapper {
-        width: 98%;
-        margin: 1vw;
+        display: block;
+        width: 94vw;
+        margin: 0vw;
     }
     .text-wrapper * {
-        display: flex;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        width: 100%;
+        width: 100vw;
     }
 
     #mission-statement {
-        width: 100%;
+        width: 94vw;
+        margin: 0vw;
     }
 }

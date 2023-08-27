@@ -59,6 +59,8 @@ body{
     #header button {
     padding-left: 0.1vh;
     padding-right: 0.1vh;
+    height: fit-content;
+    padding: 1vw;
     }
 }
 #header button:hover {
