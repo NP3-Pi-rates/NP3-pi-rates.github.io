@@ -67,41 +67,32 @@ body{
     transition: 0.3s;
 }
 
+.all-text {
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+}
+.text-wrapper {
+    width: 49%;
+    margin-left: 1vw;
+}
+.text-wrapper * {
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 50%;
+}
 
-
-.homepage-images {
-    background-color: rgb(255, 188, 111);
-    height: 40vh;
+#mission-statement {
+    width: 50%;
+}
+.images {
     display: flex;
     justify-content: center;
-}
-.homepage-images img {
-    padding: 1vh;
-    border-radius: 2vh;
-}
-
-@media screen and (max-width: 900px) {
-    .homepage-images img:not(:nth-child(3)) {
-        display: none;
-    }
     
 }
-
-
-#announcement {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-#announcement-content {
-    white-space: pre-line;
-    line-gap-override: 1px;
-}
-#announcement-content a {
-    color: orange;
-}
-#announcement-content * {
-    margin: 0px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+.images img {
+    border-radius: 4vh; 
+    height: 30vh;
+    margin-top: 3vh;
+    margin: 2vw;
 }

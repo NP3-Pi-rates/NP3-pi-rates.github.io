@@ -1,0 +1,376 @@
+[
+    {
+      "name": "Factoring Trinomials",
+      "tags": ["Algebra 1"], 
+      "guideLink": "./guide-files/factoring_trinomials.pdf",
+      "practiceLinks": [
+        {
+          "name": "Khan Academy Practice",
+          "link": "https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:quadratics-multiplying-factoring/x2f8bb11595b61c86:factor-quadratics-grouping/e/factoring_polynomials_by_grouping_1"
+        },
+        {
+          "name": "Kuta Practice (Easy)", 
+          "link": "https://cdn.kutasoftware.com/Worksheets/Alg1/Factoring%201.pdf"
+        },
+        {
+          "name": "Kuta Practice (Hard)",
+          "link": "https://cdn.kutasoftware.com/Worksheets/Alg1/Factoring%202.pdf"
+        }
+      ],
+      "extraHelpLinks": [
+        {
+          "name": "Khan Academy Video",
+          "link": "https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:quadratics-multiplying-factoring/x2f8bb11595b61c86:factor-quadratics-intro/v/factoring-simple-quadratic-expression"
+        },
+        {
+          "name": "Brian McLogan Video",
+          "link": "https://www.youtube.com/watch?v=Sx4NvCMtlj0"
+        }
+      ]
+    },
+    {
+      "name": "Multiplying Binomials",
+      "tags": ["Algebra 1"],
+      "guideLink": "./guide-files/multiplying_binomials_foil.pdf",
+      "practiceLinks": [
+        {
+          "name": "Khan Academy Practice",
+          "link": "https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:quadratics-multiplying-factoring/x2f8bb11595b61c86:multiply-binomial/e/multiply-binomials-coefficient"  
+        },
+        {
+          "name": "Kuta Practice",
+          "link": "https://cdn.kutasoftware.com/Worksheets/PreAlg/Multiplying%20Binomials.pdf"
+        }
+      ],
+      "extraHelpLinks": [
+        {
+          "name": "Khan Academy Video",
+          "link": "https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:quadratics-multiplying-factoring/x2f8bb11595b61c86:multiply-binomial/v/multiplying-binomials"
+        },
+        {
+          "name": "Brian McLogan Video",
+          "link": "https://www.youtube.com/watch?v=EX18-4PjiUA"
+        }
+      ]
+    },
+    {
+      "name": "Linear Function Basics", 
+      "tags": ["Algebra 1"],
+      "guideLink": "./guide-files/linear_function_basics.pdf",
+      "practiceLinks": [
+        {
+          "name": "Kuta Practice Graphing",
+          "link": "https://cdn.kutasoftware.com/Worksheets/PreAlg/Graphing%20Lines%20in%20Slope-Intercept%20Form.pdf"  
+        },
+        {
+          "name": "Kuta Practice Slope",
+          "link": "https://cdn.kutasoftware.com/Worksheets/PreAlg/Slope.pdf"
+        }
+      ],
+      "extraHelpLinks": [
+        {
+          "name": "Khan Academy Video",
+          "link": "https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:forms-of-linear-equations/x2f8bb11595b61c86:intro-to-slope-intercept-form/v/slope-intercept-form"
+        },
+        {
+          "name": "TabletClass math Video",
+          "link": "https://www.youtube.com/watch?v=Cddn2OlcflA"
+        }
+      ]
+    },
+    {
+      "name": "Graphing Equations, Plotting Points",
+      "tags": ["Algebra 1"],
+      "guideLink": "./guide-files/graphing_equation_plotting_points.pdf",
+      "practiceLinks": [
+        {
+          "name": "Kuta Practice",
+          "link": "https://cdn.kutasoftware.com/Worksheets/Alg1/Graphing%20Lines%20SI.pdf" 
+        },
+        {
+          "name": "Khan Academy Practice",
+          "link": "https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:forms-of-linear-equations/x2f8bb11595b61c86:graphing-slope-intercept-equations/e/graph-from-slope-intercept-equation"
+        }
+      ],
+      "extraHelpLinks": [
+        {
+          "name": "Khan Academy Video",
+          "link": "https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:forms-of-linear-equations/x2f8bb11595b61c86:graphing-slope-intercept-equations/v/graphing-a-line-in-slope-intercept-form"
+        },
+        {
+          "name": "Mashup Math Video",
+          "link": "https://www.youtube.com/watch?v=vGNSMUKEQ9c"
+        }
+      ]
+    },
+    {
+      "name": "Points Table, Equation of a Line",
+      "tags": ["Algebra 1"],
+      "guideLink": "./guide-files/points_table_equation_of_a_line.pdf",
+      "practiceLinks": [
+        {
+          "name": "Kuta Practice",
+          "link": "http://www.scevmath.org/uploads/2/8/9/4/28940543/equations_of_lines_given_two_points.pdf"
+        },
+        {
+          "name": "Khan Academy Practice",
+          "link": "https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:forms-of-linear-equations/x2f8bb11595b61c86:writing-slope-intercept-equations/e/slope-intercept-equation-from-two-points"
+        }
+      ],
+      "extraHelpLinks": [
+        {
+          "name": "Khan Academy Video", 
+          "link": "https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:forms-of-linear-equations/x2f8bb11595b61c86:writing-slope-intercept-equations/v/equation-of-a-line-3"
+        },
+        {
+          "name": "The Organic Chemistry Tutor video",
+          "link": "https://www.youtube.com/watch?v=lzqTD0JWwhY"
+        }
+      ]
+    },
+    {
+      "name": "Systems of Equations",
+      "tags": ["Algebra 1"],
+      "guideLink": "./guide-files/systems_of_equations.pdf",
+      "practiceLinks": [
+        {
+          "name": "Kuta Practice",
+          "link": "https://cdn.kutasoftware.com/Worksheets/Alg2/Systems%20of%20Two%20Equations.pdf"
+        },
+        {
+          "name": "Khan Academy Practice(1)",
+          "link": "https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:systems-of-equations/x2f8bb11595b61c86:solving-systems-elimination/e/systems_of_equations_with_elimination_0.5"
+        },
+        {
+          "name": "Khan Academy Practice(2)",
+          "link": "https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:systems-of-equations/x2f8bb11595b61c86:solving-systems-of-equations-with-substitution/e/systems_of_equations_with_substitution"  
+        }
+      ],
+      "extraHelpLinks": [
+        {
+          "name": "The Organic Chemistry Tutor video",
+          "link": "https://www.youtube.com/watch?v=oKqtgz2eo-Y"
+        },
+        {
+          "name": "The Organic Chemistry Tutor video(2)",
+          "link": "https://www.youtube.com/watch?v=Pd4hwS8qHms"
+        },
+        {
+          "name": "Brian McLogan video",
+          "link": "https://www.youtube.com/watch?v=-mZZ6iPwQpE"
+        }
+      ]
+    },
+    {
+      "name": "Exponent Properties",
+      "tags": ["Algebra 1"],
+      "guideLink": "./guide-files/exponent_properties.pdf", 
+      "practiceLinks": [
+        {
+          "name": "Khan Academy Practice",
+          "link": "https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:rational-exponents-radicals/x2f8bb11595b61c86:exponent-properties-review/e/properties-of-integer-exponents"
+        },
+        {
+          "name": "Kuta Practice",
+          "link": "https://cdn.kutasoftware.com/Worksheets/Alg1/Properties%20of%20Exponents.pdf"
+        }
+      ],
+      "extraHelpLinks": [
+        {
+          "name": "Khan Academy(1)",
+          "link": "https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-numbers-operations/cc-8th-exponent-properties/v/exponent-properties-involving-products"
+        },
+        {
+          "name": "Khan Academy(2)",
+          "link": "https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-numbers-operations/cc-8th-exponent-properties/v/products-and-exponents-raised-to-an-exponent-properties" 
+        },
+        {
+          "name": "Khan Academy(3)",
+          "link": "https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-numbers-operations/cc-8th-exponent-properties/v/exponent-properties-involving-quotients"
+        },
+        {
+          "name": "The Organic Chemistry Tutor Video",
+          "link": "https://www.youtube.com/watch?v=Zt2fdy3zrZU"
+        }
+      ]
+    },        
+        {
+          "name": "Angle Names",
+          "tags": ["Geometry"],
+          "guideLink": "./guide-files/angle_names.pdf",
+          "practiceLinks": [
+            {
+              "name": "Khan Academy Practice",
+              "link": "https://www.khanacademy.org/math/cc-seventh-grade-math/cc-7th-geometry/cc-7th-unknown-angle-algebra/e/find-missing-angles"
+            },
+            {
+              "name": "Kuta Practice",
+              "link": "https://cdn.kutasoftware.com/Worksheets/Geo/3-Parallel%20Lines%20and%20Transversals.pdf"  
+            }
+          ],
+          "extraHelpLinks": [
+            {
+              "name": "Khan Academy Video(1)",
+              "link": "https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-geometry/cc-8th-angles-between-lines/v/angles-formed-by-parallel-lines-and-transversals"
+            },
+            {
+              "name": "Khan Academy Video(2)",
+              "link": "https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-geometry/cc-8th-angles-between-lines/v/figuring-out-angles-between-transversal-and-parallel-lines"
+            },
+            {
+              "name": "Mashup Math Video",
+              "link": "https://www.youtube.com/watch?v=5PcMbN46NMA"
+            }
+          ]
+        },
+        {  
+          "name": "Special Right Triangles",
+          "tags": ["Geometry"],
+          "guideLink": "./guide-files/special_right_triangles.pdf",
+          "practiceLinks": [
+            {
+              "name": "Khan Academy Practice",
+              "link": "https://www.khanacademy.org/math/geometry/hs-geo-trig/hs-geo-special-right-triangles/e/pythagorean_theorem_2"
+            },
+            {
+              "name": "Kuta Practice",
+              "link": "https://cdn.kutasoftware.com/Worksheets/Geo/8-Special%20Right%20Triangles.pdf"
+            },
+            {
+              "name": "Weebly Practice",
+              "link": "https://mathschmidt.weebly.com/uploads/6/1/4/6/6146296/special_right_triangle_puzzles_blank_and_key.pdf"
+            }
+          ],
+          "extraHelpLinks": [
+            {
+              "name": "Khan Academy Video(1)",
+              "link": "https://www.khanacademy.org/math/geometry-home/right-triangles-topic/special-right-triangles/v/45-45-90-triangles"
+            },
+            {
+              "name": "Khan Academy Video(2)", 
+              "link": "https://www.khanacademy.org/math/geometry-home/right-triangles-topic/special-right-triangles/v/intro-to-30-60-90-triangles"
+            },
+            {
+              "name": "The Organic Chemistry Tutor Video(1)",
+              "link": "https://www.youtube.com/watch?v=p70UBGCHZrQ"
+            },
+            {
+              "name": "The Organic Chemistry Tutor Video(2)",
+              "link": "https://www.youtube.com/watch?v=t1YLjNJvPog"
+            }
+          ]
+        },
+        {
+          "name": "Intro to Trigonometric Functions",
+          "tags": ["Geometry"],
+          "guideLink": "./guide-files/introduction_to_trig_functions.pdf",
+          "practiceLinks": [
+            {
+              "name": "Khan Academy Practice", 
+              "link": "https://www.khanacademy.org/math/geometry/hs-geo-trig/hs-geo-trig-ratios-intro/e/trigonometry_1"
+            },
+            {
+              "name": "Kuta Practice",
+              "link": "https://cdn.kutasoftware.com/Worksheets/Geo/9-Trigonometric%20Ratios.pdf"
+            }
+          ],
+          "extraHelpLinks": [
+            {
+              "name": "Khan Academy Video",
+              "link": "https://www.khanacademy.org/math/geometry/hs-geo-trig/hs-geo-trig-ratios-intro/v/basic-trigonometry-ii"
+            },
+            {
+              "name": "The Organic Chemistry Tutor Video",
+              "link": "https://www.youtube.com/watch?v=9-eHMMpQC2k"
+            }
+          ]
+        },
+        {
+          "name": "Using Trig Functions to Solve for Missing Side/Angle",
+          "tags": ["Geometry"],
+          "guideLink": "./guide-files/using_trig_functions_to_solve_for_unknown.pdf",
+          "practiceLinks": [
+            {
+              "name": "Khan Academy Practice",
+              "link": "https://www.khanacademy.org/math/geometry/hs-geo-trig/hs-geo-solve-for-a-side/e/trigonometry_2"
+            },
+            {
+              "name": "Kuta Practice",
+              "link": "https://cdn.kutasoftware.com/Worksheets/Alg2/Right%20Triangle%20Trig%20Missing%20Sides%20and%20Angles.pdf"
+            }
+          ],
+          "extraHelpLinks": [
+            {
+              "name": "Khan Academy Video",
+              "link": "https://www.khanacademy.org/math/trigonometry/trigonometry-right-triangles/trig-solve-for-a-side/v/example-trig-to-solve-the-sides-and-angles-of-a-right-triangle"
+            },
+            {
+              "name": "Science Made Simple Video",
+              "link": "https://www.youtube.com/watch?v=KK3_4S-ZJeo"
+            }
+          ]
+        },
+        {
+            "name": "Discriminant",
+            "tags": ["Algebra 2"],
+            "guideLink": "./guide-files/discriminant.pdf",
+            "practiceLinks": [
+              {
+                "name": "Khan Academy Practice",
+                "link": "https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:quadratic-functions-equations/x2f8bb11595b61c86:quadratic-formula-a1/e/determine-the-number-of-solutions-of-a-quadratic-equation"
+              },
+              {
+                "name": "Kuta Practice",
+                "link": "https://cdn.kutasoftware.com/Worksheets/Alg2/The%20Discriminant.pdf"
+              }
+            ],
+            "extraHelpLinks": [
+              {
+                "name": "Khan Academy Video",
+                "link": "https://www.khanacademy.org/math/in-in-grade-10-ncert/x573d8ce20721c073:quadratic-equations/x573d8ce20721c073:nature-of-roots/v/discriminant-for-types-of-solutions-for-a-quadratic"
+              }
+            ]
+          },
+          {
+            "name": "Domain and Range Simplified",
+            "tags": ["Algebra 2"],
+            "guideLink": "./guide-files/domain_and_range.pdf",
+            "practiceLinks": [
+              {
+                "name": "vickimassey Practice",
+                "link": "https://vickimasseywordpress.files.wordpress.com/2016/11/6-discrete-and-continuous-d-and-r-2.pdf"
+              }
+            ],
+            "extraHelpLinks": [
+              {
+                "name": "Khan Academy Video",
+                "link": "https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:functions/x2f8bb11595b61c86:introduction-to-the-domain-and-range-of-a-function/v/domain-and-range-from-graphs"
+              }
+            ]
+          },
+          {
+            "name": "Synthetic Division",
+            "tags": ["Algebra 2"],
+            "guideLink": "./guide-files/synthetic_division.pdf",
+            "practiceLinks": [
+              {
+                "name": "Khan Academy Practice",
+                "link": "https://www.khanacademy.org/math/algebra2/x2ec2f6f830c9fb89:poly-div/x2ec2f6f830c9fb89:poly-div-by-linear/e/divide-polynomials-by-binomials"
+              },
+              {
+                "name": "Kuta Practice",
+                "link": "https://cdn.kutasoftware.com/Worksheets/Alg1/Dividing%20Polynomials.pdf"
+              }
+            ],
+            "extraHelpLinks": [
+              {
+                "name": "Khan Academy Video(1)",
+                "link": "https://www.khanacademy.org/math/algebra-home/alg-polynomials/alg-synthetic-division-of-polynomials/v/synthetic-division"
+              },
+              {
+                "name": "Khan Academy Video(2)",
+                "link": "https://www.khanacademy.org/math/algebra-home/alg-polynomials/alg-synthetic-division-of-polynomials/v/synthetic-division-example-2"
+              }
+            ]
+          }
+]
