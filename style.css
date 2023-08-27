@@ -4,9 +4,6 @@ body{
     margin: 0;    
 }
 
-
-
-
 #header {
     display: flex;
     margin: 0;
@@ -79,12 +76,13 @@ body{
     padding: 1vh;
     border-radius: 2vh;
 }
-
 @media screen and (max-width: 900px) {
     .homepage-images img:not(:nth-child(3)) {
         display: none;
-    }
-    
+    }   
+    .homepage-images img {
+        width: 90%;
+        height: 90%;
 }
 
 
