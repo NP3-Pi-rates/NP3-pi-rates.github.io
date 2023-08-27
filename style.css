@@ -79,7 +79,7 @@ body{
     border-radius: 2vh;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
     .homepage-images img:not(:nth-child(3)) {
         display: none;
     }
