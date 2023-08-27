@@ -67,18 +67,20 @@
                         item.practiceLinks.forEach(linkData => {
                             const practiceLink = document.createElement("a");
                             practiceLink.textContent = linkData.name;
+                            practiceLink.target = "_blank";
                             practiceLink.href = linkData.link;
                             practiceCell.appendChild(practiceLink);
-                            practiceCell.appendChild(document.createElement("br")); // Add line break between links
+                            practiceCell.appendChild(document.createElement("br")); 
                         });
                 
                         const extraHelpCell = document.createElement("td");
                         item.extraHelpLinks.forEach(linkData => {
                             const extraHelpLink = document.createElement("a");
                             extraHelpLink.textContent = linkData.name;
+                            extraHelpLink.target = "_blank";
                             extraHelpLink.href = linkData.link;
                             extraHelpCell.appendChild(extraHelpLink);
-                            extraHelpCell.appendChild(document.createElement("br")); // Add line break between links
+                            extraHelpCell.appendChild(document.createElement("br")); 
                         });
                 
                         row.appendChild(tagsCell);
@@ -96,13 +98,13 @@
                     const rows = tableBody.getElementsByTagName("tr");
                 
                     for (const row of rows) {
-                        const tagsCell = row.querySelector("td:first-child"); // Select the first <td> for tags
+                        const tagsCell = row.querySelector("td:first-child"); 
                         const tags = tagsCell.textContent.split(", ");
                         
                         if (selectedTag === "all" || tags.includes(selectedTag)) {
-                            row.style.display = ""; // Show the row
+                            row.style.display = ""; 
                         } else {
-                            row.style.display = "none"; // Hide the row
+                            row.style.display = "none";
                         }
                     }
                 
