@@ -103,3 +103,18 @@ body{
     margin-top: 3vh;
     margin: 2vw;
 }
+
+@media screen and (max-width: 500px) {
+    .text-wrapper {
+        width: 98%;
+        margin: 1vw;
+}
+    .text-wrapper * {
+        display: flex;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        width: 100%;
+}
+
+    #mission-statement {
+        width: 100%;
+    }
