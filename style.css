@@ -55,6 +55,12 @@ body{
     font-size: 2vh;
     min-height: 20px;
 }
+@media screen and (max-width: 500px) {
+    #header button {
+    padding-left: 0.1vh;
+    padding-right: 0.1vh;
+    }
+}
 #header button:hover {
     cursor: pointer;
     height: 3vh;
@@ -82,6 +88,9 @@ body{
 @media screen and (max-width: 1000px) {
     .homepage-images img:not(:nth-child(3)) {
         display: none;
+    }
+    .homepage-images img {
+        max-width: 90%;
     }
 }
 #announcement {

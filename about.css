@@ -4,9 +4,6 @@ body{
     margin: 0;    
 }
 
-
-
-
 #header {
     display: flex;
     margin: 0;
@@ -57,6 +54,12 @@ body{
     transition: 1s;
     font-size: 2vh;
     min-height: 20px;
+}
+@media screen and (max-width: 500px) {
+    #header button {
+    padding-left: 0.1vh;
+    padding-right: 0.1vh;
+    }
 }
 #header button:hover {
     cursor: pointer;

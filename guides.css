@@ -4,9 +4,6 @@ body{
     margin: 0;    
 }
 
-
-
-
 #header {
     display: flex;
     margin: 0;
@@ -58,6 +55,12 @@ body{
     font-size: 2vh;
     min-height: 20px;
 }
+@media screen and (max-width: 500px) {
+    #header button {
+    padding-left: 0.1vh;
+    padding-right: 0.1vh;
+    }
+}
 #header button:hover {
     cursor: pointer;
     height: 3vh;
@@ -97,6 +100,7 @@ table {
     margin-top: 2vh;
     margin-left: 1vw;
     margin-right: 1vw;
+    max-width: 98vw;
 }
 
 th, td {
@@ -104,7 +108,6 @@ th, td {
     padding: 8px;
     text-align: left;
 }
-
 #table-body a {
     color: orange;
 }
