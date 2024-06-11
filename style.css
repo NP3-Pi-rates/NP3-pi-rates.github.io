@@ -118,3 +118,19 @@ body{
     display:flex;
     justify-content: center;
 }
+.latest {
+    padding: 20px;
+}
+.latest button {
+    font-size: xx-large;
+    background-color: orange;
+    color: black;
+    margin: 2vw;
+}
+.latest button:hover {
+    background-color: darkgoldenrod;
+    cursor: pointer;
+}
+.latest a {
+    color: orange;
+}
