@@ -39,6 +39,7 @@ body{
         height: 14vh;
         min-height: 100px;
     }
+    
 }
 
 #header button {
@@ -56,11 +57,11 @@ body{
     min-height: 20px;
 }
 @media screen and (max-width: 500px) {
-    #header button {
-    padding-left: 0.1vh;
-    padding-right: 0.1vh;
+#header button {
     height: fit-content;
-    padding: 1vw;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 10px;
     }
 }
 #header button:hover {
@@ -106,7 +107,7 @@ body{
     margin: 2vw;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 730px) {
     .all-text {
         display: block;
         font-family: Verdana, Geneva, Tahoma, sans-serif;

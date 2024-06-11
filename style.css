@@ -61,6 +61,8 @@ body{
     padding-right: 0.1vh;
     height: fit-content;
     padding: 1vw;
+    margin: 0px;
+    margin-top: 10px;
     }
 }
 #header button:hover {

@@ -59,6 +59,8 @@ body{
     #header button {
     padding-left: 0.1vh;
     padding-right: 0.1vh;
+    margin: 0px;
+    margin-top: 10px;
     }
 }
 #header button:hover {
