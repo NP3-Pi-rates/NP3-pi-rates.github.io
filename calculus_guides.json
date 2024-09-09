@@ -1,0 +1,52 @@
+[
+  {
+    "name": "A Beginning Look at Calculus",
+    "tags": ["1"], 
+    "guideLink": ""
+    
+  },
+  {
+    "name": "Rates, Sums, Limits, and Continuity",
+    "tags": ["2"], 
+    "guideLink": ""
+    
+  },
+  {
+    "name": "Slope and Curve Analysis",
+    "tags": ["3"], 
+    "guideLink": "./calculus_ch3.html"
+    
+  },
+  {
+    "name": "The Fundamental Theorem of Calculus",
+    "tags": ["4"], 
+    "guideLink": ""
+    
+  },
+  {
+    "name": "Derivative Tools and Applications",
+    "tags": ["5"], 
+    "guideLink": ""
+    
+  },
+  {
+    "name": "More Tools and Theorems",
+    "tags": ["6"], 
+    "guideLink": ""
+    
+  },
+  {
+    "name": "Related Rates and Integration Tools",
+    "tags": ["7"], 
+    "guideLink": ""
+    
+  },
+  {
+    "name": "Volume",
+    "tags": ["8"], 
+    "guideLink": ""
+    
+  }
+
+        
+]

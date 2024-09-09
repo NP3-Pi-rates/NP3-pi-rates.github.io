@@ -5,7 +5,7 @@
     <meta HTTP-EQUIV="EXPIRES" CONTENT="Mon, 22 Jul 2002 11:12:01 GMT">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Math Guides</title>
+    <title>Calculus Chapter 3</title>
     <link rel="stylesheet" href="guides.css">
 </head>
 <body>
@@ -17,21 +17,24 @@
         <button onclick="location.href='./calculus.html';">Calculus Guides</button>
         <img src="./images/pi-rates watermark.png" alt="pirates logo" id="pirates-logo">
     </div>
+
+    <p style="text-align: center; font-weight: bold; font-size: 2em;">Calculus Chapter 3</p>
+
     <div class="filter">
-        <label for="tagFilter">Filter by Class:</label>
+        <label for="tagFilter">Filter by Section:</label>
         <select id="tagFilter">
             <option value="all">All</option>
-            <option value="Algebra 1">Algebra 1</option>
-            <option value="Geometry">Geometry</option>
-            <option value="Algebra 2">Algebra 2</option>
-            <option value="Calculus">Calculus</option>
+            <option value="3.1">3.1</option>
+            <option value="3.2">3.2</option>
+            <option value="3.3">3.3</option>
+            <option value="3.4">3.4</option>
         </select>
     </div>
     
     <table id="data-table">
         <thead>
             <tr>
-                <th>Class</th>
+                <th>Section</th>
                 <th>Name</th>
                 <th>Guide</th>
                 <th>Practice</th>
@@ -48,7 +51,7 @@
                 const tableBody = document.getElementById("table-body");
             
                 async function fetchData() {
-                    const response = await fetch("guides.json");
+                    const response = await fetch("calculus_ch3_guides.json");
                     const data = await response.json();
                     return data;
                 }

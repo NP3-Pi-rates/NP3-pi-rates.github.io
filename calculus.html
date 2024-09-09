@@ -5,7 +5,7 @@
     <meta HTTP-EQUIV="EXPIRES" CONTENT="Mon, 22 Jul 2002 11:12:01 GMT">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Math Guides</title>
+    <title>Calculus Guides</title>
     <link rel="stylesheet" href="guides.css">
 </head>
 <body>
@@ -18,29 +18,35 @@
         <img src="./images/pi-rates watermark.png" alt="pirates logo" id="pirates-logo">
     </div>
     <div class="filter">
-        <label for="tagFilter">Filter by Class:</label>
+        <label for="tagFilter">Filter by Chapter:</label>
         <select id="tagFilter">
             <option value="all">All</option>
-            <option value="Algebra 1">Algebra 1</option>
-            <option value="Geometry">Geometry</option>
-            <option value="Algebra 2">Algebra 2</option>
-            <option value="Calculus">Calculus</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
         </select>
     </div>
     
+    <p style="text-align: center;">More resources are currently being added</p>
+
     <table id="data-table">
         <thead>
             <tr>
-                <th>Class</th>
+                <th>Chapter</th>
                 <th>Name</th>
-                <th>Guide</th>
-                <th>Practice</th>
-                <th>Extra Help</th>
+                <th>Guides</th>
+
             </tr>
         </thead>
         <tbody id="table-body">
         </tbody>
     </table>
+
     
         <script>
             document.addEventListener("DOMContentLoaded", function () {
@@ -48,7 +54,7 @@
                 const tableBody = document.getElementById("table-body");
             
                 async function fetchData() {
-                    const response = await fetch("guides.json");
+                    const response = await fetch("calculus_guides.json");
                     const data = await response.json();
                     return data;
                 }
@@ -70,31 +76,12 @@
                         guideLink.href = item.guideLink;
                         guideCell.appendChild(guideLink);
                 
-                        const practiceCell = document.createElement("td");
-                        item.practiceLinks.forEach(linkData => {
-                            const practiceLink = document.createElement("a");
-                            practiceLink.textContent = linkData.name;
-                            practiceLink.target = "_blank";
-                            practiceLink.href = linkData.link;
-                            practiceCell.appendChild(practiceLink);
-                            practiceCell.appendChild(document.createElement("br")); 
-                        });
-                
-                        const extraHelpCell = document.createElement("td");
-                        item.extraHelpLinks.forEach(linkData => {
-                            const extraHelpLink = document.createElement("a");
-                            extraHelpLink.textContent = linkData.name;
-                            extraHelpLink.target = "_blank";
-                            extraHelpLink.href = linkData.link;
-                            extraHelpCell.appendChild(extraHelpLink);
-                            extraHelpCell.appendChild(document.createElement("br")); 
-                        });
+                        
                 
                         row.appendChild(tagsCell);
                         row.appendChild(nameCell);
                         row.appendChild(guideCell);
-                        row.appendChild(practiceCell);
-                        row.appendChild(extraHelpCell);
+                        
                 
                         tableBody.appendChild(row);
                     });

@@ -441,3 +441,72 @@
           }
           
 ]
+          },
+          {
+            "name": "Finding Exponential Functions From Table",
+            "tags": ["Algebra 2"],
+            "guideLink": "./guide-files/finding_exponential_functions_from_table.pdf",
+            "practiceLinks": [
+              
+            ],
+            "extraHelpLinks": [
+              
+            ]
+          },
+          {
+            "name": "Radical Functions and Transformations",
+            "tags": ["Algebra 2"],
+            "guideLink": "./guide-files/graphing_radical_functions.pdf",
+            "practiceLinks": [
+              
+            ],
+            "extraHelpLinks": [
+              
+            ]
+          },
+          {
+            "name": "Absolute Value Functions and Transformations",
+            "tags": ["Algebra 2"],
+            "guideLink": "./guide-files/graphing_absolute_value_functions.pdf",
+            "practiceLinks": [
+              
+            ],
+            "extraHelpLinks": [
+              
+            ]
+          },
+          {
+            "name": "Polynomial Functions and Transformations",
+            "tags": ["Algebra 2"],
+            "guideLink": "./guide-files/graphing_polynomial_functions_in_vertex_form.pdf",
+            "practiceLinks": [
+              
+            ],
+            "extraHelpLinks": [
+              
+            ]
+          },
+          {
+            "name": "Combining Rational Expressions",
+            "tags": ["Algebra 2"],
+            "guideLink": "./guide-files/combining_rational_expressions.pdf",
+            "practiceLinks": [
+              
+            ],
+            "extraHelpLinks": [
+              
+            ]
+          },
+          {
+            "name": "Derivative Tools",
+            "tags": ["Calculus"],
+            "guideLink": "./guide-files/derivative_tools.pdf",
+            "practiceLinks": [
+              
+            ],
+            "extraHelpLinks": [
+              
+            ]
+          }
+          
+]
