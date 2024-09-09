@@ -26,7 +26,10 @@
     "tags": ["3.1"], 
     "guideLink": "https://docs.google.com/document/d/1FuskyX4CNwlzHOe_AlqsL2uYSCJputsPQyjxnTlbIG4/edit",
     "practiceLinks": [
-      
+      {
+          "name": "Khan Academy Practice (Basic)",
+          "link": "https://www.khanacademy.org/math/ap-calculus-ab/ab-differentiation-1-new/ab-2-5/e/power-rule-intro"
+        }
     ],
     "extraHelpLinks": [
       
