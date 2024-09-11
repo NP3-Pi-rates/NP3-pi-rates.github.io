@@ -36,6 +36,39 @@
     ]
   },
   {
+      "name": "Exponent Properties",
+      "tags": ["Algebra 1"],
+      "guideLink": "./guide-files/exponent_properties.pdf", 
+      "practiceLinks": [
+        {
+          "name": "Khan Academy Practice",
+          "link": "https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:rational-exponents-radicals/x2f8bb11595b61c86:exponent-properties-review/e/properties-of-integer-exponents"
+        },
+        {
+          "name": "Kuta Practice",
+          "link": "https://cdn.kutasoftware.com/Worksheets/Alg1/Properties%20of%20Exponents.pdf"
+        }
+      ],
+      "extraHelpLinks": [
+        {
+          "name": "Khan Academy(1)",
+          "link": "https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-numbers-operations/cc-8th-exponent-properties/v/exponent-properties-involving-products"
+        },
+        {
+          "name": "Khan Academy(2)",
+          "link": "https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-numbers-operations/cc-8th-exponent-properties/v/products-and-exponents-raised-to-an-exponent-properties" 
+        },
+        {
+          "name": "Khan Academy(3)",
+          "link": "https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-numbers-operations/cc-8th-exponent-properties/v/exponent-properties-involving-quotients"
+        },
+        {
+          "name": "The Organic Chemistry Tutor Video",
+          "link": "https://www.youtube.com/watch?v=Zt2fdy3zrZU"
+        }
+      ]
+  }, 
+  {
     "name": "3.2 Key Points",
     "tags": ["3.2"], 
     "guideLink": "https://docs.google.com/document/d/1gW9phtQDfLK4SsbGN2xbFr1SwWLSxBPKf6EuuHUEYZg/edit?usp=sharing",
