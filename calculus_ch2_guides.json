@@ -11,7 +11,7 @@
     ]
   },
   {
-    "name": "2.1 Key Points: Trapezoid Rule, Summation/Sigma Notation",
+    "name": "2.1 Key Points: Trapezoid Rule, Summation/Sigma Notation, Left & Right Endpoint and Midpoint Rectangles",
     "tags": ["2.1"], 
     "guideLink": "https://docs.google.com/document/d/1U17wuKAKJA_9V3AKIqvrBmPDpe5WMV-kz16MDdcpt08/edit?usp=sharing",
     "practiceLinks": [
@@ -22,9 +22,20 @@
     ]
   },
   {
-    "name": "2.2 Key Points (Incomplete)",
-    "tags": ["2.2"], 
+    "name": "Evaluating Limits (Incomplete)",
+    "tags": ["2.1"], 
     "guideLink": "",
+    "practiceLinks": [
+
+    ],
+    "extraHelpLinks": [
+      
+    ]
+  },
+  {
+    "name": "2.2 Key Points: Limits, Continuity, Intermediate Value Theorem",
+    "tags": ["2.2"], 
+    "guideLink": "https://docs.google.com/document/d/1rckJGVH4ES9fcD5fJBRemV4VHjPTX4hevg7Br41dEkM/edit?usp=sharing",
     "practiceLinks": [
       
     ],
