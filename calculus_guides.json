@@ -1,5 +1,11 @@
 [
   {
+    "name": "AP Exam Review",
+    "tags": ["0"], 
+    "guideLink": "./calculus_ch0.html"
+    
+  },
+  {
     "name": "A Beginning Look at Calculus",
     "tags": ["1"], 
     "guideLink": "./calculus_ch1.html"
