@@ -18,13 +18,20 @@
 
     ],
     "extraHelpLinks": [
-      
+      {
+          "name": "Khan Academy Trapezoidal Sums",
+          "link": "https://www.youtube.com/watch?v=1p0NHR5w0Lc"
+      }
+      {
+          "name": "Khan Academy Midpoint Sums",
+          "link": "https://www.youtube.com/watch?v=kJ57S0Z4Vp8"
+      }
     ]
   },
   {
-    "name": "Continuity (and Discontinuities) (Incomplete)",
+    "name": "Continuity (and Discontinuities)",
     "tags": ["2.2"], 
-    "guideLink": "",
+    "guideLink": "https://docs.google.com/document/d/1pbjN4T5tLLKN7XkF5fsGwH_EszrKj4WUcT3Vept0zr4/edit?usp=sharing",
     "practiceLinks": [
 
     ],
@@ -48,7 +55,10 @@
     "tags": ["2.2"], 
     "guideLink": "https://docs.google.com/document/d/1rckJGVH4ES9fcD5fJBRemV4VHjPTX4hevg7Br41dEkM/edit?usp=sharing",
     "practiceLinks": [
-      
+      {
+          "name": "Weebly Practice on Continuity and Intermediate Value Theorem",
+          "link": "https://wrightkk.weebly.com/uploads/5/9/6/6/59663945/1.6_hw_ivt_key.pdf"
+      }
     ],
     "extraHelpLinks": [
       
