@@ -7,7 +7,10 @@
 
     ],
     "extraHelpLinks": [
-      
+      {
+          "name": "Alpha Theta Epsilon",
+          "link": "https://www.youtube.com/watch?v=HVukQhDrNIQ"
+      }      
     ]
   },
   {
@@ -15,7 +18,10 @@
     "tags": ["2.1"], 
     "guideLink": "https://docs.google.com/document/d/1U17wuKAKJA_9V3AKIqvrBmPDpe5WMV-kz16MDdcpt08/edit?usp=sharing",
     "practiceLinks": [
-
+      {
+          "name": "Kuta Practice",
+          "link": "https://cdn.kutasoftware.com/Worksheets/Calc/06%20-%20Approximating%20Area%20Under%20Curve.pdf"
+      }
     ],
     "extraHelpLinks": [
       {
@@ -33,7 +39,10 @@
     "tags": ["2.2"], 
     "guideLink": "https://docs.google.com/document/d/1pbjN4T5tLLKN7XkF5fsGwH_EszrKj4WUcT3Vept0zr4/edit?usp=sharing",
     "practiceLinks": [
-
+      {
+          "name": "University of Washington Practice",
+          "link": "https://sites.math.washington.edu/~aloveles/Math124Fall2017/m124ContinuityPractice.pdf"
+      }
     ],
     "extraHelpLinks": [
       
