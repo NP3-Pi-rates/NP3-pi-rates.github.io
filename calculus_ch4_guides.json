@@ -1,13 +1,19 @@
 [
   {
-    "name": "4.1 Key Points (Incomplete)",
+    "name": "4.1 Key Points: Integral as the Limit of a Riemann sum, Definite Integral Properties",
     "tags": ["4.1"], 
-    "guideLink": "",
+    "guideLink": "https://docs.google.com/document/d/11mynTNREKkoWk1Xe5bnIvxj_pvwS4B5hzEksfbiioc4/edit?usp=sharing",
     "practiceLinks": [
-
+      {
+      "name": "Khan Academy Practice",
+      "link": "https://www.khanacademy.org/math/old-integral-calculus/definite-integrals-intro-ic/definite-integral-properties-ic/e/properties-of-definite-integrals-challenge"
+      }
     ],
     "extraHelpLinks": [
-      
+      {
+      "name": "The Organic Chemistry Tutor Video",
+      "link": "https://www.youtube.com/watch?v=QcHz3h81U-s"
+      }
     ]
   },
   {
