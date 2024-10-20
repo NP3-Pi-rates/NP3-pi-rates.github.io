@@ -378,10 +378,16 @@
             "tags": ["Algebra 2"],
             "guideLink": "./guide-files/finding_exponential_functions_from_table.pdf",
             "practiceLinks": [
-              
+              {
+                "name": "Khan Academy Practice",
+                "link": "https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:exponential-growth-decay/x2f8bb11595b61c86:exponential-functions-from-tables-graphs/e/construct-basic-exponential-functions-from-table-or-graph"
+              }
             ],
             "extraHelpLinks": [
-              
+              {
+                "name": "Khan Academy Video",
+                "link": "https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:exponential-growth-decay/x2f8bb11595b61c86:exponential-functions-from-tables-graphs/v/constructing-linear-and-exponential-functions-from-data"
+              }
             ]
           },
           {
@@ -392,7 +398,10 @@
               
             ],
             "extraHelpLinks": [
-              
+              {
+                "name": "The Organic Chemistry Tutor Video",
+                "link": "https://www.youtube.com/watch?v=SLV600BpHpE"
+              }
             ]
           },
           {
@@ -403,7 +412,10 @@
               
             ],
             "extraHelpLinks": [
-              
+              {
+                "name": "The Organic Chemistry Tutor Video",
+                "link": "https://www.youtube.com/watch?v=ld4UD98yHio"
+              }
             ]
           },
           {
@@ -414,7 +426,10 @@
               
             ],
             "extraHelpLinks": [
-              
+              {
+                "name": "The Organic Chemistry Tutor Video",
+                "link": "https://www.youtube.com/watch?v=a5x4lwnvHM0"
+              }
             ]
           },
           {
@@ -422,7 +437,14 @@
             "tags": ["Algebra 2"],
             "guideLink": "./guide-files/combining_rational_expressions.pdf",
             "practiceLinks": [
-              
+              {
+                "name": "Kuta Practice (Adding/Subtracting)",
+                "link": "https://cdn.kutasoftware.com/Worksheets/Alg2/Adding%20and%20Subtracting%20Rational%20Expressions.pdf"
+              },
+              {
+                "name": "Kuta Practice (Multiplying)",
+                "link": "https://cdn.kutasoftware.com/Worksheets/Alg1/Multiplying%20Rational%20Expressions.pdf"
+              }
             ],
             "extraHelpLinks": [
               

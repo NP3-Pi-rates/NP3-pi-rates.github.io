@@ -2,7 +2,7 @@
   {
     "name": "4.1 Key Points: Integral as the Limit of a Riemann sum, Definite Integral Properties",
     "tags": ["4.1"], 
-    "guideLink": "https://docs.google.com/document/d/11mynTNREKkoWk1Xe5bnIvxj_pvwS4B5hzEksfbiioc4/edit?usp=sharing",
+    "guideLink": "./guide-files/calculus_4.1_key_points.pdf",
     "practiceLinks": [
       {
       "name": "Khan Academy Practice",
@@ -11,7 +11,7 @@
     ],
     "extraHelpLinks": [
       {
-      "name": "The Organic Chemistry Tutor Video",
+      "name": "The Organic Chemistry Tutor Video (Integral Properties)",
       "link": "https://www.youtube.com/watch?v=QcHz3h81U-s"
       }
     ]
@@ -19,18 +19,24 @@
   {
     "name": "4.2 Key Points: Definite and Indefinite Integrals, Fundamental Theorem of Calculus",
     "tags": ["4.2"], 
-    "guideLink": "https://docs.google.com/document/d/1w3yRBZFL2lKSP_lNYzt_3D6P3bAN76GCz2-sBhv_3Qs/edit?usp=sharing",
+    "guideLink": "./guide-files/calculus_4.2_key_points.pdf",
     "practiceLinks": [
-      
+      {
+        "name": "Kuta Practice Fundamental Theorem of Calculus",
+        "link": "https://cdn.kutasoftware.com/Worksheets/Calc/06%20-%20Second%20Fundamental%20Theorem.pdf"
+        }
     ],
     "extraHelpLinks": [
-      
+      {
+        "name": "The Organic Chemistry Tutor Video (Fundamental Theorem of Calculus)",
+        "link": "https://www.youtube.com/watch?v=e0E8Is_G_p4"
+      }
     ]
   },
   {
     "name": "4.3 Key Points: Relationship of Position-Velocity-Acceleration",
     "tags": ["4.3"], 
-    "guideLink": "https://docs.google.com/document/d/1ZoVTfOxx6y8f0zC7oky-UuwmQ3Sso3unM-JfrRDOrdU/edit?usp=sharing",
+    "guideLink": "./guide-files/calculus_4.3_key_points.pdf",
     "practiceLinks": [
       
     ],
@@ -41,9 +47,12 @@
   {
     "name": "4.4 Key Points: Area Between Two Curves, Area Between Two Curves That Cross Over, Integrating Horizontally, Area Between Three Curves",
     "tags": ["4.4"], 
-    "guideLink": "https://docs.google.com/document/d/1bWWlbLhJVxHWkbbpq5OAQD74Rfsubj9mfpdkht-IuiY/edit?usp=sharing",
+    "guideLink": "./guide-files/calculus_4.4_key_points.pdf",
     "practiceLinks": [
-      
+      {
+        "name": "Kuta Practice Area Between Curves",
+        "link": "https://cdn.kutasoftware.com/Worksheets/Calc/07%20-%20Area%20Between%20Curves.pdf"
+        }
     ],
     "extraHelpLinks": [
       

@@ -24,7 +24,7 @@
   {
     "name": "3.1 Key Points: Power Rule, Average Rate of Change, Instantaneous Rate of Change",
     "tags": ["3.1"], 
-    "guideLink": "https://docs.google.com/document/d/1FuskyX4CNwlzHOe_AlqsL2uYSCJputsPQyjxnTlbIG4/edit?usp=sharing",
+    "guideLink": "./guide-files/calculus_3.1_key_points.pdf",
     "practiceLinks": [
       {
           "name": "Khan Academy Practice (Basic)",
@@ -71,7 +71,7 @@
   {
     "name": "3.2 Key Points: Definition and Alternate Form of Derivative, Methods of Slope Approximation, Derivatives of Sine and Cosine",
     "tags": ["3.2"], 
-    "guideLink": "https://docs.google.com/document/d/1gW9phtQDfLK4SsbGN2xbFr1SwWLSxBPKf6EuuHUEYZg/edit?usp=sharing",
+    "guideLink": "./guide-files/calculus_3.2_key_points.pdf",
     "practiceLinks": [
       
     ],
@@ -99,7 +99,7 @@
   {
     "name": "3.3 Key Points: Derivative Notations, Curve Analysis",
     "tags": ["3.3"], 
-    "guideLink": "https://docs.google.com/document/d/1TpMeNh34e2xmq3BGixYjN6RZ2n5LZFsxbOmsmDHbMzw/edit?usp=sharing",
+    "guideLink": "./guide-files/calculus_3.3_key_points.pdf",
     "practiceLinks": [
       {
         "name": "West Shore Practice",
@@ -125,7 +125,7 @@
   {
     "name": "3.4 Key Points: Antiderivatives, Differentiability",
     "tags": ["3.4"], 
-    "guideLink": "https://docs.google.com/document/d/1z5kbHxvEGwysDS1dIFmDFlefwHQ7Csrmkc-gpO18jnA/edit?usp=sharing",
+    "guideLink": "./guide-files/calculus_3.4_key_points.pdf",
     "practiceLinks": [
       
     ],

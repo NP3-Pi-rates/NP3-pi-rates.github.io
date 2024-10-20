@@ -2,13 +2,13 @@
   {
     "name": "Breakdown of Trapezoidal Formula",
     "tags": ["2.1"], 
-    "guideLink": "https://docs.google.com/document/d/1K1JT4sO5veG3CEPcqY3vc7w7nmKLhCyyBbVHj9ae7xQ/edit?usp=sharing",
+    "guideLink": "./guide-files/breakdown_of_trapezoidal_formula.pdf",
     "practiceLinks": [
 
     ],
     "extraHelpLinks": [
       {
-          "name": "Alpha Theta Epsilon",
+          "name": "Alpha Theta Epsilon Video",
           "link": "https://www.youtube.com/watch?v=HVukQhDrNIQ"
       }      
     ]
@@ -16,7 +16,7 @@
   {
     "name": "2.1 Key Points: Trapezoid Rule, Summation/Sigma Notation, Left & Right Endpoint and Midpoint Rectangles",
     "tags": ["2.1"], 
-    "guideLink": "https://docs.google.com/document/d/1U17wuKAKJA_9V3AKIqvrBmPDpe5WMV-kz16MDdcpt08/edit?usp=sharing",
+    "guideLink": "./guide-files/calculus_2.1_key_points.pdf",
     "practiceLinks": [
       {
           "name": "Kuta Practice",
@@ -25,11 +25,11 @@
     ],
     "extraHelpLinks": [
       {
-          "name": "Khan Academy Trapezoidal Sums",
+          "name": "Khan Academy Trapezoidal Sums Video",
           "link": "https://www.youtube.com/watch?v=1p0NHR5w0Lc"
       },
       {
-          "name": "Khan Academy Midpoint Sums",
+          "name": "Khan Academy Midpoint Sums Video",
           "link": "https://www.youtube.com/watch?v=kJ57S0Z4Vp8"
       }
     ]
@@ -37,7 +37,7 @@
   {
     "name": "Continuity (and Discontinuities)",
     "tags": ["2.2"], 
-    "guideLink": "https://docs.google.com/document/d/1pbjN4T5tLLKN7XkF5fsGwH_EszrKj4WUcT3Vept0zr4/edit?usp=sharing",
+    "guideLink": "./guide-files/continuity.pdf",
     "practiceLinks": [
       {
           "name": "University of Washington Practice",
@@ -62,7 +62,7 @@
   {
     "name": "2.2 Key Points: Limits, Continuity, Intermediate Value Theorem",
     "tags": ["2.2"], 
-    "guideLink": "https://docs.google.com/document/d/1rckJGVH4ES9fcD5fJBRemV4VHjPTX4hevg7Br41dEkM/edit?usp=sharing",
+    "guideLink": "./guide-files/calculus_2.2_key_points.pdf",
     "practiceLinks": [
       {
           "name": "Weebly Practice on Continuity and Intermediate Value Theorem",
