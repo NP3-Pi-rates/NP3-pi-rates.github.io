@@ -52,21 +52,27 @@
       {
         "name": "Kuta Practice Area Between Curves",
         "link": "https://cdn.kutasoftware.com/Worksheets/Calc/07%20-%20Area%20Between%20Curves.pdf"
-        }
+      }
     ],
     "extraHelpLinks": [
       
     ]
   },
   {
-    "name": "4.5 Key Points (Incomplete)",
+    "name": "4.5 Key Points: Newton's Method",
     "tags": ["4.5"], 
-    "guideLink": "",
+    "guideLink": "./guide-files/calculus_4.5_key_points.pdf",
     "practiceLinks": [
-      
+      {
+        "name": "Kuta Practice",
+        "link": "https://cdn.kutasoftware.com/Worksheets/Calc/04%20-%20Newtons%20Method.pdf"
+      }
     ],
     "extraHelpLinks": [
-      
+    {
+      "name": "The Organic Chemistry Tutor Video",
+      "link": "https://www.youtube.com/watch?v=-5e2cULI3H8"
+    }
     ]
   }
         
