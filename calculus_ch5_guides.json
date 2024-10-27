@@ -11,11 +11,22 @@
     ]
   },
   {
-    "name": "5.2 Key Points (In Progress)",
+    "name": "5.2 Key Points: Product Rule, Quotient Rule, Chain Rule, Derivatives of Trigonometric Functions",
     "tags": ["5.2"], 
-    "guideLink": "",
+    "guideLink": "./guide-files/calculus_4.5_key_points.pdf",
     "practiceLinks": [
-      
+      {
+        "name": "Kuta Practice Product Rule",
+        "link": "https://cdn.kutasoftware.com/Worksheets/Calc/03%20-%20Product%20Rule.pdf"
+      },
+      {
+        "name": "Kuta Practice Quotient Rule",
+        "link": "https://cdn.kutasoftware.com/Worksheets/Calc/03%20-%20Quotient%20Rule.pdf"
+      },
+      {
+        "name": "Kuta Practice Chain Rule",
+        "link": "https://cdn.kutasoftware.com/Worksheets/Calc/03%20-%20Chain%20Rule.pdf"
+      }
     ],
     "extraHelpLinks": [
       
