@@ -1,8 +1,8 @@
 [
   {
-    "name": "5.1 Key Points (In Progress)",
+    "name": "5.1 Key Points: Relationship of Position-Velocity-Acceleration, Optimization, First & Second Derivative Tests, Extreme Value Theorem",
     "tags": ["5.1"], 
-    "guideLink": "",
+    "guideLink": "./guide-files/calculus_5.1_key_points.pdf",
     "practiceLinks": [
 
     ],
@@ -13,7 +13,7 @@
   {
     "name": "5.2 Key Points: Product Rule, Quotient Rule, Chain Rule, Derivatives of Trigonometric Functions",
     "tags": ["5.2"], 
-    "guideLink": "./guide-files/calculus_4.5_key_points.pdf",
+    "guideLink": "./guide-files/calculus_5.2_key_points.pdf",
     "practiceLinks": [
       {
         "name": "Kuta Practice Product Rule",
@@ -55,11 +55,14 @@
     ]
   },
   {
-    "name": "5.5 Key Points (In Progress)",
+    "name": "5.5 Key Points: l’Hôpital’s Rule",
     "tags": ["5.5"], 
-    "guideLink": "",
+    "guideLink": "./guide-files/calculus_5.5_key_points.pdf",
     "practiceLinks": [
-      
+      {
+        "name": "Kuta Practice",
+        "link": "https://cdn.kutasoftware.com/Worksheets/Calc/04%20-%20LHopitals%20Rule.pdf"
+      }
     ],
     "extraHelpLinks": [
       
