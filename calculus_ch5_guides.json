@@ -7,7 +7,10 @@
 
     ],
     "extraHelpLinks": [
-      
+      {
+        "name": "The Organic Chemistry Tutor Extreme Value Theorem Video",
+        "link": "https://www.youtube.com/watch?v=Sx2lPZlnWfs"
+      }
     ]
   },
   {
@@ -33,25 +36,45 @@
     ]
   },
   {
-    "name": "5.3 Key Points (In Progress)",
+    "name": "5.3 Key Points: Optimization, Optimization Example",
     "tags": ["5.3"], 
-    "guideLink": "",
+    "guideLink": "./guide-files/calculus_5.3_key_points.pdf",
     "practiceLinks": [
-      
+      {
+        "name": "Kuta Practice",
+        "link": "https://cdn.kutasoftware.com/Worksheets/Calc/04%20-%20Optimization.pdf"
+      }
     ],
     "extraHelpLinks": [
-      
+      {
+        "name": "Patrick JMT: Area Enclosed by Rectangular Fence Video",
+        "link": "https://www.youtube.com/watch?v=-SQirLL_pqU"
+      },
+      {
+        "name": "The Organic Chemistry Tutor Video",
+        "link": "https://www.youtube.com/watch?v=lx8RcYcYVuU"
+      },
+      {
+        "name": "Wrath of Math Video",
+        "link": "https://www.youtube.com/watch?v=0vIZdyjoubE"
+      }
     ]
   },
   {
-    "name": "5.4 Key Points (In Progress)",
+    "name": "5.4 Key Points: Fundamental Theorem of Calculus with Chain Rule",
     "tags": ["5.4"], 
-    "guideLink": "",
+    "guideLink": "./guide-files/calculus_5.4_key_points.pdf",
     "practiceLinks": [
-      
+      {
+        "name": "Marta Hidegkuti: FTC Practice",
+        "link": "https://teaching.martahidegkuti.com/shared/lnotes/6_calculus/fundamental/fundamental.pdf"
+      }
     ],
     "extraHelpLinks": [
-      
+      {
+        "name": "Khan Academy Video",
+        "link": "https://www.youtube.com/watch?v=dptES2sb1oc"
+      }
     ]
   },
   {
@@ -65,7 +88,10 @@
       }
     ],
     "extraHelpLinks": [
-      
+      {
+        "name": "The Organic Chemistry Tutor Video",
+        "link": "https://www.youtube.com/watch?v=Gh48aOvWcxw"
+      }
     ]
   }
         
