@@ -1,10 +1,13 @@
 [
   {
-    "name": "6.1 Key Points (In Progress)",
+    "name": "6.1 Key Points: Derivatives of Exponential Functions, Integrals of Exponential Functions",
     "tags": ["6.1"], 
-    "guideLink": "",
+    "guideLink": "./guide-files/calculus_6.1_key_points.pdf",
     "practiceLinks": [
-
+      {
+        "name": "Khan Academy Practice",
+        "link": "https://www.khanacademy.org/math/in-in-grade-12-ncert/xd340c21e718214c5:continuity-differentiability/xd340c21e718214c5:exponential-functions-differentiation/e/differentiate-exponential-functions"
+      }
     ],
     "extraHelpLinks": [
       
