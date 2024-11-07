@@ -29,8 +29,10 @@
       
     ],
     "extraHelpLinks": [
-      
-    ]
+      {
+          "name": "Khan Academy Walkthroughs",
+          "link": "https://www.khanacademy.org/math/ap-calculus-ab/ab-solved-exams-new"
+      }    ]
   },
   {
     "name": "AP Calculus BC Exam 2012",
@@ -51,7 +53,10 @@
       
     ],
     "extraHelpLinks": [
-      
+      {
+          "name": "Khan Academy Walkthroughs",
+          "link": "https://www.khanacademy.org/math/ap-calculus-bc/bc-solved-exams-new"
+      }
     ]
   }
         
