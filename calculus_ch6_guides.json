@@ -14,22 +14,31 @@
     ]
   },
   {
-    "name": "6.2 Key Points (In Progress)",
+    "name": "6.2 Key Points: Implicit Differentiation",
     "tags": ["6.2"], 
-    "guideLink": "",
+    "guideLink": "/guide-files/calculus_6.2_key_points.pdf",
     "practiceLinks": [
-      
+      {
+        "name": "Kuta Practice",
+        "link": "https://cdn.kutasoftware.com/Worksheets/Calc/03%20-%20Implicit%20Differentiation.pdf"
+      }
     ],
     "extraHelpLinks": [
-      
+      {
+        "name": "The Organic Chemistry Tutor Video",
+        "link": "https://www.youtube.com/watch?v=xbviQHhU1rA"
+      }
     ]
   },
   {
-    "name": "6.3 Key Points (In Progress)",
+    "name": "6.3 Key Points: Derivatives of Inverse Trigonometric Functions, Derivatives of Logarithmic Functions, Derivatives of Inverse Functions",
     "tags": ["6.3"], 
-    "guideLink": "",
+    "guideLink": "/guide-files/calculus_6.3_key_points.pdf",
     "practiceLinks": [
-      
+      {
+        "name": "Kuta Practice Derivatives of Inverse Functions",
+        "link": "https://cdn.kutasoftware.com/Worksheets/Calc/03%20-%20Derivatives%20of%20Inverse%20Functions.pdf"
+      }
     ],
     "extraHelpLinks": [
       

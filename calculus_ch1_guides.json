@@ -1,10 +1,13 @@
 [
   {
-    "name": "1.1 Key Points (In Progress)",
+    "name": "1.1 Key Points: Speed and Distance",
     "tags": ["1.1"], 
-    "guideLink": "",
+    "guideLink": "./guide-files/calculus_1.1_key_points.pdf",
     "practiceLinks": [
-
+      {
+        "name": "MetaTutor Practice",
+        "link": "https://metatutor.co.uk/wp-content/uploads/PDFs/Worksheets/Foundation/DISTANCE-TIME-GRAPHS.pdf"
+      }      
     ],
     "extraHelpLinks": [
       
