@@ -13,6 +13,7 @@ body{
     background-color: orange;
     min-height: 80px;
     min-width: 120px;
+    overflow: auto
 }
 
 #header img {

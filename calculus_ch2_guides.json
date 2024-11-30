@@ -4,13 +4,20 @@
     "tags": ["2.1"], 
     "guideLink": "./guide-files/breakdown_of_trapezoidal_formula.pdf",
     "practiceLinks": [
-
+      {
+        "name": "Mr. Solis Practice",
+        "link": "https://tajimasolis.weebly.com/uploads/3/7/3/4/37346235/riemann_trapezoids_practice.pdf"
+      }
     ],
     "extraHelpLinks": [
       {
           "name": "Alpha Theta Epsilon Video",
           "link": "https://www.youtube.com/watch?v=HVukQhDrNIQ"
-      }      
+      },
+      {
+        "name": "The Organic Chemistry Tutor Video",
+        "link": "https://www.youtube.com/watch?v=Rn9Gr52zhrY"
+    }      
     ]
   },
   {
@@ -21,6 +28,10 @@
       {
           "name": "Kuta Practice",
           "link": "https://cdn.kutasoftware.com/Worksheets/Calc/06%20-%20Approximating%20Area%20Under%20Curve.pdf"
+      },
+      {
+        "name": "Khan Academy Practice Midpoint & Trapezoidal Sums",
+        "link": "https://www.khanacademy.org/math/ap-calculus-ab/ab-integration-new/ab-6-2/e/trapezoid-rule"
       }
     ],
     "extraHelpLinks": [
@@ -42,10 +53,25 @@
       {
           "name": "University of Washington Practice",
           "link": "https://sites.math.washington.edu/~aloveles/Math124Fall2017/m124ContinuityPractice.pdf"
+      },
+      {
+        "name": "Khan Academy Practice (Algebraically)",
+        "link": "https://www.khanacademy.org/math/ap-calculus-ab/ab-limits-new/ab-1-11/e/continuity-at-a-point-algebraic"
+      },
+      {
+      "name": "Khan Academy Practice (Graphically)",
+      "link": "https://www.khanacademy.org/math/ap-calculus-ab/ab-limits-new/ab-1-11/e/analyze-continuity-at-a-point-graphically"
       }
     ],
     "extraHelpLinks": [
-      
+      {
+        "name": "The Organic Chemistry Tutor Video",
+        "link": "https://www.youtube.com/watch?v=WT7oxiiFYt8"
+      },
+      {
+        "name": "Angie Teaches Video",
+        "link": "https://www.youtube.com/watch?v=VMqzmgMeQx0"
+      }
     ]
   },
   {
@@ -67,10 +93,21 @@
       {
           "name": "Weebly Practice on Continuity and Intermediate Value Theorem",
           "link": "https://wrightkk.weebly.com/uploads/5/9/6/6/59663945/1.6_hw_ivt_key.pdf"
+      },
+      {
+        "name": "SharpSchool Practice Intermediate Value Theorem",
+        "link": "https://cdnsm5-ss13.sharpschool.com/UserFiles/Servers/Server_77361/File/Departments/Mathematics/John%20Sidanycz/Calculus%20BC/Chapter%202/Intermediate%20Value%20Theorem.pdf"
       }
     ],
     "extraHelpLinks": [
-      
+      {
+        "name": "The Organic Chemistry Tutor Video Continuity (Introduction)",
+        "link": "https://www.youtube.com/watch?v=joewRl1CTL8"
+      },
+      {
+        "name": "The Organic Chemistry Tutor Video Intermediate Value Theorem",
+        "link": "https://www.youtube.com/watch?v=4L9ffuwj4Lk"
+      }
     ]
   },
   {

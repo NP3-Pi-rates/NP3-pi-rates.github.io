@@ -10,7 +10,10 @@
       }      
     ],
     "extraHelpLinks": [
-      
+      {
+        "name": "The Organic Chemistry Tutor Video on Position, Velocity, Acceleration (Will be covered more in later chapters)",
+        "link": "https://www.youtube.com/watch?v=4zJ6fl1Xakg"
+      } 
     ]
   },
   {

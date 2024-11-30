@@ -1,0 +1,76 @@
+[
+  {
+    "name": "Preparing for Your Journey",
+    "tags": ["1"], 
+    "guideLink": ""
+    
+  },
+  {
+    "name": "Functions and Trigonometry",
+    "tags": ["2"], 
+    "guideLink": ""
+    
+  },
+  {
+    "name": "Algebra and Area Under a Curve",
+    "tags": ["3"], 
+    "guideLink": ""
+    
+  },
+  {
+    "name": "Polynomial and Rational Functions",
+    "tags": ["4"], 
+    "guideLink": ""
+    
+  },
+  {
+    "name": "Exponentials and Logarithms",
+    "tags": ["5"], 
+    "guideLink": ""
+    
+  },
+  {
+    "name": "Triangles and Vectors",
+    "tags": ["6"], 
+    "guideLink": ""
+    
+  },
+  {
+    "name": "Limits and Rates",
+    "tags": ["7"], 
+    "guideLink": ""
+    
+  },
+  {
+    "name": "Extending Periodic Functions",
+    "tags": ["8"], 
+    "guideLink": ""
+    
+  },
+  {
+    "name": "Matrices",
+    "tags": ["9"], 
+    "guideLink": ""    
+  },
+  {
+    "name": "Conics and Parametric Functions",
+    "tags": ["10"], 
+    "guideLink": ""   
+  },
+  {
+    "name": "Polar Functions and Complex Numbers",
+    "tags": ["11"], 
+    "guideLink": ""
+  },
+  {
+    "name": "Series and Statistics",
+    "tags": ["12"], 
+    "guideLink": ""
+  },
+  {
+    "name": "Precalculus Finale",
+    "tags": ["13"], 
+    "guideLink": ""
+    
+  }        
+]

@@ -4,6 +4,18 @@
     "tags": ["0"],
     "guideLink": "./guide-files/derivative_tools.pdf",
     "practiceLinks": [
+      {
+        "name": "High School Test Prep Practice (Part 1)",
+        "link": "https://highschooltestprep.com/ap/calculus-ab/derivatives-1/"
+      },
+      {
+        "name": "High School Test Prep Practice (Part 2)",
+        "link": "https://highschooltestprep.com/ap/calculus-ab/derivatives-2/"
+      },
+      {
+        "name": "High School Test Prep Practice (Part 3)",
+        "link": "https://highschooltestprep.com/ap/calculus-ab/derivatives-3/"
+      }
       
     ],
     "extraHelpLinks": [
@@ -15,10 +27,24 @@
     "tags": ["0"],
     "guideLink": "https://apcentral.collegeboard.org/media/pdf/ap-calculus-ab-practice-exam-2012.pdf",
     "practiceLinks": [
-      
+      {
+        "name": "High School Test Prep MCQ Practice (No Calculator)",
+        "link": "https://highschooltestprep.com/ap/calculus-ab/practice-exam-multiple-choice-part-a/"
+      },
+      {
+        "name": "High School Test Prep MCQ Practice (Calculator)",
+        "link": "https://highschooltestprep.com/ap/calculus-ab/practice-exam-multiple-choice-part-b/"
+      },
+      {
+        "name": "Crack AP Practice",
+        "link": "https://www.crackap.com/ap/calculus-ab/"
+      }
     ],
     "extraHelpLinks": [
-      
+      {
+        "name": "AP Calculus AB Lectures",
+        "link": "https://www.youtube.com/playlist?list=PLoGgviqq4844K7uyXWqvYUbIb_W7GjHJL"
+      }
     ]
   },
   {
@@ -26,23 +52,41 @@
     "tags": ["0"],
     "guideLink": "https://apcentral.collegeboard.org/courses/ap-calculus-ab/exam/past-exam-questions",
     "practiceLinks": [
-      
+      {
+        "name": "High School Test Prep FRQ Practice (Calculator)",
+        "link": "https://highschooltestprep.com/ap/calculus-ab/practice-exam-free-response-part-a/"
+      },
+      {
+        "name": "High School Test Prep FRQ Practice (No Calculator)",
+        "link": "https://highschooltestprep.com/ap/calculus-ab/practice-exam-free-response-part-b/"
+      },
+      {
+        "name": "Crack AP Practice",
+        "link": "https://www.crackap.com/ap/calculus-ab/"
+      }
     ],
     "extraHelpLinks": [
       {
           "name": "Khan Academy Walkthroughs",
           "link": "https://www.khanacademy.org/math/ap-calculus-ab/ab-solved-exams-new"
-      }    ]
+      }    
+    ]
   },
   {
     "name": "AP Calculus BC Exam 2012",
     "tags": ["0"],
     "guideLink": "https://apcentral.collegeboard.org/media/pdf/ap-calculus-bc-practice-exam-2012.pdf",
     "practiceLinks": [
-      
+      {
+        "name": "Crack AP Practice",
+        "link": "https://www.crackap.com/ap/calculus-bc/"
+      }
     ],
     "extraHelpLinks": [
-      
+      {
+        "name": "AP Calculus BC Lectures",
+        "link": "https://www.youtube.com/playlist?list=PLoGgviqq4847M9lvkP0FxTVaxKZaxbgRY"
+      }
     ]
   },
   {
@@ -50,7 +94,10 @@
     "tags": ["0"],
     "guideLink": "https://apcentral.collegeboard.org/courses/ap-calculus-bc/exam/past-exam-questions",
     "practiceLinks": [
-      
+      {
+        "name": "Crack AP Practice",
+        "link": "https://www.crackap.com/ap/calculus-bc/"
+      }
     ],
     "extraHelpLinks": [
       {

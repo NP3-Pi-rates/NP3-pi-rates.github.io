@@ -4,10 +4,20 @@
     "tags": ["3.1"], 
     "guideLink": "./guide-files/graphing_polynomial_functions_in_vertex_form.pdf",
     "practiceLinks": [
-      
+      {
+        "name": "Jensenmath Practice",
+        "link": "https://static1.squarespace.com/static/61de416a3e2596709a9237f6/t/61eb702ac181b075a1ac2415/1642819627005/1.4+hws+transformations+of+polynomial+functions.pdf"
+      }
     ],
     "extraHelpLinks": [
-      
+      {
+        "name": "The Organic Chemistry Tutor Video",
+        "link": "https://www.youtube.com/watch?v=a5x4lwnvHM0"
+      },
+      {
+        "name": "Hartz Math Video",
+        "link": "https://www.youtube.com/watch?v=s_ImSD4qUa0"
+      }
     ]
   },
   {
@@ -15,10 +25,24 @@
     "tags": ["3.1"], 
     "guideLink": "./guide-files/linear_function_basics.pdf",
     "practiceLinks": [
-      
+      {
+        "name": "Kuta Practice Graphing",
+        "link": "https://cdn.kutasoftware.com/Worksheets/PreAlg/Graphing%20Lines%20in%20Slope-Intercept%20Form.pdf"  
+      },
+      {
+        "name": "Kuta Practice Slope",
+        "link": "https://cdn.kutasoftware.com/Worksheets/PreAlg/Slope.pdf"
+      }
     ],
     "extraHelpLinks": [
-      
+      {
+        "name": "Khan Academy Video",
+        "link": "https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:forms-of-linear-equations/x2f8bb11595b61c86:intro-to-slope-intercept-form/v/slope-intercept-form"
+      },
+      {
+        "name": "TabletClass math Video",
+        "link": "https://www.youtube.com/watch?v=Cddn2OlcflA"
+      }
     ]
   },
   {
@@ -32,7 +56,10 @@
         }
     ],
     "extraHelpLinks": [
-      
+      {
+      "name": "Khan Academy Power Rule Intro Video",
+      "link": "https://www.khanacademy.org/math/ap-calculus-ab/ab-differentiation-1-new/ab-2-5/v/power-rule"
+      }
     ]
   },
   {
@@ -76,7 +103,18 @@
       
     ],
     "extraHelpLinks": [
-      
+      {
+        "name": "The Organic Chemistry Tutor Video (Derivative)",
+        "link": "https://www.youtube.com/watch?v=-aTLjoDT1GQ"
+      },
+      {
+        "name": "The Organic Chemistry Tutor Video (Alternate Form)",
+        "link": "https://www.youtube.com/watch?v=6yzaEpacZkg"
+      },
+      {
+        "name": "Simple Math Video Limit Definition of Derivative Practice",
+        "link": "https://www.youtube.com/watch?v=Hszu_Maneoo"
+      }
     ]
   },
   {
@@ -130,7 +168,14 @@
       
     ],
     "extraHelpLinks": [
-      
+      {
+        "name": "The Organic Chemistry Tutor Video Differentiability",
+        "link": "https://www.youtube.com/watch?v=fml0-ELYLaE"
+      },
+      {
+        "name": "Khan Academy Video Differentiability",
+        "link": "https://www.youtube.com/watch?v=xuAiQOzIkWY"
+      }
     ]
   }
         
