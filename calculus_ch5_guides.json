@@ -4,7 +4,10 @@
     "tags": ["5.1"], 
     "guideLink": "./guide-files/calculus_5.1_key_points.pdf",
     "practiceLinks": [
-
+      {
+        "name": "Central Bucks School District Extreme Value Theorem Practice",
+        "link": "https://www.cbsd.org/cms/lib/PA01916442/Centricity/Domain/1977/Unit%203%20WS%2010%20EVT%20solutions.pdf"
+      }
     ],
     "extraHelpLinks": [
       {
@@ -29,10 +32,29 @@
       {
         "name": "Kuta Practice Chain Rule",
         "link": "https://cdn.kutasoftware.com/Worksheets/Calc/03%20-%20Chain%20Rule.pdf"
+      },
+      {
+        "name": "Kuta Practice Trig Functions Derivatives #1",
+        "link": "https://cdn.kutasoftware.com/Worksheets/Calc/03%20-%20Chain%20Rule%20with%20Trig.pdf"
+      },
+      {
+        "name": "Kuta Practice Trig Functions Derivatives #2",
+        "link": "https://bhsapcalculus.weebly.com/uploads/7/7/1/1/7711905/5_apps_of_trig_diff.pdf"
       }
     ],
     "extraHelpLinks": [
-      
+      {
+        "name": "JensenMath Derivative Rules Review Video",
+        "link": "https://www.youtube.com/watch?v=EQLEGXx_1a4"
+      },
+      {
+        "name": "MathReview101 Derivative Rules Review Video",
+        "link": "https://www.youtube.com/watch?v=esxNDR1epeo"
+      },
+      {
+        "name": "The Organic Chemistry Tutor Derivative Rules Review Video",
+        "link": "https://www.youtube.com/watch?v=vNXjMTv4vHs"
+      }
     ]
   },
   {
@@ -43,6 +65,10 @@
       {
         "name": "Kuta Practice",
         "link": "https://cdn.kutasoftware.com/Worksheets/Calc/04%20-%20Optimization.pdf"
+      },
+      {
+        "name": "pchs Practice",
+        "link": "https://pchscalculus.weebly.com/uploads/8/1/8/4/81840438/optimization_practice.pdf"
       }
     ],
     "extraHelpLinks": [

@@ -100,7 +100,10 @@
     "tags": ["3.2"], 
     "guideLink": "./guide-files/calculus_3.2_key_points.pdf",
     "practiceLinks": [
-      
+      {
+        "name": "Paul's Online Math Notes Limit Definition of Derivative Practice",
+        "link": "https://tutorial.math.lamar.edu/problems/calci/defnofderivative.aspx"
+      }
     ],
     "extraHelpLinks": [
       {
@@ -114,6 +117,10 @@
       {
         "name": "Simple Math Video Limit Definition of Derivative Practice",
         "link": "https://www.youtube.com/watch?v=Hszu_Maneoo"
+      },
+      {
+        "name": "Auburn University Derivatives of Sine and Cosine Review",
+        "link": "https://web.auburn.edu/holmerr/1617/Textbook/derivsincos-screen.pdf"
       }
     ]
   },
@@ -157,6 +164,10 @@
       {
         "name": "Khan Academy Second Derivative Test Video",
         "link": "https://www.youtube.com/watch?v=-cW5hCsc9Yc"
+      },
+      {
+        "name": "Cole's World of Mathematics Derivative Notations Video",
+        "link": "https://www.youtube.com/watch?v=8TMnXCRXe_k"
       }
     ]
   },
@@ -165,7 +176,14 @@
     "tags": ["3.4"], 
     "guideLink": "./guide-files/calculus_3.4_key_points.pdf",
     "practiceLinks": [
-      
+      {
+        "name": "Holland Central School District Antiderivatives Practice",
+        "link": "https://www.hollandcsd.org/cms/lib/NY19000531/Centricity/Domain/129/Basic%20Integration%20Problems.pdf"
+      },
+      {
+        "name": "Kuta Integration Practice",
+        "link": "https://cdn.kutasoftware.com/Worksheets/Calc/05%20-%20Integration%20Power%20Rule.pdf"
+      }
     ],
     "extraHelpLinks": [
       {

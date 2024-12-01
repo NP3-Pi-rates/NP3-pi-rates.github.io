@@ -7,10 +7,25 @@
       {
         "name": "Khan Academy Practice",
         "link": "https://www.khanacademy.org/math/in-in-grade-12-ncert/xd340c21e718214c5:continuity-differentiability/xd340c21e718214c5:exponential-functions-differentiation/e/differentiate-exponential-functions"
+      },
+      {
+        "name": "Andymath Practice",
+        "link": "https://andymath.com/derivative-exponential-functions/"
       }
     ],
     "extraHelpLinks": [
-      
+      {
+        "name": "The Organic Chemistry Tutor Video",
+        "link": "https://www.youtube.com/watch?v=yg_497u6JnA"
+      },
+      {
+        "name": "PatrickJMT Video",
+        "link": "https://www.youtube.com/watch?v=xgarjF9DP78"
+      },
+      {
+        "name": "Jensen Math Video",
+        "link": "https://www.youtube.com/watch?v=rUDQy8yHsB0"
+      }
     ]
   },
   {
@@ -21,12 +36,24 @@
       {
         "name": "Kuta Practice",
         "link": "https://cdn.kutasoftware.com/Worksheets/Calc/03%20-%20Implicit%20Differentiation.pdf"
+      },
+      {
+        "name": "Mr. Yang Practice",
+        "link": "https://mryangteacher.weebly.com/uploads/7/7/0/2/7702250/2.5_implicit_practice_ws_1.pdf"
+      },
+      {
+        "name": "Flipped Math Practice",
+        "link": "https://calculus.flippedmath.com/uploads/1/1/3/0/11305589/c_6.1_packet.pdf"
       }
     ],
     "extraHelpLinks": [
       {
         "name": "The Organic Chemistry Tutor Video",
         "link": "https://www.youtube.com/watch?v=xbviQHhU1rA"
+      },
+      {
+        "name": "Professor Dave Video",
+        "link": "https://www.youtube.com/watch?v=M0SMSWM2oZA"
       }
     ]
   },
@@ -38,10 +65,21 @@
       {
         "name": "Kuta Practice Derivatives of Inverse Functions",
         "link": "https://cdn.kutasoftware.com/Worksheets/Calc/03%20-%20Derivatives%20of%20Inverse%20Functions.pdf"
+      },
+      {
+        "name": "Paul's Online Math notes Derivatives of Exponential and Logarithmic Functions Practice",
+        "link": "https://tutorial.math.lamar.edu/problems/calci/diffexplogfcns.aspx"
       }
     ],
     "extraHelpLinks": [
-      
+      {
+        "name": "The Organic Chemistry Tutor Derivatives of Inverse Trigonometric Functions Video",
+        "link": "https://www.youtube.com/watch?v=KbYW9FDm-Zk"
+      },
+      {
+        "name": "bprp calculus basics Derivatives of Inverse Trigonometric Functions Video",
+        "link": "https://www.youtube.com/watch?v=wH3JYo8U2uM"
+      }
     ]
   },
   {
@@ -49,10 +87,24 @@
     "tags": ["6.4"], 
     "guideLink": "/guide-files/calculus_6.4_key_points.pdf",
     "practiceLinks": [
-      
+      {
+        "name": "Kuta Practice Mean Value Theorem for Derivatives",
+        "link": "https://cdn.kutasoftware.com/Worksheets/Calc/04%20-%20Mean%20Value%20Theorem.pdf"
+      },
+      {
+        "name": "Kuta Practice Mean Value Theorem for Integrals",
+        "link": "https://cdn.kutasoftware.com/Worksheets/Calc/06%20-%20Mean%20Value%20Theorem%20for%20Integrals.pdf"
+      }
     ],
     "extraHelpLinks": [
-      
+      {
+        "name": "The Organic Chemistry Tutor Mean Value Theorem for Derivatives Video",
+        "link": "https://www.youtube.com/watch?v=SL2RobwU_M4"
+      },
+      {
+        "name": "The Organic Chemistry Tutor Mean Value Theorem for Integrals Video",
+        "link": "https://www.youtube.com/watch?v=bLeglo-c5Tw"
+      }
     ]
   },
   {
@@ -60,10 +112,24 @@
     "tags": ["6.5"], 
     "guideLink": "/guide-files/calculus_6.5_key_points.pdf",
     "practiceLinks": [
-      
+      {
+        "name": "Marta Hidegkuti Practice",
+        "link": "https://teaching.martahidegkuti.com/shared/lnotes/6_calculus/integral/improper/improper.pdf"
+      },
+      {
+      "name": "Paul's Online Math Notes Practice",
+      "link": "https://tutorial.math.lamar.edu/problems/calcii/improperintegrals.aspx"
+      }
     ],
     "extraHelpLinks": [
-      
+      {
+        "name": "Khan Academy Improper Integrals Video (Introduction)",
+        "link": "https://www.youtube.com/watch?v=qv7DM5Ph0vU"
+      },
+      {
+        "name": "The Organic Chemistry Tutor Improper Integrals Video",
+        "link": "https://www.youtube.com/watch?v=ND9cEdfCFr0"
+      }
     ]
   }
         

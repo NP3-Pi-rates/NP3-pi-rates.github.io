@@ -5,14 +5,38 @@
     "guideLink": "./guide-files/calculus_4.1_key_points.pdf",
     "practiceLinks": [
       {
-      "name": "Khan Academy Practice",
+      "name": "Khan Academy Definite Integrals Practice",
       "link": "https://www.khanacademy.org/math/old-integral-calculus/definite-integrals-intro-ic/definite-integral-properties-ic/e/properties-of-definite-integrals-challenge"
+      },
+      {
+        "name": "Wpmucdn Definite Integral Properties Practice",
+        "link": "https://cpb-ap-se2.wpmucdn.com/learn.stleonards.vic.edu.au/dist/b/160/files/2016/05/Properties-of-Definite-Integrals-Worksheet.pdf"
+      },
+      {
+        "name": "Flipped Math Definite Integrals Practice",
+        "link": "https://calculus.flippedmath.com/uploads/1/1/3/0/11305589/calc_6.6_packet.pdf"
       }
     ],
     "extraHelpLinks": [
       {
-      "name": "The Organic Chemistry Tutor Video (Integral Properties)",
+      "name": "The Organic Chemistry Tutor Video (Definite Integral Properties)",
       "link": "https://www.youtube.com/watch?v=QcHz3h81U-s"
+      },
+      {
+        "name": "Firefly Lectures Video (Definite Integral Properties)",
+        "link": "https://www.youtube.com/watch?v=QcHz3h81U-s"
+      },
+      {
+          "name": "Mathispower4u Video (Definite Integral Properties)",
+          "link": "https://www.youtube.com/watch?v=ycOZVVVXHvM"
+      },
+      {
+        "name": "Khan Academy Riemann Sum to Definite Integral Video",
+        "link": "https://www.youtube.com/watch?v=Himr2l8Rd18"
+      },
+      {
+        "name": "Khan Academy Definite Integral Video to Riemann Sum Video",
+        "link": "https://www.youtube.com/watch?v=eidemLqiPyQ"
       }
     ]
   },
@@ -38,10 +62,28 @@
     "tags": ["4.3"], 
     "guideLink": "./guide-files/calculus_4.3_key_points.pdf",
     "practiceLinks": [
-      
+      {
+        "name": "Central Bucks School District Practice",
+        "link": "https://www.cbsd.org/cms/lib/PA01916442/Centricity/Domain/2746/AP%20AB%20-%20Section%204.1%20-%20WS.pdf"
+      },
+      {
+        "name": "Kuta Practice",
+        "link": "https://teachers.henrico.k12.va.us/freeman/conway_b/Files/APCalc/Unit5.Position,%20Velocity,%20Acceleration%20Practice.pdf"
+      }
     ],
     "extraHelpLinks": [
-      
+      {
+        "name": "The Organic Chemistry Tutor Video",
+        "link": "https://www.youtube.com/watch?v=4zJ6fl1Xakg"
+      },
+      {
+        "name": "Daniel Bortnick Video",
+        "link": "https://www.youtube.com/watch?v=Gh-ezo-BOQ8"
+      },
+      {
+        "name": "PatrickJMT Video",
+        "link": "https://www.youtube.com/watch?v=pFeuGMMiZWw"
+      }
     ]
   },
   {
@@ -50,13 +92,40 @@
     "guideLink": "./guide-files/calculus_4.4_key_points.pdf",
     "practiceLinks": [
       {
-        "name": "Kuta Practice Area Between Curves",
+        "name": "Kuta Practice",
         "link": "https://cdn.kutasoftware.com/Worksheets/Calc/07%20-%20Area%20Between%20Curves.pdf"
+      },
+      {
+        "name": "Stewart Calculus Practice",
+        "link": "https://www.stewartcalculus.com/data/ESSENTIAL%20CALCULUS%202e/upfiles/instructor/eclt_ax_0701.pdf"
+      },
+      {
+        "name": "Mr. Yang Practice",
+        "link": "https://mryangteacher.weebly.com/uploads/7/7/0/2/7702250/7.1_area_classwork_worksheet.pdf"
       }
     ],
     "extraHelpLinks": [
-      
-    ]
+      {
+        "name": "Khan Academy Area Between Curves Overview Video",
+        "link": "https://www.youtube.com/watch?v=wQXYtsyfbqg"
+      },
+      {
+        "name": "The Organic Chemistry Tutor Area Between Two Curves Video",
+        "link": "https://www.youtube.com/watch?v=kgg5Rspf1Js"
+      },
+      {
+        "name": "Professor Dave Area Between Two Curves Video",
+        "link": "https://www.youtube.com/watch?v=xec6HTcn2M8"
+      },
+      {
+        "name": "Khan Academy Horizontal Integration Video",
+        "link": "https://www.youtube.com/watch?v=B5441_DREY0"
+      },
+      {
+        "name": "Khan Academy Area Between Three Curves Video",
+        "link": "https://www.youtube.com/watch?v=LbTH7MGMNjk"
+      }
+]
   },
   {
     "name": "4.5 Key Points: Newton's Method",
