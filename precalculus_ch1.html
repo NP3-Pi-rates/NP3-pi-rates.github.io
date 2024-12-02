@@ -5,7 +5,7 @@
     <meta HTTP-EQUIV="EXPIRES" CONTENT="Mon, 22 Jul 2002 11:12:01 GMT">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Precalculus Guides</title>
+    <title>Precalculus Chapter 1</title>
     <link rel="stylesheet" href="guides.css">
 </head>
 <body>
@@ -18,33 +18,29 @@
         <button onclick="location.href='./precalculus.html';">Precalculus Guides</button>
         <img src="./images/pi-rates watermark.png" alt="pirates logo" id="pirates-logo">
     </div>
+
+    <p style="text-align: center; font-weight: bold; font-size: 2em;">Precalculus Chapter 1</p>
+
     <div class="filter">
-        <label for="tagFilter">Filter by Chapter:</label>
+        <label for="tagFilter">Filter by Section:</label>
         <select id="tagFilter">
             <option value="all">All</option>
-            <option value="0">0</option>
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-            <option value="6">6</option>
-            <option value="7">7</option>
-            <option value="8">8</option>
+            <option value="1.1">1.1</option>
+            <option value="1.2">1.2</option>
+            <option value="1.3">1.3</option>
+            <option value="1.4">1.4</option>
+            <option value="1.5">1.5</option>
         </select>
     </div>
     
-    <p style="text-align: center; font-weight: bold; font-size: 2em;">Precalculus Guides</p>
-    <p style="text-align: center;">More resources are currently being added, will be available by January 2025</p>
-    <p style="text-align: center;"></p>
-
     <table id="data-table">
         <thead>
             <tr>
-                <th>Chapter</th>
+                <th>Section</th>
                 <th>Name</th>
-                <th>Guides</th>
-
+                <th>Guide</th>
+                <th>Practice</th>
+                <th>Extra Help</th>
             </tr>
         </thead>
         <tbody id="table-body">
@@ -57,7 +53,7 @@
                 const tableBody = document.getElementById("table-body");
             
                 async function fetchData() {
-                    const response = await fetch("precalculus_guides.json");
+                    const response = await fetch("precalculus_ch1_guides.json");
                     const data = await response.json();
                     return data;
                 }
@@ -79,12 +75,31 @@
                         guideLink.href = item.guideLink;
                         guideCell.appendChild(guideLink);
                 
-                        
+                        const practiceCell = document.createElement("td");
+                        item.practiceLinks.forEach(linkData => {
+                            const practiceLink = document.createElement("a");
+                            practiceLink.textContent = linkData.name;
+                            practiceLink.target = "_blank";
+                            practiceLink.href = linkData.link;
+                            practiceCell.appendChild(practiceLink);
+                            practiceCell.appendChild(document.createElement("br")); 
+                        });
+                
+                        const extraHelpCell = document.createElement("td");
+                        item.extraHelpLinks.forEach(linkData => {
+                            const extraHelpLink = document.createElement("a");
+                            extraHelpLink.textContent = linkData.name;
+                            extraHelpLink.target = "_blank";
+                            extraHelpLink.href = linkData.link;
+                            extraHelpCell.appendChild(extraHelpLink);
+                            extraHelpCell.appendChild(document.createElement("br")); 
+                        });
                 
                         row.appendChild(tagsCell);
                         row.appendChild(nameCell);
                         row.appendChild(guideCell);
-                        
+                        row.appendChild(practiceCell);
+                        row.appendChild(extraHelpCell);
                 
                         tableBody.appendChild(row);
                     });
