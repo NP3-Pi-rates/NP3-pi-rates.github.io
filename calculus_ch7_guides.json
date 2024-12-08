@@ -1,8 +1,8 @@
 [
   {
-    "name": "7.1 Key Points (In Progress)",
+    "name": "7.1 Key Points: Related Rates",
     "tags": ["7.1"], 
-    "guideLink": "",
+    "guideLink": "./guide-files/calculus_7.1_key_points.pdf",
     "practiceLinks": [
 
     ],
@@ -11,9 +11,9 @@
     ]
   },
   {
-    "name": "7.2 Key Points (In Progress)",
+    "name": "7.2 Key Points: u-substitution",
     "tags": ["7.2"], 
-    "guideLink": "",
+    "guideLink": "./guide-files/calculus_7.2_key_points.pdf",
     "practiceLinks": [
       
     ],
