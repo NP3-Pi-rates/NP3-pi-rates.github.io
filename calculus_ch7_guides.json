@@ -4,10 +4,28 @@
     "tags": ["7.1"], 
     "guideLink": "./guide-files/calculus_7.1_key_points.pdf",
     "practiceLinks": [
-
+      {
+        "name": "Kuta Practice",
+        "link": "https://cdn.kutasoftware.com/Worksheets/Calc/04%20-%20Related%20Rates.pdf"
+      },
+      {
+        "name": "Kuta Practice (2)",
+        "link": "https://tajimasolis.weebly.com/uploads/3/7/3/4/37346235/calculus_related_rates_practice.pdf"
+      },
+      {
+        "name": "Paul's Online Math Notes Practice",
+        "link": "https://tutorial.math.lamar.edu/problems/calci/relatedrates.aspx"
+      }
     ],
     "extraHelpLinks": [
-      
+      {
+        "name": "The Organic Chemistry Tutor Video Examples",
+        "link": "https://www.youtube.com/watch?v=ps-r4nti5Go"
+      },
+      {
+        "name": "Brian McLogan Video Examples",
+        "link": "https://www.youtube.com/playlist?list=PL0G-Nd0V5ZMpqx4Y9sVYJNSw28AoSD1G6"
+      }
     ]
   },
   {
@@ -15,10 +33,40 @@
     "tags": ["7.2"], 
     "guideLink": "./guide-files/calculus_7.2_key_points.pdf",
     "practiceLinks": [
-      
+      {
+        "name": "Kuta Practice (Intro)",
+        "link": "https://cdn.kutasoftware.com/Worksheets/Calc/05%20-%20Integration%20Substitution%20Power%20Rule.pdf"
+      },
+      {
+        "name": "Kuta Practice (Logarithms and Exponentials)",
+        "link": "https://cdn.kutasoftware.com/Worksheets/Calc/05%20-%20Integration%20Substitution%20Log%20Exp.pdf"
+      },
+      {
+        "name": "Kuta Practice (Trig)",
+        "link": "https://cdn.kutasoftware.com/Worksheets/Calc/05%20-%20Integration%20Substitution%20Trig.pdf"
+      },
+      {
+        "name": "Kuta Practice (Inverse Trig)",
+        "link": "https://cdn.kutasoftware.com/Worksheets/Calc/05%20-%20Integration%20Substitution%20Inv%20Trig.pdf"
+      },
+      {
+        "name": "Paul's Online Math Notes Practice (Indefinite Integrals)",
+        "link": "https://tutorial.math.lamar.edu/problems/calci/substitutionruleindefinite.aspx"
+      },
+      {
+        "name": "Paul's Online Math Notes Practice (Definite Integrals)",
+        "link": "https://tutorial.math.lamar.edu/problems/calci/substitutionruledefinite.aspx"
+      }
     ],
     "extraHelpLinks": [
-      
+      {
+        "name": "The Organic Chemistry Tutor Video (Indefinite Integrals)",
+        "link": "https://www.youtube.com/watch?v=sdYdnpYn-1o"
+      },
+      {
+        "name": "The Organic Chemistry Tutor Video (Definite Integrals)",
+        "link": "https://www.youtube.com/watch?v=tM4RWc9ryx0"
+      }
     ]
   },
   {

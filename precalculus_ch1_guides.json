@@ -4,10 +4,36 @@
     "tags": ["1.1"], 
     "guideLink": "./guide-files/precalculus_1.1_key_points.pdf",
     "practiceLinks": [
-           
+      {
+        "name": "Weebly Types of Functions Practice",
+        "link": "https://bcookmath.weebly.com/uploads/1/5/3/6/15360784/types_of_functions_worksheet.pdf"
+      },
+      {
+        "name": "Khan Academy Exponent Properties Practice",
+        "link": "https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:rational-exponents-radicals/x2f8bb11595b61c86:exponent-properties-review/e/properties-of-integer-exponents"
+      },
+      {
+        "name": "Kuta Exponent Properties Practice",
+        "link": "https://cdn.kutasoftware.com/Worksheets/Alg1/Properties%20of%20Exponents.pdf"
+      },
+      {
+        "name": "Kuta Equations of Lines Practice",
+        "link": "https://resources.finalsite.net/images/v1590523945/chcaohorg/kenj94incpk9uip1f73x/GEO_3Writing_Equations_of_Lines.pdf"
+      }
     ],
     "extraHelpLinks": [
-       
+      {
+        "name": "Olga Andreeva Types of Functions Video",
+        "link": "https://www.youtube.com/watch?v=Air3gz2KabA"
+      },
+      {
+        "name": "The Organic Chemistry Tutor Exponent Properties Video",
+        "link": "https://www.youtube.com/watch?v=etMK3xViMAc"
+      },
+      {
+        "name": "The Organic Chemistry Tutor Linear Equations Video",
+        "link": "https://www.youtube.com/watch?v=Ft2_QtXAnh8"
+      }
     ]
   },
   {
