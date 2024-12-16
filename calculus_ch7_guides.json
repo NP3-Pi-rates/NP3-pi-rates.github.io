@@ -70,14 +70,37 @@
     ]
   },
   {
-    "name": "7.3 Key Points (In Progress)",
+    "name": "7.3 Key Points: Solving Differential Equations, Slope Fields",
     "tags": ["7.3"], 
-    "guideLink": "",
+    "guideLink": "./guide-files/calculus_7.3_key_points.pdf",
     "practiceLinks": [
+      {
+        "name": "Kuta Practice Differential Equations and Slope Fields",
+        "link": "https://cdn.kutasoftware.com/Worksheets/Calc/08%20-%20Intro%20Differential%20Equations.pdf"
+      },
+      {
+        "name": "Kuta Practice Differential Equations and Slope Fields (2)",
+        "link": "https://tajimasolis.weebly.com/uploads/3/7/3/4/37346235/ap_calculus_-_separable_differential_equations_practice.pdf"
+      },
+      {
+        "name": "Kuta Practice Differential Equations and Slope Fields (3)",
+        "link": "https://cdn.kutasoftware.com/Worksheets/Calc/08%20-%20Separable%20Differential%20Equations.pdf"
+      },
+      {
+        "name": "Khan Academy Practice Separating Differential Equations",
+        "link": "https://www.khanacademy.org/math/ap-calculus-ab/ab-differential-equations-new/ab-7-6/e/separable-equations"
+      }
       
     ],
     "extraHelpLinks": [
-      
+      {
+        "name": "The Organic Chemistry Tutor Video Separating Differential Equations",
+        "link": "https://www.youtube.com/watch?v=C7nuJcJriWM"
+      },
+      {
+        "name": "The Organic Chemistry Tutor Video Slope Fields",
+        "link": "https://www.youtube.com/watch?v=Wr9VOum9Co0"
+      }
     ]
   },
   {
