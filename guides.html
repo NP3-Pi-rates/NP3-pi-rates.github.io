@@ -28,6 +28,86 @@
             <option value="Calculus">Calculus</option>
         </select>
     </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tagFilter = document.getElementById("tagFilter");
+            const tableBody = document.getElementById("table-body");
+
+            async function fetchData() {
+                const response = await fetch("guides.json");
+                const data = await response.json();
+                return data;
+            }
+
+            async function populateTable() {
+                const data = await fetchData();
+                tableBody.innerHTML = "";
+
+                data.forEach(item => {
+                    const row = document.createElement("tr");
+                    const tagsCell = document.createElement("td");
+                    tagsCell.textContent = item.tags.join(", ");
+                    const nameCell = document.createElement("td");
+                    nameCell.textContent = item.name;
+                    const guideCell = document.createElement("td");
+                    const guideLink = document.createElement("a");
+                    guideLink.textContent = "Guide";
+                    guideLink.target = "_blank";
+                    guideLink.href = item.guideLink;
+                    guideCell.appendChild(guideLink);
+
+                    const practiceCell = document.createElement("td");
+                    item.practiceLinks.forEach(linkData => {
+                        const practiceLink = document.createElement("a");
+                        practiceLink.textContent = linkData.name;
+                        practiceLink.target = "_blank";
+                        practiceLink.href = linkData.link;
+                        practiceCell.appendChild(practiceLink);
+                        practiceCell.appendChild(document.createElement("br"));
+                    });
+
+                    const extraHelpCell = document.createElement("td");
+                    item.extraHelpLinks.forEach(linkData => {
+                        const extraHelpLink = document.createElement("a");
+                        extraHelpLink.textContent = linkData.name;
+                        extraHelpLink.target = "_blank";
+                        // Ensure the href starts with http:// or https://
+                        extraHelpLink.href = linkData.link.startsWith('http://') || linkData.link.startsWith('https://') ? linkData.link : `http://${linkData.link}`;
+                        extraHelpCell.appendChild(extraHelpLink);
+                        extraHelpCell.appendChild(document.createElement("br"));
+                    });
+
+                    row.appendChild(tagsCell);
+                    row.appendChild(nameCell);
+                    row.appendChild(guideCell);
+                    row.appendChild(practiceCell);
+                    row.appendChild(extraHelpCell);
+
+                    tableBody.appendChild(row);
+                });
+            }
+
+            tagFilter.addEventListener("change", () => {
+                const selectedTag = tagFilter.value;
+                const rows = tableBody.getElementsByTagName("tr");
+
+                for (const row of rows) {
+                    const tagsCell = row.querySelector("td:first-child");
+                    const tags = tagsCell.textContent.split(", ");
+
+                    if (selectedTag === "all" || tags.includes(selectedTag)) {
+                        row.style.display = "";
+                    } else {
+                        row.style.display = "none";
+                    }
+                }
+
+            });
+
+            populateTable();
+        });
+
+        </script>
     
     <table id="data-table">
         <thead>

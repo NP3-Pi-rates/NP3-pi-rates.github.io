@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin - Math Guides</title>
+    <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+    <div id="header">
+        <a href="/"><img src="https://natomasunified.org/content/uploads/sites/17/2020/08/NP3H-Logo-Black.png" alt="Np3 Logo"></a>
+        <button onclick="location.href='./guides.html';">Guides/Worksheets</button>
+        <button onclick="location.href='./about.html';">About Us</button>
+        <button onclick="location.href='./competitions.html';">Competitions</button>
+        <img src="./images/pi-rates watermark.png" alt="pirates logo" id="pirates-logo">
+    </div>
+
+    <div id="admin-container">
+        <h2>Admin Area - Manage Guides</h2>
+
+        <div id="admin-content">
+            <h3>Add/Edit Guide</h3>
+            <form id="guide-form">
+                <input type="hidden" id="guide-id"> <br> <!-- To track if it's a new or existing guide -->
+
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" required><br><br>
+
+                <label for="tags">Tags (comma-separated):</label><br>
+                <input type="text" id="tags" required><br><br>
+
+                <label for="guideLink">Guide File Name (will be in guides/):</label><br>
+                <input type="text" id="guideLink" placeholder="e.g., factoring_trinomials.pdf" required><br><br>
+
+                <h4>Practice Links</h4>
+                <div id="practice-links-container">
+                    <!-- Practice link inputs will be added here -->
+                </div>
+                <button type="button" id="add-practice-link">Add Practice Link</button><br><br>
+
+                <h4>Extra Help Links</h4>
+                <div id="extra-help-links-container">
+                    <!-- Extra help link inputs will be added here -->
+                </div>
+                <button type="button" id="add-extra-help-link">Add Extra Help Link</button><br><br>
+
+                <button type="submit">Save Guide</button>
+                <button type="button" id="cancel-edit" style="display:none;">Cancel Edit</button>
+            </form>
+
+            <h3>Current Guides</h3>
+            <table id="admin-table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Tags</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="admin-table-body">
+                    <!-- Guides will be loaded here -->
+                </tbody>
+            </table>
+
+            <button id="download-json">Download Updated guides.json</button>
+            <p class="instructions">
+                <strong>Instructions:</strong> After downloading the `guides.json` file, manually replace the existing `guides.json` file in your repository and commit the changes. Also, ensure you have manually uploaded the guide PDF files to the `guides/` directory.
+            </p>
+            <p id="json-download-status"></p>
+        </div>
+    </div>
+
+    <script src="admin.js"></script>
+    <script>
+        // Initial setup for practice and extra help links
+        document.addEventListener('DOMContentLoaded', function () {
+            document.getElementById('add-practice-link').click();
+            document.getElementById('add-extra-help-link').click();
+        });
+    </script>
+</body>
+</html>
