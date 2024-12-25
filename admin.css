@@ -1,0 +1,97 @@
+/* Import styles from your existing guides.css */
+@import url('guides.css');
+
+/* Specific styles for the admin page */
+#admin-container {
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #333; /* A slightly lighter background */
+    border-radius: 8px;
+}
+
+#admin-container h2, #admin-container h3 {
+    color: orange;
+}
+
+#admin-container label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#admin-container input[type="text"],
+#admin-container input[type="password"],
+#admin-container textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #555;
+    background-color: #444;
+    color: white;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#admin-container button {
+    cursor: pointer;
+    padding: 10px 15px;
+    color: white;
+    background-color: orange;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    font-size: 1em;
+    margin-right: 10px;
+}
+
+#admin-container button:hover {
+    background-color: #ffa500; /* Slightly brighter orange */
+}
+
+#admin-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#admin-table th, #admin-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#admin-table th {
+    background-color: #555;
+    color: white;
+}
+
+.error-message {
+    color: red;
+}
+
+.instructions {
+    margin-top: 20px;
+    font-style: italic;
+    color: #ccc;
+}
+
+#authentication-form {
+    background-color: #444;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+#authentication-form label {
+    color: white;
+    display: block;
+    margin-bottom: 5px;
+}
+
+#authentication-form input[type="password"] {
+    width: calc(100% - 20px);
+}
+
+#admin-content {
+    display: ;
+}
