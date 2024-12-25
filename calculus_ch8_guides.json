@@ -1,13 +1,64 @@
 [
   {
-    "name": "8.1 Key Points (In Progress)",
+    "name": "Disk Method",
     "tags": ["8.1"], 
-    "guideLink": "",
+    "guideLink": "./guide-files/disk_method.pdf",
     "practiceLinks": [
-
+      {
+        "name": "Kuta Practice",
+        "link": "https://cdn.kutasoftware.com/Worksheets/Calc/07%20-%20Volume%20Washers%20and%20Disks.pdf"
+      },
+      {
+        "name": "Khan Academy Disk Method Practice",
+        "link": "https://www.khanacademy.org/math/ap-calculus-ab/ab-applications-of-integration-new/ab-8-9/e/the-disk-method"
+      }
     ],
     "extraHelpLinks": [
-      
+      {
+        "name": "The Organic Chemistry Tutor Video Disc Method",
+        "link": "https://www.youtube.com/watch?v=SAHSVg7Jw_A"
+      }
+    ]
+  },
+  {
+    "name": "8.1 Key Points: Disk Method, Washer Method, Disk and Washer Methods Horizontally and Vertically, Disk and Washer Methods Axis of Rotation",
+    "tags": ["8.1"], 
+    "guideLink": "./guide-files/calculus_8.1_key_points.pdf",
+    "practiceLinks": [
+      {
+        "name": "Khan Academy Disk and Washer Methods Practice",
+        "link": "https://www.khanacademy.org/math/calculus-all-old/integration-applications-calc/washer-method-calc/e/volumes-of-solids-of-revolution--discs-and-washers"
+      },
+      {
+        "name": "Paul's Online Math Notes Practice",
+        "link": "https://tutorial.math.lamar.edu/problems/calci/volumewithrings.aspx"
+      },
+      {
+        "name": "Mr. Solis Disk Method Practice",
+        "link": "https://tajimasolis.weebly.com/uploads/3/7/3/4/37346235/16_volume_disk_method_practice.pdf"
+      },
+      {
+        "name": "Mr. Solis Washer Method Practice",
+        "link": "https://tajimasolis.weebly.com/uploads/3/7/3/4/37346235/washer_method_practice.pdf"
+      }
+    ],
+    "extraHelpLinks": [
+      {
+        "name": "Khan Academy Video Disc Method (x-axis)",
+        "link": "https://www.youtube.com/watch?v=btGaOTXxXs8"
+      },
+      {
+        "name": "Khan Academy Video Disc Method (y-axis)",
+        "link": "https://www.youtube.com/watch?v=43AS7bPUORc"
+      },
+      {
+        "name": "Khan Academy Video Disc Method (around a non-axis line)",
+        "link": "https://www.youtube.com/watch?v=XdzcU5JbVcA"
+      },
+      {
+        "name": "Khan Academy Video Washer Method",
+        "link": "https://www.youtube.com/watch?v=Thvc2s9aUP4"
+      }
     ]
   },
   {
