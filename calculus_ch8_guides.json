@@ -62,36 +62,91 @@
     ]
   },
   {
-    "name": "8.2 Key Points (In Progress)",
+    "name": "8.2 Key Points: Shell Method",
     "tags": ["8.2"], 
-    "guideLink": "",
+    "guideLink": "./guide-files/calculus_8.2_key_points.pdf",
     "practiceLinks": [
-      
+      {
+        "name": "Kuta Practice",
+        "link": "https://cdn.kutasoftware.com/Worksheets/Calc/07%20-%20Volume%20Cylinders.pdf"
+      },
+      {
+        "name": "Marta Hidegkuti Practice",
+        "link": "https://teaching.martahidegkuti.com/shared/lnotes/6_calculus/integral/applications/volume/shells/shells.pdf"
+      }
     ],
     "extraHelpLinks": [
-      
+      {
+        "name": "The Organic Chemistry Tutor Video",
+        "link": "https://www.youtube.com/watch?v=D5sT1br9soI"
+      },
+      {
+        "name": "Khan Academy Video",
+        "link": "https://www.youtube.com/watch?v=6Ozz3J-LRrY"
+      }
     ]
   },
   {
-    "name": "8.3 Key Points (In Progress)",
+    "name": "8.3 Key Points: Cross Sections",
     "tags": ["8.3"], 
-    "guideLink": "",
+    "guideLink": "./guide-files/calculus_8.3_key_points.pdf",
     "practiceLinks": [
-      
+      {
+        "name": "Kuta Practice",
+        "link": "https://cdn.kutasoftware.com/Worksheets/Calc/07%20-%20Volume%20Known%20Cross%20Sections.pdf"
+      },
+      {
+        "name": "Mr. Boggus Practice",
+        "link": "https://bogguschsmath.weebly.com/uploads/6/0/9/7/6097213/d7_cross_sections_wkst.pdf"
+      },
+      {
+        "name": "Mr. Solis Practice",
+        "link": "https://tajimasolis.weebly.com/uploads/3/7/3/4/37346235/16_volume_with_known_cross_sections.pdf"
+      }
     ],
     "extraHelpLinks": [
+      {
+        "name": "Khan Academy Video (Intro)",
+        "link": "https://www.youtube.com/watch?v=4vLy5VoUcQE"
+      },
+      {
+        "name": "Khan Academy Video (Triangles)",
+        "link": "https://www.youtube.com/watch?v=S-agS4YaxxU"
+      },
+      {
+        "name": "Khan Academy Video (Semicircles)",
+        "link": "https://www.youtube.com/watch?v=tf4C8x8e7HQ"
+      },
+      {
+        "name": "The Organic Chemistry Tutor Video",
+        "link": "https://www.youtube.com/watch?v=qMXPnfx2MQM"
+      }
       
     ]
   },
   {
-    "name": "8.4 Key Points (In Progress)",
+    "name": "8.4 Key Points: Arc Length",
     "tags": ["8.4"], 
-    "guideLink": "",
+    "guideLink": "./guide-files/calculus_8.4_key_points.pdf",
     "practiceLinks": [
-      
+      {
+        "name": "Khan Academy Practice",
+        "link": "https://www.khanacademy.org/math/ap-calculus-bc/bc-applications-of-integration-new/bc-8-13/e/arc-length-of-functions-in-one-variable"
+      },
+      {
+        "name": "Marta Hidegkuti Practice",
+        "link": "https://teaching.martahidegkuti.com/shared/lnotes/6_calculus/integral/applications/arclength/arclength.pdf"
+      }
     ],
     "extraHelpLinks": [
-      
+      {
+        "name": "Khan Academy Video",
+        "link": "https://www.youtube.com/watch?v=OhISsmqv4_8"
+      },
+      {
+        "name": "The Organic Chemistry Tutor Video",
+        "link": "https://www.youtube.com/watch?v=DNDAwWIL5FY"
+      }
     ]
   }
         
