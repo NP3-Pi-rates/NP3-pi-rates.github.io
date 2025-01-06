@@ -1,0 +1,58 @@
+[
+  {
+    "name": "2.1 Key Points: Describing Functions, Even and Odd Functions, Transforming Functions",
+    "tags": ["2.1"], 
+    "guideLink": "./guide-files/precalculus_2.1_key_points.pdf",
+    "practiceLinks": [
+      {
+        "name": "Kuta Practice Analyzing Graphs",
+        "link": "https://cdn.kutasoftware.com/Worksheets/Precalc/01%20-%20Extrema,%20Increase%20and%20Decrease.pdf"
+      },
+      {
+        "name": "Khan Academy Practice Even and Odd Functions",
+        "link": "https://www.khanacademy.org/math/algebra2/x2ec2f6f830c9fb89:transformations/x2ec2f6f830c9fb89:symmetry/e/determine-if-a-polynomial-is-even-or-odd"
+      },
+      {
+        "name": "Kuta Practice Function Transformations",
+        "link": "https://cdn.kutasoftware.com/Worksheets/Precalc/01%20-%20Transformations%20of%20Graphs.pdf"
+      }
+      
+    ],
+    "extraHelpLinks": [
+      {
+        "name": "Ryan Bowman Video Function Analysis Graphically",
+        "link": "https://www.youtube.com/watch?v=bRaeKjfdUzQ"
+      },
+      {
+        "name": "The Organic Chemistry Tutor Video Transformations",
+        "link": "https://www.youtube.com/watch?v=Tmdrjs9xufc"
+      },
+      {
+        "name": "Kimberly Brehm Video Analyzing Graphs of Functions and Even and Odd Functions",
+        "link": "https://www.youtube.com/watch?v=E3S-ll9AdaY"
+      }
+    ]
+  },
+  {
+    "name": "2.2 Key Points (In Progress)",
+    "tags": ["2.2"], 
+    "guideLink": "./guide-files/precalculus_1.2_key_points.pdf",
+    "practiceLinks": [
+      
+    ],
+    "extraHelpLinks": [
+      
+    ]
+  },
+  {
+    "name": "2.3 Key Points (In Progress)",
+    "tags": ["2.3"], 
+    "guideLink": "./guide-files/precalculus_1.3_key_points.pdf",
+    "practiceLinks": [
+      
+    ],
+    "extraHelpLinks": [
+     
+    ]
+  }
+]

@@ -41,10 +41,56 @@
     "tags": ["1.2"], 
     "guideLink": "./guide-files/precalculus_1.2_key_points.pdf",
     "practiceLinks": [
-      
+      {
+        "name": "Kuta Practice Composite Functions",
+        "link": "https://iblog.dearbornschools.org/singley/wp-content/uploads/sites/781/2017/09/Composite-Functions.pdf"
+      },
+      {
+        "name": "TSC Practice Composite Functions",
+        "link": "https://www.tsc.fl.edu/media/divisions/learning-commons/resources-by-subject/math/college-algebra/CompositeFunctions-Practice(and-solutions).pdf"
+      },
+      {
+        "name": "Kuta Practice Inverse Functions",
+        "link": "https://cdn.kutasoftware.com/Worksheets/Alg2/Function%20Inverses.pdf"
+      },
+      {
+        "name": "SharpSchool Practice Inverse Functions",
+        "link": "https://cdnsm5-ss2.sharpschool.com/UserFiles/Servers/Server_5219792/File/Boulton/Classwork%20Inverses.pdf"
+      },
+      {
+        "name": "Ms. Mackay Practice Piecewise Functions",
+        "link": "https://mamackay.weebly.com/uploads/1/3/3/8/13382344/piecewise_functions_practice_quiz.pdf"
+      },
+      {
+        "name": "Kuta Practice Piecewise Functions",
+        "link": "https://cdn.kutasoftware.com/Worksheets/Precalc/01%20-%20Piecewise%20Functions.pdf"
+      }
     ],
     "extraHelpLinks": [
-      
+      {
+        "name": "The Organic Chemistry Tutor Video Composite Functions",
+        "link": "https://www.youtube.com/watch?v=ZFPkQkURSxk"
+      },
+      {
+        "name": "Mathispower4u Video Composite Functions",
+        "link": "https://www.youtube.com/watch?v=qxBmISCJSME"
+      },
+      {
+        "name": "The Organic Chemistry Tutor Video Inverse Functions",
+        "link": "https://www.youtube.com/watch?v=etMK3xViMAc"
+      },
+      {
+        "name": "The Organic Chemistry Tutor Video Evaluating Piecewise Functions",
+        "link": "https://www.youtube.com/watch?v=OYOXMyFKotc"
+      },
+      {
+        "name": "The Organic Chemistry Tutor Video Graphing Piecewise Functions",
+        "link": "https://www.youtube.com/watch?v=Uzw9tsGq2Pw"
+      },
+      {
+        "name": "Professor Dave Explains Video Piecewise Functions and Continuity",
+        "link": "https://www.youtube.com/watch?v=BIQrnx-vvx8"
+      }
     ]
   },
   {
@@ -52,10 +98,28 @@
     "tags": ["1.3"], 
     "guideLink": "./guide-files/precalculus_1.3_key_points.pdf",
     "practiceLinks": [
-      
+      {
+        "name": "Kuta Practice Radians",
+        "link": "https://binghamnewbold.weebly.com/uploads/1/2/0/9/120959966/sm2h_9.1_degrees_and_radians_hw.pdf"
+      },
+      {
+        "name": "UCA Practice Unit Circle",
+        "link": "https://faculty.uca.edu/clarenceb/Courses/Fall%202015/Math%201392%20Trigonometry/BlankUnitCircle.pdf"
+      }
     ],
     "extraHelpLinks": [
-      
+      {
+        "name": "The Organic Chemistry Tutor Video Radians",
+        "link": "https://www.youtube.com/watch?v=JmLN3QxshlE"
+      },
+      {
+        "name": "Professor Dave Explains Video Radians",
+        "link": "https://www.youtube.com/watch?v=0GkmnPdD6jY"
+      },
+      {
+        "name": "The Organic Chemistry Tutor Video Unit Circle",
+        "link": "https://www.youtube.com/watch?v=gdJq1QunN-o"
+      }
     ]
   }
 ]
