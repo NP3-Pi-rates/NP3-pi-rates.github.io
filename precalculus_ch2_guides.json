@@ -34,25 +34,90 @@
     ]
   },
   {
-    "name": "2.2 Key Points (In Progress)",
+    "name": "2.2 Key Points: Special Right Triangles, Unit Circle (Special Right Triangles, Sine, Cosine, Pythagorean Identity,  Tangent, Reference Angle, Coterminal Angles), Graphing Sine and Cosine",
     "tags": ["2.2"], 
-    "guideLink": "./guide-files/precalculus_1.2_key_points.pdf",
+    "guideLink": "./guide-files/precalculus_2.2_key_points.pdf",
     "practiceLinks": [
-      
+      {
+        "name": "Kuta Practice Special Right Triangles",
+        "link": "https://cdn.kutasoftware.com/Worksheets/Geo/8-Special%20Right%20Triangles.pdf"
+      },
+      {
+        "name": "Kuta Practice Reference Angles and Unit Circle Values",
+        "link": "https://cdnsm5-ss10.sharpschool.com/UserFiles/Servers/Server_165548/File/Angles_and_Unit_Circle_Values_G.pdf"
+      },
+      {
+        "name": "Kuta Practice Reference Angles and Unit Circle Values",
+        "link": "https://cdnsm5-ss10.sharpschool.com/UserFiles/Servers/Server_165548/File/Angles_and_Unit_Circle_Values_G.pdf"
+      },
+      {
+        "name": "Kuta Practice Graphing Sine and Cosine",
+        "link": "https://bonitahigh.net/wp-content/uploads/2020/02/Graphing-Sine-and-Cosine-Trig-Functions-WS-3.pdf?TB_iframe=true&width=600&height=750"
+      },
+      {
+        "name": "Kuta Practice Reference Angles and Coterminal Angles",
+        "link": "https://cdn.kutasoftware.com/Worksheets/Alg2/Coterminal%20Angles%20and%20Reference%20Angles.pdf"
+      }
     ],
     "extraHelpLinks": [
-      
+      {
+        "name": "Moore Math Madness Video Special Right Triangles and the Unit Circle",
+        "link": "https://www.youtube.com/watch?v=Tmdrjs9xufc"
+      },
+      {
+        "name": "Khan Academy Video Unit Circle Sine and Cosine",
+        "link": "https://www.youtube.com/watch?v=Tmdrjs9xufc"
+      },
+      {
+        "name": "The Organic Chemistry Tutor Video Graphing Sine and Cosine",
+        "link": "https://www.youtube.com/watch?v=Vw-RwPBWS8g"
+      }
     ]
   },
   {
-    "name": "2.3 Key Points (In Progress)",
+    "name": "2.3 Key Points: Graphing Tangent, Graphing Inverse Trigonometric Equations, Solving Trigonometric Equations",
     "tags": ["2.3"], 
-    "guideLink": "./guide-files/precalculus_1.3_key_points.pdf",
+    "guideLink": "./guide-files/precalculus_2.3_key_points.pdf",
     "practiceLinks": [
+      {
+        "name": "Kuta Practice Graphing Trig Functions",
+        "link": "https://cdn.kutasoftware.com/Worksheets/Precalc/04%20-%20Graphs%20of%20Trig%20Functions.pdf"
+      },
+      {
+        "name": "Kuta Practice Solving Trig Equations",
+        "link": "https://cdn.kutasoftware.com/Worksheets/Precalc/04%20-%20Simple%20Trig%20Equations.pdf"
+      },
+      {
+        "name": "Kuta Practice Solving Trig Equations (2)",
+        "link": "https://www.sausd.us/cms/lib/CA01000471/Centricity/Domain/2269/Worksheet%20102%20-%20Solving%20Trigonometric%20Equations.pdf"
+      },
+      {
+        "name": "Kuta Practice Graphing Inverse Trig Functions",
+        "link": "https://cdn.kutasoftware.com/Worksheets/Precalc/04%20-%20Inverse%20Trig%20Functions.pdf"
+      }
       
     ],
     "extraHelpLinks": [
-     
+      {
+        "name": "Brian McLogan Video Graphing Tangent",
+        "link": "https://www.youtube.com/watch?v=rT1ahSJ1qhY"
+      },
+      {
+        "name": "Alise Weber Video Graphing Inverse Trig Functions",
+        "link": "https://www.youtube.com/watch?v=rs3yXvzvfw0"
+      },
+      {
+        "name": "Brandon Grasley Video Solving Trig Equations",
+        "link": "https://www.youtube.com/watch?v=2usVyTSYDyw"
+      },
+      {
+        "name": "Professor Dave Explains Video Solving Trig Equations",
+        "link": "https://www.youtube.com/watch?v=aq4b24jcZOc"
+      },
+      {
+        "name": "The Organic Chemistry Tutor Video Solving Trig Equations",
+        "link": "https://www.youtube.com/watch?v=VMAMARmmDac"
+      }
     ]
   }
 ]

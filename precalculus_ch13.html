@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
+    <meta HTTP-EQUIV="EXPIRES" CONTENT="Mon, 22 Jul 2002 11:12:01 GMT">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Precalculus Chapter 13</title>
+    <link rel="stylesheet" href="guides.css">
+</head>
+<body>
+    <div id="header">
+        <a href="/"><img src="https://resources.finalsite.net/images/f_auto,q_auto/v1720002453/natomasunifiedorg/dydmlbcfvutq09ngjkc5/NP3CharterPrimaryLogoImage.png" alt="Np3 Logo"></a>
+        <button onclick="location.href='./guides.html';">Guides/Worksheets</button>
+        <button onclick="location.href='./about.html';">About Us</button>
+        <button onclick="location.href='./competitions.html';">Competitions</button>
+        <button onclick="location.href='./calculus.html';">Calculus Guides</button>
+        <button onclick="location.href='./precalculus.html';">Precalculus Guides</button>
+        <img src="./images/pi-rates watermark.png" alt="pirates logo" id="pirates-logo">
+    </div>
+
+    <p style="text-align: center; font-weight: bold; font-size: 2em;">Precalculus Chapter 13</p>
+
+    <div class="filter">
+        <label for="tagFilter">Filter by Section:</label>
+        <select id="tagFilter">
+            <option value="all">All</option>
+            <option value="13.1">13.1</option>
+            <option value="13.2">13.2</option>
+            <option value="13.3">13.3</option>
+        </select>
+    </div>
+    
+    <table id="data-table">
+        <thead>
+            <tr>
+                <th>Section</th>
+                <th>Name</th>
+                <th>Guide</th>
+                <th>Practice</th>
+                <th>Extra Help</th>
+            </tr>
+        </thead>
+        <tbody id="table-body">
+        </tbody>
+    </table>
+    
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                const tagFilter = document.getElementById("tagFilter");
+                const tableBody = document.getElementById("table-body");
+            
+                async function fetchData() {
+                    const response = await fetch("precalculus_ch13_guides.json");
+                    const data = await response.json();
+                    return data;
+                }
+            
+                async function populateTable() {
+                    const data = await fetchData();
+                    tableBody.innerHTML = "";
+                
+                    data.forEach(item => {
+                        const row = document.createElement("tr");
+                        const tagsCell = document.createElement("td");
+                        tagsCell.textContent = item.tags.join(", ");
+                        const nameCell = document.createElement("td");
+                        nameCell.textContent = item.name;
+                        const guideCell = document.createElement("td");
+                        const guideLink = document.createElement("a");
+                        guideLink.textContent = "Guide";
+                        guideLink.target = "_blank";
+                        guideLink.href = item.guideLink;
+                        guideCell.appendChild(guideLink);
+                
+                        const practiceCell = document.createElement("td");
+                        item.practiceLinks.forEach(linkData => {
+                            const practiceLink = document.createElement("a");
+                            practiceLink.textContent = linkData.name;
+                            practiceLink.target = "_blank";
+                            practiceLink.href = linkData.link;
+                            practiceCell.appendChild(practiceLink);
+                            practiceCell.appendChild(document.createElement("br")); 
+                        });
+                
+                        const extraHelpCell = document.createElement("td");
+                        item.extraHelpLinks.forEach(linkData => {
+                            const extraHelpLink = document.createElement("a");
+                            extraHelpLink.textContent = linkData.name;
+                            extraHelpLink.target = "_blank";
+                            extraHelpLink.href = linkData.link;
+                            extraHelpCell.appendChild(extraHelpLink);
+                            extraHelpCell.appendChild(document.createElement("br")); 
+                        });
+                
+                        row.appendChild(tagsCell);
+                        row.appendChild(nameCell);
+                        row.appendChild(guideCell);
+                        row.appendChild(practiceCell);
+                        row.appendChild(extraHelpCell);
+                
+                        tableBody.appendChild(row);
+                    });
+                }
+            
+                tagFilter.addEventListener("change", () => {
+                    const selectedTag = tagFilter.value;
+                    const rows = tableBody.getElementsByTagName("tr");
+                
+                    for (const row of rows) {
+                        const tagsCell = row.querySelector("td:first-child"); 
+                        const tags = tagsCell.textContent.split(", ");
+                        
+                        if (selectedTag === "all" || tags.includes(selectedTag)) {
+                            row.style.display = ""; 
+                        } else {
+                            row.style.display = "none";
+                        }
+                    }
+                
+                
+                });
+            
+                populateTable();
+            });
+            
+            </script>
+</body>
+</html>
