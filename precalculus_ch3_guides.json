@@ -1,12 +1,12 @@
 [
   {
-    "name": "3.1 Key Points: (In Progress)",
+    "name": "3.1 Key Points: Rational Expressions, U-substitution, Solving Nonlinear Systems of Equations, Polynomial Division",
     "tags": ["3.1"], 
-    "guideLink": "",
+    "guideLink": "./guide-files/precalculus_3.1_key_points.pdf",
     "practiceLinks": [
       {
-        "name": "",
-        "link": ""
+        "name": "Kuta Practice Polynomial Division",
+        "link": "https://cdn.kutasoftware.com/Worksheets/Alg1/Dividing%20Polynomials.pdf"
       }
       
       
@@ -19,13 +19,13 @@
     ]
   },
   {
-    "name": "3.2 Key Points: (In Progress)",
+    "name": "3.2 Key Points: Summation/Sigma Notation, Area Under a Curve, Left and Right Endpoint Rectangles",
     "tags": ["3.2"], 
-    "guideLink": "",
+    "guideLink": "./guide-files/precalculus_3.2_key_points.pdf",
     "practiceLinks": [
       {
-        "name": "",
-        "link": ""
+        "name": "Kuta Practice Summation Notation",
+        "link": "https://cdn.kutasoftware.com/Worksheets/Alg2/Introduction%20to%20Series.pdf"
       }
     
     ],
