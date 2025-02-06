@@ -5,6 +5,18 @@
     "guideLink": "./guide-files/precalculus_3.1_key_points.pdf",
     "practiceLinks": [
       {
+        "name": "Kuta Practice Adding/Subtracting Rational Expressions",
+        "link": "https://cdn.kutasoftware.com/Worksheets/Alg2/Adding%20and%20Subtracting%20Rational%20Expressions.pdf"
+      },
+      {
+        "name": "Kuta Practice Multiplying Rational Expressions",
+        "link": "https://cdn.kutasoftware.com/Worksheets/Alg1/Multiplying%20Rational%20Expressions.pdf"
+      },
+      {
+        "name": "Kuta Practice U-substitution/Trig Equations with Factoring",
+        "link": "https://cdn.kutasoftware.com/Worksheets/Precalc/04%20-%20Trig%20Equations%20w%20Factoring%20%2B%20Fundamental%20Identities.pdf"
+      },
+      {
         "name": "Kuta Practice Polynomial Division",
         "link": "https://cdn.kutasoftware.com/Worksheets/Alg1/Dividing%20Polynomials.pdf"
       }

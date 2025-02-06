@@ -1,20 +1,40 @@
 [
   {
-    "name": "6.1 Key Points: (In Progress)",
+    "name": "6.1 Key Points: Law of Sines, Law of Cosines",
     "tags": ["6.1"], 
-    "guideLink": "",
+    "guideLink": "./guide-files/calculus_6.1_key_points.pdf",
     "practiceLinks": [
       {
-        "name": "",
-        "link": ""
+        "name": "Kuta Practice Law of Sines",
+        "link": "https://cdn.kutasoftware.com/Worksheets/Alg2/Law%20of%20Sines.pdf"
+      },
+      {
+        "name": "Khan Academy Practice Law of Sines",
+        "link": "https://cdn.kutasoftware.com/Worksheets/Alg2/Law%20of%20Sines.pdf"
+      },
+      {
+        "name": "Kuta Practice Law of Cosines",
+        "link": "https://cdn.kutasoftware.com/Worksheets/Alg2/Law%20of%20Cosines.pdf"
+      },
+      {
+      "name": "Khan Academy Practice Law of Cosines",
+      "link": "https://www.khanacademy.org/math/precalculus/x9e81a4f98389efdf:trig/x9e81a4f98389efdf:law-of-cosines/e/law_of_cosines"
       }
       
       
     ],
     "extraHelpLinks": [
       {
-        "name": "",
-        "link": ""
+        "name": "Nerdstudy Law of Sines Ambigious Case Video",
+        "link": "https://www.youtube.com/watch?v=RCyjglaJo5w"
+      },
+      {
+        "name": "The Organic Chemistry Tutor Law of Sines Video",
+        "link": "https://www.youtube.com/watch?v=9fS0uA4iLxI"
+      },
+      {
+        "name": "The Organic Chemistry Tutor Law of Cosines Video",
+        "link": "https://www.youtube.com/watch?v=9CGY0s-uCUE"
       }
     ]
   },
@@ -35,23 +55,6 @@
         "link": ""
       }
     ]
-  },
-  {
-    "name": "6.3 Key Points: (In Progress)",
-    "tags": ["6.3"], 
-    "guideLink": "",
-    "practiceLinks": [
-      {
-        "name": "",
-        "link": ""
-      }
-      
-    ],
-    "extraHelpLinks": [
-      {
-        "name": "",
-        "link": ""
-      }
-    ]
   }
+  
 ]
