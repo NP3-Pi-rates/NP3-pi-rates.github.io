@@ -17,6 +17,10 @@
         "link": "https://cdn.kutasoftware.com/Worksheets/Precalc/04%20-%20Trig%20Equations%20w%20Factoring%20%2B%20Fundamental%20Identities.pdf"
       },
       {
+        "name": "Paul Nguyen Practice Non-linear Systems of Equations",
+        "link": "https://www.paul-nguyen.com/wp-content/uploads/2020/10/nonlinear-systems-subtitution.pdf"
+      },
+      {
         "name": "Kuta Practice Polynomial Division",
         "link": "https://cdn.kutasoftware.com/Worksheets/Alg1/Dividing%20Polynomials.pdf"
       }
@@ -25,8 +29,24 @@
     ],
     "extraHelpLinks": [
       {
-        "name": "",
-        "link": ""
+        "name": "The Organic Chemistry Tutor Video Combining Rational Expressions",
+        "link": "https://www.youtube.com/watch?v=p-JyTt0L-Tk"
+      },
+      {
+        "name": "The Organic Chemistry Tutor Video Solving Trig Equations by Factoring",
+        "link": "https://www.youtube.com/watch?v=-R7394Dn854"
+      },
+      {
+        "name": "The Organic Chemistry Tutor Video Polynomial Long Division",
+        "link": "https://www.youtube.com/watch?v=8lT00iLntFc"
+      },
+      {
+        "name": "The Organic Chemistry Tutor Video Synthetic Division",
+        "link": "https://www.youtube.com/watch?v=FxHWoUOq2iQ"
+      },
+      {
+        "name": "Karen McPherson Video Polynomial Division Area Model",
+        "link": "https://www.youtube.com/watch?v=Avq7eqxvjCM"
       }
     ]
   },
@@ -38,13 +58,29 @@
       {
         "name": "Kuta Practice Summation Notation",
         "link": "https://cdn.kutasoftware.com/Worksheets/Alg2/Introduction%20to%20Series.pdf"
+      },
+      {
+        "name": "Kuta Practice Left and Right Endpoint Rectangles",
+        "link": "https://cdn.kutasoftware.com/Worksheets/Calc/06%20-%20Approximating%20Area%20Under%20Curve.pdf"
       }
     
     ],
     "extraHelpLinks": [
       {
-        "name": "",
-        "link": ""
+        "name": "Cole's World of Mathematics Video Summation/Sigma Notation Introduction",
+        "link": "https://www.youtube.com/watch?v=66BaGaydMnU"
+      },
+      {
+        "name": "Khan Academy Video Summation/Sigma Notation Introduction",
+        "link": "https://www.youtube.com/watch?v=5jwXThH6fg4&t=115s"
+      },
+      {
+        "name": "Brian Veitch Video Area Under the Curve Introduction",
+        "link": "https://www.youtube.com/watch?v=Q94y4U118Qc"
+      },
+      {
+        "name": "The Organic Chemistry Tutor Video Left and Right Endpoint Rectangles",
+        "link": "https://www.youtube.com/watch?v=YTKQswb60Pw"
       }
     ]
   }

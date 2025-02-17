@@ -451,6 +451,498 @@
             ]
           },
           {
+            "name": "CPM Precalculus 1.1 Key Points: Functions, Common Functions, Exponent Properties, Rates of Change, Algebraic Manipulation, Equations of a Line",
+            "tags": ["Precalculus"], 
+            "guideLink": "./guide-files/precalculus_1.1_key_points.pdf",
+            "practiceLinks": [
+              {
+                "name": "Weebly Types of Functions Practice",
+                "link": "https://bcookmath.weebly.com/uploads/1/5/3/6/15360784/types_of_functions_worksheet.pdf"
+              },
+              {
+                "name": "Khan Academy Exponent Properties Practice",
+                "link": "https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:rational-exponents-radicals/x2f8bb11595b61c86:exponent-properties-review/e/properties-of-integer-exponents"
+              },
+              {
+                "name": "Kuta Exponent Properties Practice",
+                "link": "https://cdn.kutasoftware.com/Worksheets/Alg1/Properties%20of%20Exponents.pdf"
+              },
+              {
+                "name": "Kuta Equations of Lines Practice",
+                "link": "https://resources.finalsite.net/images/v1590523945/chcaohorg/kenj94incpk9uip1f73x/GEO_3Writing_Equations_of_Lines.pdf"
+              }
+            ],
+            "extraHelpLinks": [
+              {
+                "name": "Olga Andreeva Types of Functions Video",
+                "link": "https://www.youtube.com/watch?v=Air3gz2KabA"
+              },
+              {
+                "name": "The Organic Chemistry Tutor Exponent Properties Video",
+                "link": "https://www.youtube.com/watch?v=etMK3xViMAc"
+              },
+              {
+                "name": "The Organic Chemistry Tutor Linear Equations Video",
+                "link": "https://www.youtube.com/watch?v=Ft2_QtXAnh8"
+              }
+            ]
+          },
+          {
+            "name": "CPM Precalculus 1.2 Key Points: Composite Functions, Inverse Functions, Piecewise Functions, Continuity Intuition",
+            "tags": ["Precalculus"], 
+            "guideLink": "./guide-files/precalculus_1.2_key_points.pdf",
+            "practiceLinks": [
+              {
+                "name": "Kuta Practice Composite Functions",
+                "link": "https://iblog.dearbornschools.org/singley/wp-content/uploads/sites/781/2017/09/Composite-Functions.pdf"
+              },
+              {
+                "name": "TSC Practice Composite Functions",
+                "link": "https://www.tsc.fl.edu/media/divisions/learning-commons/resources-by-subject/math/college-algebra/CompositeFunctions-Practice(and-solutions).pdf"
+              },
+              {
+                "name": "Kuta Practice Inverse Functions",
+                "link": "https://cdn.kutasoftware.com/Worksheets/Alg2/Function%20Inverses.pdf"
+              },
+              {
+                "name": "SharpSchool Practice Inverse Functions",
+                "link": "https://cdnsm5-ss2.sharpschool.com/UserFiles/Servers/Server_5219792/File/Boulton/Classwork%20Inverses.pdf"
+              },
+              {
+                "name": "Ms. Mackay Practice Piecewise Functions",
+                "link": "https://mamackay.weebly.com/uploads/1/3/3/8/13382344/piecewise_functions_practice_quiz.pdf"
+              },
+              {
+                "name": "Kuta Practice Piecewise Functions",
+                "link": "https://cdn.kutasoftware.com/Worksheets/Precalc/01%20-%20Piecewise%20Functions.pdf"
+              }
+            ],
+            "extraHelpLinks": [
+              {
+                "name": "The Organic Chemistry Tutor Video Composite Functions",
+                "link": "https://www.youtube.com/watch?v=ZFPkQkURSxk"
+              },
+              {
+                "name": "Mathispower4u Video Composite Functions",
+                "link": "https://www.youtube.com/watch?v=qxBmISCJSME"
+              },
+              {
+                "name": "The Organic Chemistry Tutor Video Inverse Functions",
+                "link": "https://www.youtube.com/watch?v=etMK3xViMAc"
+              },
+              {
+                "name": "The Organic Chemistry Tutor Video Evaluating Piecewise Functions",
+                "link": "https://www.youtube.com/watch?v=OYOXMyFKotc"
+              },
+              {
+                "name": "The Organic Chemistry Tutor Video Graphing Piecewise Functions",
+                "link": "https://www.youtube.com/watch?v=Uzw9tsGq2Pw"
+              },
+              {
+                "name": "Professor Dave Explains Video Piecewise Functions and Continuity",
+                "link": "https://www.youtube.com/watch?v=BIQrnx-vvx8"
+              }
+            ]
+          },
+          {
+            "name": "CPM Precalculus Precalculus 1.3 Key Points: Radians, Unit Circle",
+            "tags": ["Precalculus"], 
+            "guideLink": "./guide-files/precalculus_1.3_key_points.pdf",
+            "practiceLinks": [
+              {
+                "name": "Kuta Practice Radians",
+                "link": "https://binghamnewbold.weebly.com/uploads/1/2/0/9/120959966/sm2h_9.1_degrees_and_radians_hw.pdf"
+              },
+              {
+                "name": "UCA Practice Unit Circle",
+                "link": "https://faculty.uca.edu/clarenceb/Courses/Fall%202015/Math%201392%20Trigonometry/BlankUnitCircle.pdf"
+              }
+            ],
+            "extraHelpLinks": [
+              {
+                "name": "The Organic Chemistry Tutor Video Radians",
+                "link": "https://www.youtube.com/watch?v=JmLN3QxshlE"
+              },
+              {
+                "name": "Professor Dave Explains Video Radians",
+                "link": "https://www.youtube.com/watch?v=0GkmnPdD6jY"
+              },
+              {
+                "name": "The Organic Chemistry Tutor Video Unit Circle",
+                "link": "https://www.youtube.com/watch?v=gdJq1QunN-o"
+              }
+            ]
+          },
+          {
+            "name": "CPM Precalculus 2.1 Key Points: Describing Functions, Even and Odd Functions, Transforming Functions",
+            "tags": ["Precalculus"], 
+            "guideLink": "./guide-files/precalculus_2.1_key_points.pdf",
+            "practiceLinks": [
+              {
+                "name": "Kuta Practice Analyzing Graphs",
+                "link": "https://cdn.kutasoftware.com/Worksheets/Precalc/01%20-%20Extrema,%20Increase%20and%20Decrease.pdf"
+              },
+              {
+                "name": "Khan Academy Practice Even and Odd Functions",
+                "link": "https://www.khanacademy.org/math/algebra2/x2ec2f6f830c9fb89:transformations/x2ec2f6f830c9fb89:symmetry/e/determine-if-a-polynomial-is-even-or-odd"
+              },
+              {
+                "name": "Kuta Practice Function Transformations",
+                "link": "https://cdn.kutasoftware.com/Worksheets/Precalc/01%20-%20Transformations%20of%20Graphs.pdf"
+              }
+              
+            ],
+            "extraHelpLinks": [
+              {
+                "name": "Ryan Bowman Video Function Analysis Graphically",
+                "link": "https://www.youtube.com/watch?v=bRaeKjfdUzQ"
+              },
+              {
+                "name": "The Organic Chemistry Tutor Video Transformations",
+                "link": "https://www.youtube.com/watch?v=Tmdrjs9xufc"
+              },
+              {
+                "name": "Kimberly Brehm Video Analyzing Graphs of Functions and Even and Odd Functions",
+                "link": "https://www.youtube.com/watch?v=E3S-ll9AdaY"
+              }
+            ]
+          },
+          {
+            "name": "CPM Precalculus 2.2 Key Points: Special Right Triangles, Unit Circle (Special Right Triangles, Sine, Cosine, Pythagorean Identity,  Tangent, Reference Angle, Coterminal Angles), Graphing Sine and Cosine",
+            "tags": ["Precalculus"], 
+            "guideLink": "./guide-files/precalculus_2.2_key_points.pdf",
+            "practiceLinks": [
+              {
+                "name": "Kuta Practice Special Right Triangles",
+                "link": "https://cdn.kutasoftware.com/Worksheets/Geo/8-Special%20Right%20Triangles.pdf"
+              },
+              {
+                "name": "Kuta Practice Reference Angles and Unit Circle Values",
+                "link": "https://cdnsm5-ss10.sharpschool.com/UserFiles/Servers/Server_165548/File/Angles_and_Unit_Circle_Values_G.pdf"
+              },
+              {
+                "name": "Kuta Practice Reference Angles and Unit Circle Values",
+                "link": "https://cdnsm5-ss10.sharpschool.com/UserFiles/Servers/Server_165548/File/Angles_and_Unit_Circle_Values_G.pdf"
+              },
+              {
+                "name": "Kuta Practice Graphing Sine and Cosine",
+                "link": "https://bonitahigh.net/wp-content/uploads/2020/02/Graphing-Sine-and-Cosine-Trig-Functions-WS-3.pdf?TB_iframe=true&width=600&height=750"
+              },
+              {
+                "name": "Kuta Practice Reference Angles and Coterminal Angles",
+                "link": "https://cdn.kutasoftware.com/Worksheets/Alg2/Coterminal%20Angles%20and%20Reference%20Angles.pdf"
+              }
+            ],
+            "extraHelpLinks": [
+              {
+                "name": "Moore Math Madness Video Special Right Triangles and the Unit Circle",
+                "link": "https://www.youtube.com/watch?v=Tmdrjs9xufc"
+              },
+              {
+                "name": "Khan Academy Video Unit Circle Sine and Cosine",
+                "link": "https://www.youtube.com/watch?v=Tmdrjs9xufc"
+              },
+              {
+                "name": "The Organic Chemistry Tutor Video Graphing Sine and Cosine",
+                "link": "https://www.youtube.com/watch?v=Vw-RwPBWS8g"
+              }
+            ]
+          },
+          {
+            "name": "CPM Precalculus 2.3 Key Points: Graphing Tangent, Graphing Inverse Trigonometric Equations, Solving Trigonometric Equations",
+            "tags": ["Precalculus"], 
+            "guideLink": "./guide-files/precalculus_2.3_key_points.pdf",
+            "practiceLinks": [
+              {
+                "name": "Kuta Practice Graphing Trig Functions",
+                "link": "https://cdn.kutasoftware.com/Worksheets/Precalc/04%20-%20Graphs%20of%20Trig%20Functions.pdf"
+              },
+              {
+                "name": "Kuta Practice Solving Trig Equations",
+                "link": "https://cdn.kutasoftware.com/Worksheets/Precalc/04%20-%20Simple%20Trig%20Equations.pdf"
+              },
+              {
+                "name": "Kuta Practice Solving Trig Equations (2)",
+                "link": "https://www.sausd.us/cms/lib/CA01000471/Centricity/Domain/2269/Worksheet%20102%20-%20Solving%20Trigonometric%20Equations.pdf"
+              },
+              {
+                "name": "Kuta Practice Graphing Inverse Trig Functions",
+                "link": "https://cdn.kutasoftware.com/Worksheets/Precalc/04%20-%20Inverse%20Trig%20Functions.pdf"
+              }
+              
+            ],
+            "extraHelpLinks": [
+              {
+                "name": "Brian McLogan Video Graphing Tangent",
+                "link": "https://www.youtube.com/watch?v=rT1ahSJ1qhY"
+              },
+              {
+                "name": "Alise Weber Video Graphing Inverse Trig Functions",
+                "link": "https://www.youtube.com/watch?v=rs3yXvzvfw0"
+              },
+              {
+                "name": "Brandon Grasley Video Solving Trig Equations",
+                "link": "https://www.youtube.com/watch?v=2usVyTSYDyw"
+              },
+              {
+                "name": "Professor Dave Explains Video Solving Trig Equations",
+                "link": "https://www.youtube.com/watch?v=aq4b24jcZOc"
+              },
+              {
+                "name": "The Organic Chemistry Tutor Video Solving Trig Equations",
+                "link": "https://www.youtube.com/watch?v=VMAMARmmDac"
+              }
+            ]
+          },
+          {
+            "name": "CPM Precalculus 3.1 Key Points: Rational Expressions, U-substitution, Solving Nonlinear Systems of Equations, Polynomial Division",
+            "tags": ["Precalculus"], 
+            "guideLink": "./guide-files/precalculus_3.1_key_points.pdf",
+            "practiceLinks": [
+              {
+                "name": "Kuta Practice Adding/Subtracting Rational Expressions",
+                "link": "https://cdn.kutasoftware.com/Worksheets/Alg2/Adding%20and%20Subtracting%20Rational%20Expressions.pdf"
+              },
+              {
+                "name": "Kuta Practice Multiplying Rational Expressions",
+                "link": "https://cdn.kutasoftware.com/Worksheets/Alg1/Multiplying%20Rational%20Expressions.pdf"
+              },
+              {
+                "name": "Kuta Practice U-substitution/Trig Equations with Factoring",
+                "link": "https://cdn.kutasoftware.com/Worksheets/Precalc/04%20-%20Trig%20Equations%20w%20Factoring%20%2B%20Fundamental%20Identities.pdf"
+              },
+              {
+                "name": "Paul Nguyen Practice Non-linear Systems of Equations",
+                "link": "https://www.paul-nguyen.com/wp-content/uploads/2020/10/nonlinear-systems-subtitution.pdf"
+              },
+              {
+                "name": "Kuta Practice Polynomial Division",
+                "link": "https://cdn.kutasoftware.com/Worksheets/Alg1/Dividing%20Polynomials.pdf"
+              }
+              
+              
+            ],
+            "extraHelpLinks": [
+              {
+                "name": "The Organic Chemistry Tutor Video Combining Rational Expressions",
+                "link": "https://www.youtube.com/watch?v=p-JyTt0L-Tk"
+              },
+              {
+                "name": "The Organic Chemistry Tutor Video Solving Trig Equations by Factoring",
+                "link": "https://www.youtube.com/watch?v=-R7394Dn854"
+              },
+              {
+                "name": "The Organic Chemistry Tutor Video Polynomial Long Division",
+                "link": "https://www.youtube.com/watch?v=8lT00iLntFc"
+              },
+              {
+                "name": "The Organic Chemistry Tutor Video Synthetic Division",
+                "link": "https://www.youtube.com/watch?v=FxHWoUOq2iQ"
+              },
+              {
+                "name": "Karen McPherson Video Polynomial Division Area Model",
+                "link": "https://www.youtube.com/watch?v=Avq7eqxvjCM"
+              }
+            ]
+          },
+          {
+            "name": "CPM Precalculus 3.2 Key Points: Summation/Sigma Notation, Area Under a Curve, Left and Right Endpoint Rectangles",
+            "tags": ["Precalculus"], 
+            "guideLink": "./guide-files/precalculus_3.2_key_points.pdf",
+            "practiceLinks": [
+              {
+                "name": "Kuta Practice Summation Notation",
+                "link": "https://cdn.kutasoftware.com/Worksheets/Alg2/Introduction%20to%20Series.pdf"
+              },
+              {
+                "name": "Kuta Practice Left and Right Endpoint Rectangles",
+                "link": "https://cdn.kutasoftware.com/Worksheets/Calc/06%20-%20Approximating%20Area%20Under%20Curve.pdf"
+              }
+            
+            ],
+            "extraHelpLinks": [
+              {
+                "name": "Cole's World of Mathematics Video Summation/Sigma Notation Introduction",
+                "link": "https://www.youtube.com/watch?v=66BaGaydMnU"
+              },
+              {
+                "name": "Khan Academy Video Summation/Sigma Notation Introduction",
+                "link": "https://www.youtube.com/watch?v=5jwXThH6fg4&t=115s"
+              },
+              {
+                "name": "Brian Veitch Video Area Under the Curve Introduction",
+                "link": "https://www.youtube.com/watch?v=Q94y4U118Qc"
+              },
+              {
+                "name": "The Organic Chemistry Tutor Video Left and Right Endpoint Rectangles",
+                "link": "https://www.youtube.com/watch?v=YTKQswb60Pw"
+              }
+            ]
+          },
+          {
+            "name": "CPM Precalculus 4.1 Key Points: Polynomial Functions in Factored Form, Polynomial Factor Theorem, Writing Equations of Polynomial Functions, Imaginary Numbers, Fundamental Theorem of Algebra, Rational Roots Theorem",
+            "tags": ["Precalculus"], 
+            "guideLink": "./guide-files/precalculus_4.1_key_points.pdf",
+            "practiceLinks": [
+              {
+                "name": "Kuta Practice Graphing Polynomial Fuctions",
+                "link": "https://cdn.kutasoftware.com/Worksheets/Alg2/Graphing%20Polynomial%20Functions.pdf"
+              },
+              {
+                "name": "Edia Practice Writing Equations of Polynomial Functions From Graphs",
+                "link": "https://edia.app/worksheets/precalculus/polynomial_functions/write_polynomial_functions_given_graphs"
+              },
+              {
+                "name": "Kuta Practice Rational Root Theorem",
+                "link": "https://cdn.kutasoftware.com/Worksheets/Alg2/Rational%20Root%20Theorem.pdf"
+              }
+              
+            ],
+            "extraHelpLinks": [
+              {
+                "name": "Mr. Robinson Video Graphing Polynomial Functions",
+                "link": "https://www.youtube.com/watch?v=zDOVQ1x09Bw"
+              },
+              {
+                "name": "The Organic Chemistry Tutor Graphing Polynomial Functions",
+                "link": "https://www.youtube.com/watch?v=a5x4lwnvHM0"
+              },
+              {
+                "name": "The Organic Chemistry Tutor Find Equation of Polynomial Function From Graph",
+                "link": "https://www.youtube.com/watch?v=bb0seGYHUiQ"
+              },
+              {
+                "name": "The Organic Chemistry Tutor Video Fundamental Theorem of Algebra",
+                "link": "https://www.youtube.com/watch?v=cAfRgqEOURw"
+              },
+              {
+                "name": "Mathbyfives Video Rational Root Theorem",
+                "link": "https://www.youtube.com/watch?v=nefUHSlCSgY"
+              }
+            ]
+          },
+          {
+            "name": "CPM Precalculus 4.2 Key Points: Transformations of Rational Functions, Graphing Rational Functions, Graphing Reciprocal Functions",
+            "tags": ["Precalculus"], 
+            "guideLink": "./guide-files/precalculus_4.2_key_points.pdf",
+            "practiceLinks": [
+              {
+                "name": "Ms. UB Practice Transformations of Rational Functions",
+                "link": "https://msubmathing.weebly.com/uploads/3/8/0/6/38068469/unit_3_day_6_cw__m2_.pdf"
+              },
+              {
+                "name": "Kuta Practice Graphing Rational Functions",
+                "link": "https://cdn.kutasoftware.com/Worksheets/Alg2/Graphing%20Rational%20Functions.pdf"
+              },
+              {
+                "name": "Kuta Practice Graphing Reciprocal Functions",
+                "link": "https://mrsstefanek.weebly.com/uploads/4/6/6/8/46689545/lesson_7.4_worksheet.pdf"
+              }
+            
+            ],
+            "extraHelpLinks": [
+              {
+                "name": "The Organic Chemistry Tutor Video Graphing Transformations of Rational Functions",
+                "link": "https://www.youtube.com/watch?v=bWVhwYdSnfk"
+              },
+              {
+                "name": "The Organic Chemistry Tutor Video Graphing Rational Functions",
+                "link": "https://www.youtube.com/watch?v=XE-Z2-F3oWw"
+              },
+              {
+                "name": "The Organic Chemistry Tutor Video Graphing Rational Functions (Advanced)",
+                "link": "https://www.youtube.com/watch?v=GxynsEIvjRA"
+              },
+              {
+                "name": "Mr. Robinson Video Graphing Rational Functions",
+                "link": "https://www.youtube.com/watch?v=DlT_DHQvxWo"
+              },
+              {
+                "name": "The Organic Chemistry Tutor Video Graphing Reciprocal Functions",
+                "link": "https://www.youtube.com/watch?v=MK_Cep8C3g0"
+              },
+              {
+                "name": "JensenMath Video Graphing Reciprocal Functions",
+                "link": "https://www.youtube.com/watch?v=CoqCJQMt8JU"
+              }
+            ]
+          },
+          {
+            "name": "CPM Precalculus 4.3 Key Points: Inequality and Interval Notation, Solving Rational Inequalities",
+            "tags": ["Precalculus"], 
+            "guideLink": "./guide-files/precalculus_4.3_key_points.pdf",
+            "practiceLinks": [
+              
+              {
+                "name": "Sharpschool Practice Interval Notation",
+                "link": "https://cdnsm5-ss13.sharpschool.com/UserFiles/Servers/Server_77361/File/Departments/Mathematics/John%20Sidanycz/Math%201/Linear%20Unit/2018-2019/Interval%20Notation%20Practice.pdf"
+              },
+              {
+                "name": "Kuta Practice Solving Rational Inequalities",
+                "link": "https://cdn.kutasoftware.com/Worksheets/Precalc/02%20-%20Rational%20Inequalities.pdf"
+              },
+              {
+                "name": "Paul's Online Math Notes Practice Solving Rational Inequalities",
+                "link": "https://tutorial.math.lamar.edu/problems/alg/solverationalinequalities.aspx"
+              }
+              
+            ],
+            "extraHelpLinks": [
+              {
+                "name": "The Organic Chemistry Tutor Video Interval Notation",
+                "link": "https://www.youtube.com/watch?v=Ww7xtG2S7IM"
+              },
+              {
+                "name": "The Organic Chemistry Tutor Video Solving Rational Inequalities",
+                "link": "https://www.youtube.com/watch?v=gfnVHwhEe6U"
+              },
+              {
+                "name": "Stats4Everyone Video Solving Rational Inequalities",
+                "link": "https://www.youtube.com/watch?v=FS5Oun81_ss"
+              }
+              
+            ]
+          },
+          {
+            "name": "CPM Precalculus 6.1 Key Points: Law of Sines, Law of Cosines",
+            "tags": ["Precalculus"], 
+            "guideLink": "./guide-files/precalculus_6.1_key_points.pdf",
+            "practiceLinks": [
+              {
+                "name": "Kuta Practice Law of Sines",
+                "link": "https://cdn.kutasoftware.com/Worksheets/Alg2/Law%20of%20Sines.pdf"
+              },
+              {
+                "name": "Khan Academy Practice Law of Sines",
+                "link": "https://cdn.kutasoftware.com/Worksheets/Alg2/Law%20of%20Sines.pdf"
+              },
+              {
+                "name": "Kuta Practice Law of Cosines",
+                "link": "https://cdn.kutasoftware.com/Worksheets/Alg2/Law%20of%20Cosines.pdf"
+              },
+              {
+              "name": "Khan Academy Practice Law of Cosines",
+              "link": "https://www.khanacademy.org/math/precalculus/x9e81a4f98389efdf:trig/x9e81a4f98389efdf:law-of-cosines/e/law_of_cosines"
+              }
+              
+              
+            ],
+            "extraHelpLinks": [
+              {
+                "name": "Nerdstudy Law of Sines Ambigious Case Video",
+                "link": "https://www.youtube.com/watch?v=RCyjglaJo5w"
+              },
+              {
+                "name": "The Organic Chemistry Tutor Law of Sines Video",
+                "link": "https://www.youtube.com/watch?v=9fS0uA4iLxI"
+              },
+              {
+                "name": "The Organic Chemistry Tutor Law of Cosines Video",
+                "link": "https://www.youtube.com/watch?v=9CGY0s-uCUE"
+              }
+            ]
+          },
+          {
             "name": "Derivative Tools",
             "tags": ["Calculus"],
             "guideLink": "./guide-files/derivative_tools.pdf",
@@ -460,6 +952,878 @@
             "extraHelpLinks": [
               
             ]
+          },
+          {
+            "name": "CPM Calculus 1.1 Key Points: Speed and Distance",
+            "tags": ["Calculus"], 
+            "guideLink": "./guide-files/calculus_1.1_key_points.pdf",
+            "practiceLinks": [
+              {
+                "name": "MetaTutor Practice",
+                "link": "https://metatutor.co.uk/wp-content/uploads/PDFs/Worksheets/Foundation/DISTANCE-TIME-GRAPHS.pdf"
+              }      
+            ],
+            "extraHelpLinks": [
+              {
+                "name": "The Organic Chemistry Tutor Video on Position, Velocity, Acceleration (Will be covered more in later chapters)",
+                "link": "https://www.youtube.com/watch?v=4zJ6fl1Xakg"
+              } 
+            ]
+          },
+          {
+            "name": "Breakdown of Trapezoidal Formula",
+            "tags": ["Calculus"], 
+            "guideLink": "./guide-files/breakdown_of_trapezoidal_formula.pdf",
+            "practiceLinks": [
+              {
+                "name": "Mr. Solis Practice",
+                "link": "https://tajimasolis.weebly.com/uploads/3/7/3/4/37346235/riemann_trapezoids_practice.pdf"
+              }
+            ],
+            "extraHelpLinks": [
+              {
+                  "name": "Alpha Theta Epsilon Video",
+                  "link": "https://www.youtube.com/watch?v=HVukQhDrNIQ"
+              },
+              {
+                "name": "The Organic Chemistry Tutor Video",
+                "link": "https://www.youtube.com/watch?v=Rn9Gr52zhrY"
+            }      
+            ]
+          },
+          {
+            "name": "CPM Calculus 2.1 Key Points: Trapezoid Rule, Summation/Sigma Notation, Left & Right Endpoint and Midpoint Rectangles",
+            "tags": ["Calculus"], 
+            "guideLink": "./guide-files/calculus_2.1_key_points.pdf",
+            "practiceLinks": [
+              {
+                  "name": "Kuta Practice",
+                  "link": "https://cdn.kutasoftware.com/Worksheets/Calc/06%20-%20Approximating%20Area%20Under%20Curve.pdf"
+              },
+              {
+                "name": "Khan Academy Practice Midpoint & Trapezoidal Sums",
+                "link": "https://www.khanacademy.org/math/ap-calculus-ab/ab-integration-new/ab-6-2/e/trapezoid-rule"
+              }
+            ],
+            "extraHelpLinks": [
+              {
+                  "name": "Khan Academy Trapezoidal Sums Video",
+                  "link": "https://www.youtube.com/watch?v=1p0NHR5w0Lc"
+              },
+              {
+                  "name": "Khan Academy Midpoint Sums Video",
+                  "link": "https://www.youtube.com/watch?v=kJ57S0Z4Vp8"
+              }
+            ]
+          },
+          {
+            "name": "Continuity (and Discontinuities)",
+            "tags": ["Calculus"], 
+            "guideLink": "./guide-files/continuity.pdf",
+            "practiceLinks": [
+              {
+                  "name": "University of Washington Practice",
+                  "link": "https://sites.math.washington.edu/~aloveles/Math124Fall2017/m124ContinuityPractice.pdf"
+              },
+              {
+                "name": "Khan Academy Practice (Algebraically)",
+                "link": "https://www.khanacademy.org/math/ap-calculus-ab/ab-limits-new/ab-1-11/e/continuity-at-a-point-algebraic"
+              },
+              {
+              "name": "Khan Academy Practice (Graphically)",
+              "link": "https://www.khanacademy.org/math/ap-calculus-ab/ab-limits-new/ab-1-11/e/analyze-continuity-at-a-point-graphically"
+              }
+            ],
+            "extraHelpLinks": [
+              {
+                "name": "The Organic Chemistry Tutor Video",
+                "link": "https://www.youtube.com/watch?v=WT7oxiiFYt8"
+              },
+              {
+                "name": "Angie Teaches Video",
+                "link": "https://www.youtube.com/watch?v=VMqzmgMeQx0"
+              }
+            ]
+          },
+          {
+            "name": "CPM Calculus 2.2 Key Points: Limits, Continuity, Intermediate Value Theorem",
+            "tags": ["Calculus"], 
+            "guideLink": "./guide-files/calculus_2.2_key_points.pdf",
+            "practiceLinks": [
+              {
+                  "name": "Weebly Practice on Continuity and Intermediate Value Theorem",
+                  "link": "https://wrightkk.weebly.com/uploads/5/9/6/6/59663945/1.6_hw_ivt_key.pdf"
+              },
+              {
+                "name": "SharpSchool Practice Intermediate Value Theorem",
+                "link": "https://cdnsm5-ss13.sharpschool.com/UserFiles/Servers/Server_77361/File/Departments/Mathematics/John%20Sidanycz/Calculus%20BC/Chapter%202/Intermediate%20Value%20Theorem.pdf"
+              }
+            ],
+            "extraHelpLinks": [
+              {
+                "name": "The Organic Chemistry Tutor Video Continuity (Introduction)",
+                "link": "https://www.youtube.com/watch?v=joewRl1CTL8"
+              },
+              {
+                "name": "The Organic Chemistry Tutor Video Intermediate Value Theorem",
+                "link": "https://www.youtube.com/watch?v=4L9ffuwj4Lk"
+              }
+            ]
+          },
+          {
+            "name": "CPM Calculus 3.1 Key Points: Power Rule, Average Rate of Change, Instantaneous Rate of Change",
+            "tags": ["Calculus"], 
+            "guideLink": "./guide-files/calculus_3.1_key_points.pdf",
+            "practiceLinks": [
+              {
+                  "name": "Khan Academy Practice (Basic)",
+                  "link": "https://www.khanacademy.org/math/ap-calculus-ab/ab-differentiation-1-new/ab-2-5/e/power-rule-intro"
+                }
+            ],
+            "extraHelpLinks": [
+              {
+              "name": "Khan Academy Power Rule Intro Video",
+              "link": "https://www.khanacademy.org/math/ap-calculus-ab/ab-differentiation-1-new/ab-2-5/v/power-rule"
+              }
+            ]
+          },
+          {
+            "name": "CPM Calculus 3.2 Key Points: Definition and Alternate Form of Derivative, Methods of Slope Approximation, Derivatives of Sine and Cosine",
+            "tags": ["Calculus"], 
+            "guideLink": "./guide-files/calculus_3.2_key_points.pdf",
+            "practiceLinks": [
+              {
+                "name": "Paul's Online Math Notes Limit Definition of Derivative Practice",
+                "link": "https://tutorial.math.lamar.edu/problems/calci/defnofderivative.aspx"
+              }
+            ],
+            "extraHelpLinks": [
+              {
+                "name": "The Organic Chemistry Tutor Video (Derivative)",
+                "link": "https://www.youtube.com/watch?v=-aTLjoDT1GQ"
+              },
+              {
+                "name": "The Organic Chemistry Tutor Video (Alternate Form)",
+                "link": "https://www.youtube.com/watch?v=6yzaEpacZkg"
+              },
+              {
+                "name": "Simple Math Video Limit Definition of Derivative Practice",
+                "link": "https://www.youtube.com/watch?v=Hszu_Maneoo"
+              },
+              {
+                "name": "Auburn University Derivatives of Sine and Cosine Review",
+                "link": "https://web.auburn.edu/holmerr/1617/Textbook/derivsincos-screen.pdf"
+              }
+            ]
+          },
+          {
+            "name": "CPM Calculus 3.3 Key Points: Derivative Notations, Curve Analysis",
+            "tags": ["Calculus"], 
+            "guideLink": "./guide-files/calculus_3.3_key_points.pdf",
+            "practiceLinks": [
+              {
+                "name": "West Shore Practice",
+                "link": "https://www.wssd.k12.pa.us/downloads/calculus%20ws%20first%20derivative%20test%20fall%202014%20solutions.pdf"
+              }
+              
+            ],
+            "extraHelpLinks": [
+              {
+                "name": "Flipped Math Review Sheet",
+                "link": "https://calculus.flippedmath.com/uploads/1/1/3/0/11305589/calc_5.4_solutions.pdf"
+              },
+              {
+                "name": "Khan Academy First Derivative Test Video",
+                "link": "https://www.youtube.com/watch?v=lFQ4kMcODzU"
+              },
+              {
+                "name": "Khan Academy Second Derivative Test Video",
+                "link": "https://www.youtube.com/watch?v=-cW5hCsc9Yc"
+              },
+              {
+                "name": "Cole's World of Mathematics Derivative Notations Video",
+                "link": "https://www.youtube.com/watch?v=8TMnXCRXe_k"
+              }
+            ]
+          },
+          {
+            "name": "CPM Calculus 3.4 Key Points: Antiderivatives, Differentiability",
+            "tags": ["Calculus"], 
+            "guideLink": "./guide-files/calculus_3.4_key_points.pdf",
+            "practiceLinks": [
+              {
+                "name": "Holland Central School District Antiderivatives Practice",
+                "link": "https://www.hollandcsd.org/cms/lib/NY19000531/Centricity/Domain/129/Basic%20Integration%20Problems.pdf"
+              },
+              {
+                "name": "Kuta Integration Practice",
+                "link": "https://cdn.kutasoftware.com/Worksheets/Calc/05%20-%20Integration%20Power%20Rule.pdf"
+              }
+            ],
+            "extraHelpLinks": [
+              {
+                "name": "The Organic Chemistry Tutor Video Differentiability",
+                "link": "https://www.youtube.com/watch?v=fml0-ELYLaE"
+              },
+              {
+                "name": "Khan Academy Video Differentiability",
+                "link": "https://www.youtube.com/watch?v=xuAiQOzIkWY"
+              }
+            ]
+          },
+          {
+            "name": "CPM Calculus 4.1 Key Points: Integral as the Limit of a Riemann sum, Definite Integral Properties",
+            "tags": ["Calculus"], 
+            "guideLink": "./guide-files/calculus_4.1_key_points.pdf",
+            "practiceLinks": [
+              {
+              "name": "Khan Academy Definite Integrals Practice",
+              "link": "https://www.khanacademy.org/math/old-integral-calculus/definite-integrals-intro-ic/definite-integral-properties-ic/e/properties-of-definite-integrals-challenge"
+              },
+              {
+                "name": "Wpmucdn Definite Integral Properties Practice",
+                "link": "https://cpb-ap-se2.wpmucdn.com/learn.stleonards.vic.edu.au/dist/b/160/files/2016/05/Properties-of-Definite-Integrals-Worksheet.pdf"
+              },
+              {
+                "name": "Flipped Math Definite Integrals Practice",
+                "link": "https://calculus.flippedmath.com/uploads/1/1/3/0/11305589/calc_6.6_packet.pdf"
+              }
+            ],
+            "extraHelpLinks": [
+              {
+              "name": "The Organic Chemistry Tutor Video (Definite Integral Properties)",
+              "link": "https://www.youtube.com/watch?v=QcHz3h81U-s"
+              },
+              {
+                "name": "Firefly Lectures Video (Definite Integral Properties)",
+                "link": "https://www.youtube.com/watch?v=QcHz3h81U-s"
+              },
+              {
+                  "name": "Mathispower4u Video (Definite Integral Properties)",
+                  "link": "https://www.youtube.com/watch?v=ycOZVVVXHvM"
+              },
+              {
+                "name": "Khan Academy Riemann Sum to Definite Integral Video",
+                "link": "https://www.youtube.com/watch?v=Himr2l8Rd18"
+              },
+              {
+                "name": "Khan Academy Definite Integral Video to Riemann Sum Video",
+                "link": "https://www.youtube.com/watch?v=eidemLqiPyQ"
+              }
+            ]
+          },
+          {
+            "name": "CPM Calculus 4.2 Key Points: Definite and Indefinite Integrals, Fundamental Theorem of Calculus",
+            "tags": ["Calculus"], 
+            "guideLink": "./guide-files/calculus_4.2_key_points.pdf",
+            "practiceLinks": [
+              {
+                "name": "Kuta Practice Fundamental Theorem of Calculus",
+                "link": "https://cdn.kutasoftware.com/Worksheets/Calc/06%20-%20Second%20Fundamental%20Theorem.pdf"
+                }
+            ],
+            "extraHelpLinks": [
+              {
+                "name": "The Organic Chemistry Tutor Video (Fundamental Theorem of Calculus)",
+                "link": "https://www.youtube.com/watch?v=e0E8Is_G_p4"
+              }
+            ]
+          },
+          {
+            "name": "CPM Calculus 4.3 Key Points: Relationship of Position-Velocity-Acceleration",
+            "tags": ["Calculus"], 
+            "guideLink": "./guide-files/calculus_4.3_key_points.pdf",
+            "practiceLinks": [
+              {
+                "name": "Central Bucks School District Practice",
+                "link": "https://www.cbsd.org/cms/lib/PA01916442/Centricity/Domain/2746/AP%20AB%20-%20Section%204.1%20-%20WS.pdf"
+              },
+              {
+                "name": "Kuta Practice",
+                "link": "https://teachers.henrico.k12.va.us/freeman/conway_b/Files/APCalc/Unit5.Position,%20Velocity,%20Acceleration%20Practice.pdf"
+              }
+            ],
+            "extraHelpLinks": [
+              {
+                "name": "The Organic Chemistry Tutor Video",
+                "link": "https://www.youtube.com/watch?v=4zJ6fl1Xakg"
+              },
+              {
+                "name": "Daniel Bortnick Video",
+                "link": "https://www.youtube.com/watch?v=Gh-ezo-BOQ8"
+              },
+              {
+                "name": "PatrickJMT Video",
+                "link": "https://www.youtube.com/watch?v=pFeuGMMiZWw"
+              }
+            ]
+          },
+          {
+            "name": "CPM Calculus 4.4 Key Points: Area Between Two Curves, Area Between Two Curves That Cross Over, Integrating Horizontally, Area Between Three Curves",
+            "tags": ["Calculus"], 
+            "guideLink": "./guide-files/calculus_4.4_key_points.pdf",
+            "practiceLinks": [
+              {
+                "name": "Kuta Practice",
+                "link": "https://cdn.kutasoftware.com/Worksheets/Calc/07%20-%20Area%20Between%20Curves.pdf"
+              },
+              {
+                "name": "Stewart Calculus Practice",
+                "link": "https://www.stewartcalculus.com/data/ESSENTIAL%20CALCULUS%202e/upfiles/instructor/eclt_ax_0701.pdf"
+              },
+              {
+                "name": "Mr. Yang Practice",
+                "link": "https://mryangteacher.weebly.com/uploads/7/7/0/2/7702250/7.1_area_classwork_worksheet.pdf"
+              }
+            ],
+            "extraHelpLinks": [
+              {
+                "name": "Khan Academy Area Between Curves Overview Video",
+                "link": "https://www.youtube.com/watch?v=wQXYtsyfbqg"
+              },
+              {
+                "name": "The Organic Chemistry Tutor Area Between Two Curves Video",
+                "link": "https://www.youtube.com/watch?v=kgg5Rspf1Js"
+              },
+              {
+                "name": "Professor Dave Area Between Two Curves Video",
+                "link": "https://www.youtube.com/watch?v=xec6HTcn2M8"
+              },
+              {
+                "name": "Khan Academy Horizontal Integration Video",
+                "link": "https://www.youtube.com/watch?v=B5441_DREY0"
+              },
+              {
+                "name": "Khan Academy Area Between Three Curves Video",
+                "link": "https://www.youtube.com/watch?v=LbTH7MGMNjk"
+              }
+        ]
+          },
+          {
+            "name": "CPM Calculus 4.5 Key Points: Newton's Method",
+            "tags": ["Calculus"], 
+            "guideLink": "./guide-files/calculus_4.5_key_points.pdf",
+            "practiceLinks": [
+              {
+                "name": "Kuta Practice",
+                "link": "https://cdn.kutasoftware.com/Worksheets/Calc/04%20-%20Newtons%20Method.pdf"
+              }
+            ],
+            "extraHelpLinks": [
+            {
+              "name": "The Organic Chemistry Tutor Video",
+              "link": "https://www.youtube.com/watch?v=-5e2cULI3H8"
+            }
+            ]
+          },
+          {
+            "name": "CPM Calculus 5.1 Key Points: Relationship of Position-Velocity-Acceleration, Optimization, First & Second Derivative Tests, Extreme Value Theorem",
+            "tags": ["Calculus"], 
+            "guideLink": "./guide-files/calculus_5.1_key_points.pdf",
+            "practiceLinks": [
+              {
+                "name": "Central Bucks School District Extreme Value Theorem Practice",
+                "link": "https://www.cbsd.org/cms/lib/PA01916442/Centricity/Domain/1977/Unit%203%20WS%2010%20EVT%20solutions.pdf"
+              }
+            ],
+            "extraHelpLinks": [
+              {
+                "name": "The Organic Chemistry Tutor Extreme Value Theorem Video",
+                "link": "https://www.youtube.com/watch?v=Sx2lPZlnWfs"
+              }
+            ]
+          },
+          {
+            "name": "CPM Calculus 5.2 Key Points: Product Rule, Quotient Rule, Chain Rule, Derivatives of Trigonometric Functions",
+            "tags": ["Calculus"], 
+            "guideLink": "./guide-files/calculus_5.2_key_points.pdf",
+            "practiceLinks": [
+              {
+                "name": "Kuta Practice Product Rule",
+                "link": "https://cdn.kutasoftware.com/Worksheets/Calc/03%20-%20Product%20Rule.pdf"
+              },
+              {
+                "name": "Kuta Practice Quotient Rule",
+                "link": "https://cdn.kutasoftware.com/Worksheets/Calc/03%20-%20Quotient%20Rule.pdf"
+              },
+              {
+                "name": "Kuta Practice Chain Rule",
+                "link": "https://cdn.kutasoftware.com/Worksheets/Calc/03%20-%20Chain%20Rule.pdf"
+              },
+              {
+                "name": "Kuta Practice Trig Functions Derivatives #1",
+                "link": "https://cdn.kutasoftware.com/Worksheets/Calc/03%20-%20Chain%20Rule%20with%20Trig.pdf"
+              },
+              {
+                "name": "Kuta Practice Trig Functions Derivatives #2",
+                "link": "https://bhsapcalculus.weebly.com/uploads/7/7/1/1/7711905/5_apps_of_trig_diff.pdf"
+              }
+            ],
+            "extraHelpLinks": [
+              {
+                "name": "JensenMath Derivative Rules Review Video",
+                "link": "https://www.youtube.com/watch?v=EQLEGXx_1a4"
+              },
+              {
+                "name": "MathReview101 Derivative Rules Review Video",
+                "link": "https://www.youtube.com/watch?v=esxNDR1epeo"
+              },
+              {
+                "name": "The Organic Chemistry Tutor Derivative Rules Review Video",
+                "link": "https://www.youtube.com/watch?v=vNXjMTv4vHs"
+              }
+            ]
+          },
+          {
+            "name": "CPM Calculus 5.3 Key Points: Optimization, Optimization Example",
+            "tags": ["Calculus"], 
+            "guideLink": "./guide-files/calculus_5.3_key_points.pdf",
+            "practiceLinks": [
+              {
+                "name": "Kuta Practice",
+                "link": "https://cdn.kutasoftware.com/Worksheets/Calc/04%20-%20Optimization.pdf"
+              },
+              {
+                "name": "pchs Practice",
+                "link": "https://pchscalculus.weebly.com/uploads/8/1/8/4/81840438/optimization_practice.pdf"
+              }
+            ],
+            "extraHelpLinks": [
+              {
+                "name": "Patrick JMT: Area Enclosed by Rectangular Fence Video",
+                "link": "https://www.youtube.com/watch?v=-SQirLL_pqU"
+              },
+              {
+                "name": "The Organic Chemistry Tutor Video",
+                "link": "https://www.youtube.com/watch?v=lx8RcYcYVuU"
+              },
+              {
+                "name": "Wrath of Math Video",
+                "link": "https://www.youtube.com/watch?v=0vIZdyjoubE"
+              }
+            ]
+          },
+          {
+            "name": "CPM Calculus 5.4 Key Points: Fundamental Theorem of Calculus with Chain Rule",
+            "tags": ["Calculus"], 
+            "guideLink": "./guide-files/calculus_5.4_key_points.pdf",
+            "practiceLinks": [
+              {
+                "name": "Marta Hidegkuti: FTC Practice",
+                "link": "https://teaching.martahidegkuti.com/shared/lnotes/6_calculus/fundamental/fundamental.pdf"
+              }
+            ],
+            "extraHelpLinks": [
+              {
+                "name": "Khan Academy Video",
+                "link": "https://www.youtube.com/watch?v=dptES2sb1oc"
+              }
+            ]
+          },
+          {
+            "name": "CPM Calculus 5.5 Key Points: l’Hôpital’s Rule",
+            "tags": ["Calculus"], 
+            "guideLink": "./guide-files/calculus_5.5_key_points.pdf",
+            "practiceLinks": [
+              {
+                "name": "Kuta Practice",
+                "link": "https://cdn.kutasoftware.com/Worksheets/Calc/04%20-%20LHopitals%20Rule.pdf"
+              }
+            ],
+            "extraHelpLinks": [
+              {
+                "name": "The Organic Chemistry Tutor Video",
+                "link": "https://www.youtube.com/watch?v=Gh48aOvWcxw"
+              }
+            ]
+          },
+          {
+            "name": "CPM Calculus 6.1 Key Points: Derivatives of Exponential Functions, Integrals of Exponential Functions",
+            "tags": ["Calculus"], 
+            "guideLink": "./guide-files/calculus_6.1_key_points.pdf",
+            "practiceLinks": [
+              {
+                "name": "Khan Academy Practice",
+                "link": "https://www.khanacademy.org/math/in-in-grade-12-ncert/xd340c21e718214c5:continuity-differentiability/xd340c21e718214c5:exponential-functions-differentiation/e/differentiate-exponential-functions"
+              },
+              {
+                "name": "Andymath Practice",
+                "link": "https://andymath.com/derivative-exponential-functions/"
+              }
+            ],
+            "extraHelpLinks": [
+              {
+                "name": "The Organic Chemistry Tutor Video",
+                "link": "https://www.youtube.com/watch?v=yg_497u6JnA"
+              },
+              {
+                "name": "PatrickJMT Video",
+                "link": "https://www.youtube.com/watch?v=xgarjF9DP78"
+              },
+              {
+                "name": "Jensen Math Video",
+                "link": "https://www.youtube.com/watch?v=rUDQy8yHsB0"
+              }
+            ]
+          },
+          {
+            "name": "CPM Calculus 6.2 Key Points: Implicit Differentiation",
+            "tags": ["Calculus"], 
+            "guideLink": "/guide-files/calculus_6.2_key_points.pdf",
+            "practiceLinks": [
+              {
+                "name": "Kuta Practice",
+                "link": "https://cdn.kutasoftware.com/Worksheets/Calc/03%20-%20Implicit%20Differentiation.pdf"
+              },
+              {
+                "name": "Mr. Yang Practice",
+                "link": "https://mryangteacher.weebly.com/uploads/7/7/0/2/7702250/2.5_implicit_practice_ws_1.pdf"
+              },
+              {
+                "name": "Flipped Math Practice",
+                "link": "https://calculus.flippedmath.com/uploads/1/1/3/0/11305589/c_6.1_packet.pdf"
+              }
+            ],
+            "extraHelpLinks": [
+              {
+                "name": "The Organic Chemistry Tutor Video",
+                "link": "https://www.youtube.com/watch?v=xbviQHhU1rA"
+              },
+              {
+                "name": "Professor Dave Video",
+                "link": "https://www.youtube.com/watch?v=M0SMSWM2oZA"
+              }
+            ]
+          },
+          {
+            "name": "CPM Calculus 6.3 Key Points: Derivatives of Inverse Trigonometric Functions, Derivatives of Logarithmic Functions, Derivatives of Inverse Functions",
+            "tags": ["Calculus"], 
+            "guideLink": "/guide-files/calculus_6.3_key_points.pdf",
+            "practiceLinks": [
+              {
+                "name": "Kuta Practice Derivatives of Inverse Functions",
+                "link": "https://cdn.kutasoftware.com/Worksheets/Calc/03%20-%20Derivatives%20of%20Inverse%20Functions.pdf"
+              },
+              {
+                "name": "Paul's Online Math notes Derivatives of Exponential and Logarithmic Functions Practice",
+                "link": "https://tutorial.math.lamar.edu/problems/calci/diffexplogfcns.aspx"
+              }
+            ],
+            "extraHelpLinks": [
+              {
+                "name": "The Organic Chemistry Tutor Derivatives of Inverse Trigonometric Functions Video",
+                "link": "https://www.youtube.com/watch?v=KbYW9FDm-Zk"
+              },
+              {
+                "name": "bprp calculus basics Derivatives of Inverse Trigonometric Functions Video",
+                "link": "https://www.youtube.com/watch?v=wH3JYo8U2uM"
+              }
+            ]
+          },
+          {
+            "name": "CPM Calculus 6.4 Key Points: Mean Value Theorem for Integrals, Mean Value Theorem for Derivatives",
+            "tags": ["Calculus"], 
+            "guideLink": "/guide-files/calculus_6.4_key_points.pdf",
+            "practiceLinks": [
+              {
+                "name": "Kuta Practice Mean Value Theorem for Derivatives",
+                "link": "https://cdn.kutasoftware.com/Worksheets/Calc/04%20-%20Mean%20Value%20Theorem.pdf"
+              },
+              {
+                "name": "Kuta Practice Mean Value Theorem for Integrals",
+                "link": "https://cdn.kutasoftware.com/Worksheets/Calc/06%20-%20Mean%20Value%20Theorem%20for%20Integrals.pdf"
+              }
+            ],
+            "extraHelpLinks": [
+              {
+                "name": "The Organic Chemistry Tutor Mean Value Theorem for Derivatives Video",
+                "link": "https://www.youtube.com/watch?v=SL2RobwU_M4"
+              },
+              {
+                "name": "The Organic Chemistry Tutor Mean Value Theorem for Integrals Video",
+                "link": "https://www.youtube.com/watch?v=bLeglo-c5Tw"
+              }
+            ]
+          },
+          {
+            "name": "CPM Calculus 6.5 Key Points: Improper Integrals",
+            "tags": ["Calculus"], 
+            "guideLink": "/guide-files/calculus_6.5_key_points.pdf",
+            "practiceLinks": [
+              {
+                "name": "Marta Hidegkuti Practice",
+                "link": "https://teaching.martahidegkuti.com/shared/lnotes/6_calculus/integral/improper/improper.pdf"
+              },
+              {
+              "name": "Paul's Online Math Notes Practice",
+              "link": "https://tutorial.math.lamar.edu/problems/calcii/improperintegrals.aspx"
+              }
+            ],
+            "extraHelpLinks": [
+              {
+                "name": "Khan Academy Improper Integrals Video (Introduction)",
+                "link": "https://www.youtube.com/watch?v=qv7DM5Ph0vU"
+              },
+              {
+                "name": "The Organic Chemistry Tutor Improper Integrals Video",
+                "link": "https://www.youtube.com/watch?v=ND9cEdfCFr0"
+              }
+            ]
+          },
+          {
+            "name": "CPM Calculus 7.1 Key Points: Related Rates",
+            "tags": ["Calculus"], 
+            "guideLink": "./guide-files/calculus_7.1_key_points.pdf",
+            "practiceLinks": [
+              {
+                "name": "Kuta Practice",
+                "link": "https://cdn.kutasoftware.com/Worksheets/Calc/04%20-%20Related%20Rates.pdf"
+              },
+              {
+                "name": "Kuta Practice (2)",
+                "link": "https://tajimasolis.weebly.com/uploads/3/7/3/4/37346235/calculus_related_rates_practice.pdf"
+              },
+              {
+                "name": "Paul's Online Math Notes Practice",
+                "link": "https://tutorial.math.lamar.edu/problems/calci/relatedrates.aspx"
+              }
+            ],
+            "extraHelpLinks": [
+              {
+                "name": "The Organic Chemistry Tutor Video Examples",
+                "link": "https://www.youtube.com/watch?v=ps-r4nti5Go"
+              },
+              {
+                "name": "Brian McLogan Video Examples",
+                "link": "https://www.youtube.com/playlist?list=PL0G-Nd0V5ZMpqx4Y9sVYJNSw28AoSD1G6"
+              }
+            ]
+          },
+          {
+            "name": "CPM Calculus 7.2 Key Points: u-substitution",
+            "tags": ["Calculus"], 
+            "guideLink": "./guide-files/calculus_7.2_key_points.pdf",
+            "practiceLinks": [
+              {
+                "name": "Kuta Practice (Intro)",
+                "link": "https://cdn.kutasoftware.com/Worksheets/Calc/05%20-%20Integration%20Substitution%20Power%20Rule.pdf"
+              },
+              {
+                "name": "Kuta Practice (Logarithms and Exponentials)",
+                "link": "https://cdn.kutasoftware.com/Worksheets/Calc/05%20-%20Integration%20Substitution%20Log%20Exp.pdf"
+              },
+              {
+                "name": "Kuta Practice (Trig)",
+                "link": "https://cdn.kutasoftware.com/Worksheets/Calc/05%20-%20Integration%20Substitution%20Trig.pdf"
+              },
+              {
+                "name": "Kuta Practice (Inverse Trig)",
+                "link": "https://cdn.kutasoftware.com/Worksheets/Calc/05%20-%20Integration%20Substitution%20Inv%20Trig.pdf"
+              },
+              {
+                "name": "Paul's Online Math Notes Practice (Indefinite Integrals)",
+                "link": "https://tutorial.math.lamar.edu/problems/calci/substitutionruleindefinite.aspx"
+              },
+              {
+                "name": "Paul's Online Math Notes Practice (Definite Integrals)",
+                "link": "https://tutorial.math.lamar.edu/problems/calci/substitutionruledefinite.aspx"
+              }
+            ],
+            "extraHelpLinks": [
+              {
+                "name": "The Organic Chemistry Tutor Video (Indefinite Integrals)",
+                "link": "https://www.youtube.com/watch?v=sdYdnpYn-1o"
+              },
+              {
+                "name": "The Organic Chemistry Tutor Video (Definite Integrals)",
+                "link": "https://www.youtube.com/watch?v=tM4RWc9ryx0"
+              }
+            ]
+          },
+          {
+            "name": "CPM Calculus 7.3 Key Points: Solving Differential Equations, Slope Fields",
+            "tags": ["Calculus"], 
+            "guideLink": "./guide-files/calculus_7.3_key_points.pdf",
+            "practiceLinks": [
+              {
+                "name": "Kuta Practice Differential Equations and Slope Fields",
+                "link": "https://cdn.kutasoftware.com/Worksheets/Calc/08%20-%20Intro%20Differential%20Equations.pdf"
+              },
+              {
+                "name": "Kuta Practice Differential Equations and Slope Fields (2)",
+                "link": "https://tajimasolis.weebly.com/uploads/3/7/3/4/37346235/ap_calculus_-_separable_differential_equations_practice.pdf"
+              },
+              {
+                "name": "Kuta Practice Differential Equations and Slope Fields (3)",
+                "link": "https://cdn.kutasoftware.com/Worksheets/Calc/08%20-%20Separable%20Differential%20Equations.pdf"
+              },
+              {
+                "name": "Khan Academy Practice Separating Differential Equations",
+                "link": "https://www.khanacademy.org/math/ap-calculus-ab/ab-differential-equations-new/ab-7-6/e/separable-equations"
+              }
+              
+            ],
+            "extraHelpLinks": [
+              {
+                "name": "The Organic Chemistry Tutor Video Separating Differential Equations",
+                "link": "https://www.youtube.com/watch?v=C7nuJcJriWM"
+              },
+              {
+                "name": "The Organic Chemistry Tutor Video Slope Fields",
+                "link": "https://www.youtube.com/watch?v=Wr9VOum9Co0"
+              }
+            ]
+          },
+          {
+            "name": "Disk Method",
+            "tags": ["Calculus"], 
+            "guideLink": "./guide-files/disk_method.pdf",
+            "practiceLinks": [
+              {
+                "name": "Kuta Practice",
+                "link": "https://cdn.kutasoftware.com/Worksheets/Calc/07%20-%20Volume%20Washers%20and%20Disks.pdf"
+              },
+              {
+                "name": "Khan Academy Disk Method Practice",
+                "link": "https://www.khanacademy.org/math/ap-calculus-ab/ab-applications-of-integration-new/ab-8-9/e/the-disk-method"
+              }
+            ],
+            "extraHelpLinks": [
+              {
+                "name": "The Organic Chemistry Tutor Video Disc Method",
+                "link": "https://www.youtube.com/watch?v=SAHSVg7Jw_A"
+              }
+            ]
+          },
+          {
+            "name": "CPM Calculus 8.1 Key Points: Disk Method, Washer Method, Disk and Washer Methods Horizontally and Vertically, Disk and Washer Methods Axis of Rotation",
+            "tags": ["Calculus"], 
+            "guideLink": "./guide-files/calculus_8.1_key_points.pdf",
+            "practiceLinks": [
+              {
+                "name": "Khan Academy Disk and Washer Methods Practice",
+                "link": "https://www.khanacademy.org/math/calculus-all-old/integration-applications-calc/washer-method-calc/e/volumes-of-solids-of-revolution--discs-and-washers"
+              },
+              {
+                "name": "Paul's Online Math Notes Practice",
+                "link": "https://tutorial.math.lamar.edu/problems/calci/volumewithrings.aspx"
+              },
+              {
+                "name": "Mr. Solis Disk Method Practice",
+                "link": "https://tajimasolis.weebly.com/uploads/3/7/3/4/37346235/16_volume_disk_method_practice.pdf"
+              },
+              {
+                "name": "Mr. Solis Washer Method Practice",
+                "link": "https://tajimasolis.weebly.com/uploads/3/7/3/4/37346235/washer_method_practice.pdf"
+              }
+            ],
+            "extraHelpLinks": [
+              {
+                "name": "Khan Academy Video Disc Method (x-axis)",
+                "link": "https://www.youtube.com/watch?v=btGaOTXxXs8"
+              },
+              {
+                "name": "Khan Academy Video Disc Method (y-axis)",
+                "link": "https://www.youtube.com/watch?v=43AS7bPUORc"
+              },
+              {
+                "name": "Khan Academy Video Disc Method (around a non-axis line)",
+                "link": "https://www.youtube.com/watch?v=XdzcU5JbVcA"
+              },
+              {
+                "name": "Khan Academy Video Washer Method",
+                "link": "https://www.youtube.com/watch?v=Thvc2s9aUP4"
+              }
+            ]
+          },
+          {
+            "name": "CPM Calculus 8.2 Key Points: Shell Method",
+            "tags": ["Calculus"], 
+            "guideLink": "./guide-files/calculus_8.2_key_points.pdf",
+            "practiceLinks": [
+              {
+                "name": "Kuta Practice",
+                "link": "https://cdn.kutasoftware.com/Worksheets/Calc/07%20-%20Volume%20Cylinders.pdf"
+              },
+              {
+                "name": "Marta Hidegkuti Practice",
+                "link": "https://teaching.martahidegkuti.com/shared/lnotes/6_calculus/integral/applications/volume/shells/shells.pdf"
+              }
+            ],
+            "extraHelpLinks": [
+              {
+                "name": "The Organic Chemistry Tutor Video",
+                "link": "https://www.youtube.com/watch?v=D5sT1br9soI"
+              },
+              {
+                "name": "Khan Academy Video",
+                "link": "https://www.youtube.com/watch?v=6Ozz3J-LRrY"
+              }
+            ]
+          },
+          {
+            "name": "CPM Calculus 8.3 Key Points: Cross Sections",
+            "tags": ["Calculus"], 
+            "guideLink": "./guide-files/calculus_8.3_key_points.pdf",
+            "practiceLinks": [
+              {
+                "name": "Kuta Practice",
+                "link": "https://cdn.kutasoftware.com/Worksheets/Calc/07%20-%20Volume%20Known%20Cross%20Sections.pdf"
+              },
+              {
+                "name": "Mr. Boggus Practice",
+                "link": "https://bogguschsmath.weebly.com/uploads/6/0/9/7/6097213/d7_cross_sections_wkst.pdf"
+              },
+              {
+                "name": "Mr. Solis Practice",
+                "link": "https://tajimasolis.weebly.com/uploads/3/7/3/4/37346235/16_volume_with_known_cross_sections.pdf"
+              }
+            ],
+            "extraHelpLinks": [
+              {
+                "name": "Khan Academy Video (Intro)",
+                "link": "https://www.youtube.com/watch?v=4vLy5VoUcQE"
+              },
+              {
+                "name": "Khan Academy Video (Triangles)",
+                "link": "https://www.youtube.com/watch?v=S-agS4YaxxU"
+              },
+              {
+                "name": "Khan Academy Video (Semicircles)",
+                "link": "https://www.youtube.com/watch?v=tf4C8x8e7HQ"
+              },
+              {
+                "name": "The Organic Chemistry Tutor Video",
+                "link": "https://www.youtube.com/watch?v=qMXPnfx2MQM"
+              }
+              
+            ]
+          },
+          {
+            "name": "CPM Calculus 8.4 Key Points: Arc Length",
+            "tags": ["Calculus"], 
+            "guideLink": "./guide-files/calculus_8.4_key_points.pdf",
+            "practiceLinks": [
+              {
+                "name": "Khan Academy Practice",
+                "link": "https://www.khanacademy.org/math/ap-calculus-bc/bc-applications-of-integration-new/bc-8-13/e/arc-length-of-functions-in-one-variable"
+              },
+              {
+                "name": "Marta Hidegkuti Practice",
+                "link": "https://teaching.martahidegkuti.com/shared/lnotes/6_calculus/integral/applications/arclength/arclength.pdf"
+              }
+            ],
+            "extraHelpLinks": [
+              {
+                "name": "Khan Academy Video",
+                "link": "https://www.youtube.com/watch?v=OhISsmqv4_8"
+              },
+              {
+                "name": "The Organic Chemistry Tutor Video",
+                "link": "https://www.youtube.com/watch?v=DNDAwWIL5FY"
+              }
+            ]
           }
+
           
 ]

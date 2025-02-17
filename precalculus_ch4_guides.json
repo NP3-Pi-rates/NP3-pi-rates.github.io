@@ -7,51 +7,120 @@
       {
         "name": "Kuta Practice Graphing Polynomial Fuctions",
         "link": "https://cdn.kutasoftware.com/Worksheets/Alg2/Graphing%20Polynomial%20Functions.pdf"
+      },
+      {
+        "name": "Edia Practice Writing Equations of Polynomial Functions From Graphs",
+        "link": "https://edia.app/worksheets/precalculus/polynomial_functions/write_polynomial_functions_given_graphs"
+      },
+      {
+        "name": "Kuta Practice Rational Root Theorem",
+        "link": "https://cdn.kutasoftware.com/Worksheets/Alg2/Rational%20Root%20Theorem.pdf"
       }
-      
       
     ],
     "extraHelpLinks": [
       {
-        "name": "",
-        "link": ""
+        "name": "Mr. Robinson Video Graphing Polynomial Functions",
+        "link": "https://www.youtube.com/watch?v=zDOVQ1x09Bw"
+      },
+      {
+        "name": "The Organic Chemistry Tutor Graphing Polynomial Functions",
+        "link": "https://www.youtube.com/watch?v=a5x4lwnvHM0"
+      },
+      {
+        "name": "The Organic Chemistry Tutor Find Equation of Polynomial Function From Graph",
+        "link": "https://www.youtube.com/watch?v=bb0seGYHUiQ"
+      },
+      {
+        "name": "The Organic Chemistry Tutor Video Fundamental Theorem of Algebra",
+        "link": "https://www.youtube.com/watch?v=cAfRgqEOURw"
+      },
+      {
+        "name": "Mathbyfives Video Rational Root Theorem",
+        "link": "https://www.youtube.com/watch?v=nefUHSlCSgY"
       }
     ]
   },
   {
-    "name": "4.2 Key Points: (In Progress)",
+    "name": "4.2 Key Points: Transformations of Rational Functions, Graphing Rational Functions, Graphing Reciprocal Functions",
     "tags": ["4.2"], 
-    "guideLink": "",
+    "guideLink": "./guide-files/precalculus_4.2_key_points.pdf",
     "practiceLinks": [
       {
-        "name": "",
-        "link": ""
+        "name": "Ms. UB Practice Transformations of Rational Functions",
+        "link": "https://msubmathing.weebly.com/uploads/3/8/0/6/38068469/unit_3_day_6_cw__m2_.pdf"
+      },
+      {
+        "name": "Kuta Practice Graphing Rational Functions",
+        "link": "https://cdn.kutasoftware.com/Worksheets/Alg2/Graphing%20Rational%20Functions.pdf"
+      },
+      {
+        "name": "Kuta Practice Graphing Reciprocal Functions",
+        "link": "https://mrsstefanek.weebly.com/uploads/4/6/6/8/46689545/lesson_7.4_worksheet.pdf"
       }
     
     ],
     "extraHelpLinks": [
       {
-        "name": "",
-        "link": ""
+        "name": "The Organic Chemistry Tutor Video Graphing Transformations of Rational Functions",
+        "link": "https://www.youtube.com/watch?v=bWVhwYdSnfk"
+      },
+      {
+        "name": "The Organic Chemistry Tutor Video Graphing Rational Functions",
+        "link": "https://www.youtube.com/watch?v=XE-Z2-F3oWw"
+      },
+      {
+        "name": "The Organic Chemistry Tutor Video Graphing Rational Functions (Advanced)",
+        "link": "https://www.youtube.com/watch?v=GxynsEIvjRA"
+      },
+      {
+        "name": "Mr. Robinson Video Graphing Rational Functions",
+        "link": "https://www.youtube.com/watch?v=DlT_DHQvxWo"
+      },
+      {
+        "name": "The Organic Chemistry Tutor Video Graphing Reciprocal Functions",
+        "link": "https://www.youtube.com/watch?v=MK_Cep8C3g0"
+      },
+      {
+        "name": "JensenMath Video Graphing Reciprocal Functions",
+        "link": "https://www.youtube.com/watch?v=CoqCJQMt8JU"
       }
     ]
   },
   {
-    "name": "4.3 Key Points: (In Progress)",
+    "name": "4.3 Key Points: Inequality and Interval Notation, Solving Rational Inequalities",
     "tags": ["4.3"], 
-    "guideLink": "",
+    "guideLink": "./guide-files/precalculus_4.3_key_points.pdf",
     "practiceLinks": [
+      
       {
-        "name": "",
-        "link": ""
+        "name": "Sharpschool Practice Interval Notation",
+        "link": "https://cdnsm5-ss13.sharpschool.com/UserFiles/Servers/Server_77361/File/Departments/Mathematics/John%20Sidanycz/Math%201/Linear%20Unit/2018-2019/Interval%20Notation%20Practice.pdf"
+      },
+      {
+        "name": "Kuta Practice Solving Rational Inequalities",
+        "link": "https://cdn.kutasoftware.com/Worksheets/Precalc/02%20-%20Rational%20Inequalities.pdf"
+      },
+      {
+        "name": "Paul's Online Math Notes Practice Solving Rational Inequalities",
+        "link": "https://tutorial.math.lamar.edu/problems/alg/solverationalinequalities.aspx"
       }
       
     ],
     "extraHelpLinks": [
       {
-        "name": "",
-        "link": ""
+        "name": "The Organic Chemistry Tutor Video Interval Notation",
+        "link": "https://www.youtube.com/watch?v=Ww7xtG2S7IM"
+      },
+      {
+        "name": "The Organic Chemistry Tutor Video Solving Rational Inequalities",
+        "link": "https://www.youtube.com/watch?v=gfnVHwhEe6U"
+      },
+      {
+        "name": "Stats4Everyone Video Solving Rational Inequalities",
+        "link": "https://www.youtube.com/watch?v=FS5Oun81_ss"
       }
+      
     ]
   }
 ]
