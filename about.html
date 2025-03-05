@@ -1,60 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
-    <meta HTTP-EQUIV="EXPIRES" CONTENT="Mon, 22 Jul 2002 11:12:01 GMT">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Pirates</title>
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+    <title>Everything Pi-Rates</title>
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="about.css">
 </head>
+
 <body>
-    <div id="header">
-        <a href="/"><img src="https://resources.finalsite.net/images/f_auto,q_auto/v1720002453/natomasunifiedorg/dydmlbcfvutq09ngjkc5/NP3CharterPrimaryLogoImage.png" alt="Np3 Logo"></a>
-        <button onclick="location.href='./guides.html';">Guides/Worksheets</button>
-        <button onclick="location.href='./about.html';">About Us</button>
-        <button onclick="location.href='./competitions.html';">Competitions</button>
-        <button onclick="location.href='./calculus.html';">Calculus Guides</button>
-        <button onclick="location.href='./precalculus.html';">Precalculus Guides</button>
-        <img src="./images/pi-rates watermark.png" alt="pirates logo" id="pirates-logo">
-    </div>
-    <div class="all-text">
-    <div class="text-wrapper">
-        <p>Note: Our team is still working to improve this website.</p>
-        
-        <h2>Recent Updates</h2>
-        <p>Spring '24 interscholastic competition concluded on 05/17/24; NP3: 1 - LGA: 1</p>
-        <p>Spring '24 competition concluded on 02/29/24; 1st place: Beecher Braxton Henderson III - 2nd place: Tayeb Rahman - 3rd place: Mustafa Ghulam Sakhi</p>
-        <p>Fall '23 competition concluded on 11/09/23; Winners: Beecher Braxton Henderson III and Tayeb Rahman - Runner-ups: Teghbir Bhandal, Ivan Kurilenko, Sarthak Sharma</p>
-        <p>Website announced on 08/29/2023</p>
-        
+    <div class="container">
+        <header>
+            <div class="logo">
+                <a href="/">
+                    <img src="https://resources.finalsite.net/images/f_auto,q_auto/v1720002453/natomasunifiedorg/dydmlbcfvutq09ngjkc5/NP3CharterPrimaryLogoImage.png"
+                        alt="Np3 Logo">
+                </a>
+            </div>
+            <div class="right-header">
+                <div class="developed-by">
+                    <img src="./images/white watermark.png" alt="Pi-Rates Logo">
+                </div>
+                <div class="hamburger-menu">
+                    <button class="hamburger-button">☰</button>
+                    <div class="dropdown-content">
+                        <a href="/">Home</a>
+                        <a href="calculus.html">Calculus</a>
+                        <a href="precalculus.html">Precalculus</a>
+                        <a href="algebra2.html">Algebra 2</a>
+                        <a href="geometry.html">Geometry</a>
+                        <a href="algebra1.html">Algebra 1</a>
+                    </div>
+                </div>
+            </div>
+        </header>
 
-    </div>
-    <div id="mission-statement">
-            <h2>Mission Statement</h2> 
-            Don't procrastinate, just Calculate! At Pi-Rates, we want to promote mathematics at NP3. 
-            At our meetings, students can join practice competitions and practice math riddles, to further sharpen their math skills. 
-            This allows us to learn new content from each other, and review older content all while enjoying the learning process. 
-            Pi-Rates has recently introduced our worksheet series, which aims at researching commonly misunderstood mathematical concepts and 
-            creating step-by-step worksheets that both help the learner understand the concept and properly implement it into their daily use. 
-            Along with our worksheet series, we offer tutoring for those who might need extra support in schoolwork and homework.
-            All in all our members get to participate in a support group dedicated to serving our youth through whatever mathematical problems they might encounter.
+        <main class="about-content">
+            <div class="top-section">
+                <div class="mission-statement">
+                    <h2>Our Mission</h2>
+                    <p>Don't procrastinate, just Calculate! At Pi-Rates, we want to promote mathematics at NP3. At our
+                        meetings, students can join practice competitions and practice math riddles, to further sharpen
+                        their math skills. This allows us to learn new content from each other, and review older content
+                        all while enjoying the learning process. Pi-Rates has recently introduced our worksheet series,
+                        which aims at researching commonly misunderstood mathematical concepts and creating step-by-step
+                        worksheets that both help the learner understand the concept and properly implement it into
+                        their daily use. Along with our worksheet series, we offer tutoring for those who might need
+                        extra support in schoolwork and homework. All in all our members get to participate in a support
+                        group dedicated to serving our youth through whatever mathematical problems they might
+                        encounter.</p>
+                    <div class="image-gallery">
+                        <img src="./images/group_meeting_photo.jpg" alt="Team Photo 1">
+                        <img src="./images/pirates comp team.jpg" alt="Team Photo 2">
+                        <img src="./images/fall23_winners.jpg" alt="Team Winners Photo">
+                    </div>
+                </div>
 
-            
+                <div class="announcements">
+                    <h2>Announcements & Updates</h2>
+                    <div class="announcements-scroll">
+                        <!-- Announcements loaded from announcement-holder.txt -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="bottom-section">
+                <div class="competition-info">
+                    <h2>Competition Information</h2>
+                    <h3>Latest Competition Materials:</h3>
+                    <div class="competition-buttons">
+                        <button class="comp-button"
+                            onclick="window.open('https://docs.google.com/presentation/d/1a3LlKxxPj74klIiD7HJ8ESlldBjknMII7C-N3Jjvjn0/edit?usp=sharing', '_blank');">Presentation</button>
+                        <button class="comp-button"
+                            onclick="window.open('https://docs.google.com/document/d/1cMoOcHlHKK1vqCpZUCOv6sVuDvko9hbw6zJbY8IX8TY/edit?usp=sharing', '_blank');">Answers</button>
+                    </div>
+                    <p>Other competition materials are available at <a
+                            href="https://github.com/NP3-Pi-rates/competition-materials/" target="_blank"
+                            class="comp-link">this link</a></p>
+                </div>
+
+                <div class="contact-section">
+                    <h2>Contact Us</h2>
+                    <p>If you would like to make a suggestion or report an error, email us at
+                        <a href="mailto:np3mathpirates@gmail.com" class="contact-link">np3mathpirates@gmail.com</a>
+                    </p>
+                    <div class="disclaimer">
+                        <p>Disclaimer: Our lists of math resources include links to external websites that are not owned
+                            by or
+                            affiliated with Pi-Rates. Desmos and Geogebra were used for visualization of graphs</p>
+                    </div>
+                </div>
+            </div>
+        </main>
     </div>
-    </div>
-        <div class="images">
-            <img src="./images/meeting_photo_1.jpg" alt="">
-            <img src="./images/meeting_photo_2.jpg" alt="">
-            <img src="./images/meeting_photo_4.jpg" alt="">
-            <img src="./images/competition_meeting_photo.jpg" alt="">
-        </div>
-    
-    
-    <h2>Contact Us</h2>
-    <p>If you would like to make a suggestion or report an error, email us at np3mathpirates@gmail.com</p>
-    <h3>Disclaimer: Our lists of math resources include links to external websites that are not owned by or affiliated with Pi-Rates. Desmos and Geogebra were used for visualization of graphs</h3>
-        
-</div>
+    <script src="about.js"></script>
 </body>
+
 </html>

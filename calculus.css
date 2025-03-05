@@ -1,0 +1,154 @@
+.calculus-content {
+    padding: 20px;
+}
+
+.calculus-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    color: white;
+}
+
+.chapter {
+    margin-bottom: 20px;
+}
+
+.chapter-button {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #f7941c;
+    color: white;
+    font-family: inherit;
+    font-size: 24px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.chapter-button:hover {
+    background-color: rgba(247, 148, 28, 0.1);
+}
+
+.arrow {
+    font-size: 30px;
+    transition: transform 0.3s ease;
+}
+
+.chapter.active .arrow {
+    transform: rotate(90deg);
+}
+
+.chapter-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.6s ease-out;
+}
+
+.chapter.active .chapter-content {
+    max-height: 2000px;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    color: white;
+    font-size: 14px;
+}
+
+th,
+td {
+    padding: 15px;
+    text-align: left;
+    border: 1px solid #f7941c;
+}
+
+th {
+    background-color: #f7941c;
+    color: #2d2d2d;
+    font-size: 15px;
+}
+
+.guide-link,
+.practice-link,
+.help-link {
+    color: #f7941c;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+    font-size: 14px;
+}
+
+.guide-link:hover,
+.practice-link:hover,
+.help-link:hover {
+    color: #ffffff;
+}
+
+td {
+    vertical-align: top;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.right-header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.hamburger-menu {
+    position: relative;
+}
+
+.hamburger-button {
+    background: none;
+    border: none;
+    color: #f7941c;
+    font-size: 32px;
+    cursor: pointer;
+    padding: 0 10px;
+    margin-top: -8px;
+    transition: color 0.3s ease;
+}
+
+.hamburger-button:hover {
+    color: white;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 40px;
+    background-color: #2d2d2d;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border: 1px solid #f7941c;
+    border-radius: 5px;
+}
+
+.dropdown-content a {
+    color: #f7941c;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.dropdown-content a:hover {
+    background-color: rgba(247, 148, 28, 0.1);
+    color: white;
+}
+
+.hamburger-menu.active .dropdown-content {
+    display: block;
+}

@@ -1,16 +1,16 @@
 /* Import styles from your existing guides.css */
 @import url('guides.css');
 
-/* Specific styles for the admin page */
 #admin-container {
     width: 90%;
     margin: 20px auto;
     padding: 20px;
-    background-color: #333; /* A slightly lighter background */
+    background-color: #333;
     border-radius: 8px;
 }
 
-#admin-container h2, #admin-container h3 {
+#admin-container h2,
+#admin-container h3 {
     color: orange;
 }
 
@@ -45,7 +45,7 @@
 }
 
 #admin-container button:hover {
-    background-color: #ffa500; /* Slightly brighter orange */
+    background-color: #ffa500;
 }
 
 #admin-table {
@@ -54,7 +54,8 @@
     margin-top: 20px;
 }
 
-#admin-table th, #admin-table td {
+#admin-table th,
+#admin-table td {
     border: 1px solid #ddd;
     padding: 8px;
     text-align: left;

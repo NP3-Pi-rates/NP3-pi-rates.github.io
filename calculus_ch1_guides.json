@@ -1,64 +1,57 @@
 [
   {
     "name": "1.1 Key Points: Speed and Distance",
-    "tags": ["1.1"], 
+    "tags": [
+      "1.1"
+    ],
     "guideLink": "./guide-files/calculus_1.1_key_points.pdf",
     "practiceLinks": [
       {
         "name": "MetaTutor Practice",
         "link": "https://metatutor.co.uk/wp-content/uploads/PDFs/Worksheets/Foundation/DISTANCE-TIME-GRAPHS.pdf"
-      }      
+      }
     ],
     "extraHelpLinks": [
       {
         "name": "The Organic Chemistry Tutor Video on Position, Velocity, Acceleration (Will be covered more in later chapters)",
         "link": "https://www.youtube.com/watch?v=4zJ6fl1Xakg"
-      } 
+      }
     ]
   },
   {
     "name": "1.2 Key Points (In Progress)",
-    "tags": ["1.2"], 
-    "guideLink": "",
-    "practiceLinks": [
-      
+    "tags": [
+      "1.2"
     ],
-    "extraHelpLinks": [
-      
-    ]
+    "guideLink": "",
+    "practiceLinks": [],
+    "extraHelpLinks": []
   },
   {
     "name": "1.3 Key Points (In Progress)",
-    "tags": ["1.3"], 
-    "guideLink": "",
-    "practiceLinks": [
-      
+    "tags": [
+      "1.3"
     ],
-    "extraHelpLinks": [
-      
-    ]
+    "guideLink": "",
+    "practiceLinks": [],
+    "extraHelpLinks": []
   },
   {
     "name": "1.4 Key Points (In Progress)",
-    "tags": ["1.4"], 
-    "guideLink": "",
-    "practiceLinks": [
-      
+    "tags": [
+      "1.4"
     ],
-    "extraHelpLinks": [
-      
-    ]
+    "guideLink": "",
+    "practiceLinks": [],
+    "extraHelpLinks": []
   },
   {
     "name": "1.5 Key Points (In Progress)",
-    "tags": ["1.5"], 
-    "guideLink": "",
-    "practiceLinks": [
-      
+    "tags": [
+      "1.5"
     ],
-    "extraHelpLinks": [
-      
-    ]
+    "guideLink": "",
+    "practiceLinks": [],
+    "extraHelpLinks": []
   }
-        
 ]

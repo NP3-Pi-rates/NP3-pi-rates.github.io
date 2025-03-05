@@ -1,122 +1,328 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
     <meta HTTP-EQUIV="EXPIRES" CONTENT="Mon, 22 Jul 2002 11:12:01 GMT">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Precalculus Guides</title>
-    <link rel="stylesheet" href="guides.css">
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+    <title>Precalculus - NP3 Pi-rates</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="precalculus.css">
 </head>
+
 <body>
-    <div id="header">
-        <a href="/"><img src="https://resources.finalsite.net/images/f_auto,q_auto/v1720002453/natomasunifiedorg/dydmlbcfvutq09ngjkc5/NP3CharterPrimaryLogoImage.png" alt="Np3 Logo"></a>
-        <button onclick="location.href='./guides.html';">Guides/Worksheets</button>
-        <button onclick="location.href='./about.html';">About Us</button>
-        <button onclick="location.href='./competitions.html';">Competitions</button>
-        <button onclick="location.href='./calculus.html';">Calculus Guides</button>
-        <button onclick="location.href='./precalculus.html';">Precalculus Guides</button>
-        <img src="./images/pi-rates watermark.png" alt="pirates logo" id="pirates-logo">
-    </div>
-    <div class="filter">
-        <label for="tagFilter">Filter by Chapter:</label>
-        <select id="tagFilter">
-            <option value="all">All</option>
-            <option value="0">0</option>
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-            <option value="6">6</option>
-            <option value="7">7</option>
-            <option value="8">8</option>
-            <option value="9">9</option>
-            <option value="10">10</option>
-            <option value="11">12</option>
-            <option value="12">12</option>
-            <option value="13">13</option>
-        </select>
-    </div>
-    
-    <p style="text-align: center; font-weight: bold; font-size: 2em;">Precalculus Guides</p>
-    <p style="text-align: center;">More resources are currently being added</p>
-    <p style="text-align: center;">Currently, the following chapters have resources added: 1, 2, 3, 4, 6</p>
-    <p style="text-align: center;"></p>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <a href="/">
+                    <img src="https://resources.finalsite.net/images/f_auto,q_auto/v1720002453/natomasunifiedorg/dydmlbcfvutq09ngjkc5/NP3CharterPrimaryLogoImage.png"
+                        alt="Np3 Logo">
+                </a>
+            </div>
+            <div class="right-header">
+                <div class="developed-by">
+                    <img src="./images/white watermark.png" alt="Pi-Rates Logo">
+                </div>
+                <div class="hamburger-menu">
+                    <button class="hamburger-button">☰</button>
+                    <div class="dropdown-content">
+                        <a href="/">Home</a>
+                        <a href="about.html">About Us</a>
+                        <a href="calculus.html">Calculus</a>
+                        <a href="algebra2.html">Algebra 2</a>
+                        <a href="geometry.html">Geometry</a>
+                        <a href="algebra1.html">Algebra 1</a>
+                    </div>
+                </div>
+            </div>
+        </header>
 
-    <table id="data-table">
-        <thead>
-            <tr>
-                <th>Chapter</th>
-                <th>Name</th>
-                <th>Guides</th>
+        <main class="precalculus-content">
+            <div class="header-container">
+                <h1>Precalculus</h1>
+                <p class="resources-note">More resources are currently being added<br>
+                    Currently, the following chapters have resources added: 1, 2, 3, 4, 6</p>
+            </div>
 
-            </tr>
-        </thead>
-        <tbody id="table-body">
-        </tbody>
-    </table>
-    
-        <script>
-            document.addEventListener("DOMContentLoaded", function () {
-                const tagFilter = document.getElementById("tagFilter");
-                const tableBody = document.getElementById("table-body");
-            
-                async function fetchData() {
-                    const response = await fetch("precalculus_guides.json");
-                    const data = await response.json();
-                    return data;
-                }
-            
-                async function populateTable() {
-                    const data = await fetchData();
-                    tableBody.innerHTML = "";
-                
-                    data.forEach(item => {
-                        const row = document.createElement("tr");
-                        const tagsCell = document.createElement("td");
-                        tagsCell.textContent = item.tags.join(", ");
-                        const nameCell = document.createElement("td");
-                        nameCell.textContent = item.name;
-                        const guideCell = document.createElement("td");
-                        const guideLink = document.createElement("a");
-                        guideLink.textContent = "Guide";
-                        guideLink.target = "_blank";
-                        guideLink.href = item.guideLink;
-                        guideCell.appendChild(guideLink);
-                
-                        
-                
-                        row.appendChild(tagsCell);
-                        row.appendChild(nameCell);
-                        row.appendChild(guideCell);
-                        
-                
-                        tableBody.appendChild(row);
-                    });
-                }
-            
-                tagFilter.addEventListener("change", () => {
-                    const selectedTag = tagFilter.value;
-                    const rows = tableBody.getElementsByTagName("tr");
-                
-                    for (const row of rows) {
-                        const tagsCell = row.querySelector("td:first-child"); 
-                        const tags = tagsCell.textContent.split(", ");
-                        
-                        if (selectedTag === "all" || tags.includes(selectedTag)) {
-                            row.style.display = ""; 
-                        } else {
-                            row.style.display = "none";
-                        }
-                    }
-                
-                
-                });
-            
-                populateTable();
-            });
-            
-            </script>
+            <div class="chapter-list">
+                <div class="chapter">
+                    <button class="chapter-button">
+                        <span>Chapter 1: Preparing for Your Journey</span>
+                        <span class="arrow">›</span>
+                    </button>
+                    <div class="chapter-content">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Section</th>
+                                    <th>Name</th>
+                                    <th>Practice</th>
+                                    <th>Extra Help</th>
+                                </tr>
+                            </thead>
+                            <tbody id="chapter1-table-body">
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="chapter">
+                    <button class="chapter-button">
+                        <span>Chapter 2: Functions and Trigonometry</span>
+                        <span class="arrow">›</span>
+                    </button>
+                    <div class="chapter-content">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Section</th>
+                                    <th>Name</th>
+                                    <th>Practice</th>
+                                    <th>Extra Help</th>
+                                </tr>
+                            </thead>
+                            <tbody id="chapter2-table-body">
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="chapter">
+                    <button class="chapter-button">
+                        <span>Chapter 3: Algebra and Area Under a Curve</span>
+                        <span class="arrow">›</span>
+                    </button>
+                    <div class="chapter-content">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Section</th>
+                                    <th>Name</th>
+                                    <th>Practice</th>
+                                    <th>Extra Help</th>
+                                </tr>
+                            </thead>
+                            <tbody id="chapter3-table-body">
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="chapter">
+                    <button class="chapter-button">
+                        <span>Chapter 4: Polynomial and Rational Functions</span>
+                        <span class="arrow">›</span>
+                    </button>
+                    <div class="chapter-content">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Section</th>
+                                    <th>Name</th>
+                                    <th>Practice</th>
+                                    <th>Extra Help</th>
+                                </tr>
+                            </thead>
+                            <tbody id="chapter4-table-body">
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="chapter">
+                    <button class="chapter-button">
+                        <span>Chapter 5: Exponentials and Logarithms</span>
+                        <span class="arrow">›</span>
+                    </button>
+                    <div class="chapter-content">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Section</th>
+                                    <th>Name</th>
+                                    <th>Practice</th>
+                                    <th>Extra Help</th>
+                                </tr>
+                            </thead>
+                            <tbody id="chapter5-table-body">
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="chapter">
+                    <button class="chapter-button">
+                        <span>Chapter 6: Triangles and Vectors</span>
+                        <span class="arrow">›</span>
+                    </button>
+                    <div class="chapter-content">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Section</th>
+                                    <th>Name</th>
+                                    <th>Practice</th>
+                                    <th>Extra Help</th>
+                                </tr>
+                            </thead>
+                            <tbody id="chapter6-table-body">
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="chapter">
+                    <button class="chapter-button">
+                        <span>Chapter 7: Limits and Rates</span>
+                        <span class="arrow">›</span>
+                    </button>
+                    <div class="chapter-content">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Section</th>
+                                    <th>Name</th>
+                                    <th>Practice</th>
+                                    <th>Extra Help</th>
+                                </tr>
+                            </thead>
+                            <tbody id="chapter7-table-body">
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="chapter">
+                    <button class="chapter-button">
+                        <span>Chapter 8: Extending Periodic Functions</span>
+                        <span class="arrow">›</span>
+                    </button>
+                    <div class="chapter-content">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Section</th>
+                                    <th>Name</th>
+                                    <th>Practice</th>
+                                    <th>Extra Help</th>
+                                </tr>
+                            </thead>
+                            <tbody id="chapter8-table-body">
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="chapter">
+                    <button class="chapter-button">
+                        <span>Chapter 9: Matrices</span>
+                        <span class="arrow">›</span>
+                    </button>
+                    <div class="chapter-content">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Section</th>
+                                    <th>Name</th>
+                                    <th>Practice</th>
+                                    <th>Extra Help</th>
+                                </tr>
+                            </thead>
+                            <tbody id="chapter9-table-body">
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="chapter">
+                    <button class="chapter-button">
+                        <span>Chapter 10: Conics and Parametric Functions</span>
+                        <span class="arrow">›</span>
+                    </button>
+                    <div class="chapter-content">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Section</th>
+                                    <th>Name</th>
+                                    <th>Practice</th>
+                                    <th>Extra Help</th>
+                                </tr>
+                            </thead>
+                            <tbody id="chapter10-table-body">
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="chapter">
+                    <button class="chapter-button">
+                        <span>Chapter 11: Polar Functions and Complex Numbers</span>
+                        <span class="arrow">›</span>
+                    </button>
+                    <div class="chapter-content">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Section</th>
+                                    <th>Name</th>
+                                    <th>Practice</th>
+                                    <th>Extra Help</th>
+                                </tr>
+                            </thead>
+                            <tbody id="chapter11-table-body">
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="chapter">
+                    <button class="chapter-button">
+                        <span>Chapter 12: Series and Statistics</span>
+                        <span class="arrow">›</span>
+                    </button>
+                    <div class="chapter-content">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Section</th>
+                                    <th>Name</th>
+                                    <th>Practice</th>
+                                    <th>Extra Help</th>
+                                </tr>
+                            </thead>
+                            <tbody id="chapter12-table-body">
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="chapter">
+                    <button class="chapter-button">
+                        <span>Chapter 13: Precalculus Finale</span>
+                        <span class="arrow">›</span>
+                    </button>
+                    <div class="chapter-content">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Section</th>
+                                    <th>Name</th>
+                                    <th>Practice</th>
+                                    <th>Extra Help</th>
+                                </tr>
+                            </thead>
+                            <tbody id="chapter13-table-body">
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="precalculus.js"></script>
 </body>
+
 </html>

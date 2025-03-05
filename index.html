@@ -1,54 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
-    <meta HTTP-EQUIV="EXPIRES" CONTENT="Mon, 22 Jul 2002 11:12:01 GMT">
-    <link rel="stylesheet" href="style.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NP3 Pi-Rates</title>
-    <script src="https://cdn.jsdelivr.net/npm/showdown@2.0.3/dist/showdown.min.js"></script>
-    <script>
-        //Get text from announcement-holder.txt and put into the body
-        fetch('announcement-holder.txt')
-          .then(response => {
-            if (!response.ok) {
-              throw new Error('Network response was not ok');
-            }
-            return response.text();
-          })
-          .then(text => {
-            const showdown = window.showdown;
-            const converter = new showdown.Converter();
-            const ann = text;
-            const html = converter.makeHtml(ann);
-            const announcementDiv = document.getElementById("announcement-content");
-            announcementDiv.innerHTML = html;
-          })
-          .catch(error => {
-            console.error('There was a problem with the fetch operation:', error);
-          });
-      </script>
-</head>
-<body>
-    <div id="header">
-        <a href="/"><img src="https://resources.finalsite.net/images/f_auto,q_auto/v1720002453/natomasunifiedorg/dydmlbcfvutq09ngjkc5/NP3CharterPrimaryLogoImage.png" alt="Np3 Logo"></a>
-        <button onclick="location.href='./guides.html';">Guides/Worksheets</button>
-        <button onclick="location.href='./about.html';">About Us</button>
-        <button onclick="location.href='./competitions.html';">Competitions</button>
-        <button onclick="location.href='./calculus.html';">Calculus Guides</button>
-        <button onclick="location.href='./precalculus.html';">Precalculus Guides</button>
-        <img src="./images/pi-rates watermark.png" alt="pirates logo" id="pirates-logo">
-    </div>
-    <div class="homepage-images">
-      <img src="./images/pirates comp photo 1.jpg" alt="person solving math problem on board">
-      <img src="./images/alex spitting bars.jpg" alt="person speaking in front of whiteboard">
-        <img src="./images/pirates comp team.jpg" alt="image of 2024 comp teams">
-    </div>
-    <div id="announcement">
-        <div id="announcement-content"></div>
-    </div>
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+  <title>NP3 Pi-rates</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">
+        <img
+          src="https://resources.finalsite.net/images/f_auto,q_auto/v1720002453/natomasunifiedorg/dydmlbcfvutq09ngjkc5/NP3CharterPrimaryLogoImage.png"
+          alt="Np3 Logo">
+      </div>
+      <div class="developed-by">
+        <img src="./images/white watermark.png" alt="Pi-Rates Logo">
+      </div>
+    </header>
+
+    <main class="content">
+      <div class="carousel-container">
+        <div class="carousel">
+          <div class="carousel-slide active">
+            <img src="./images/alex spitting bars.jpg" alt="Alex presenting at whiteboard">
+          </div>
+          <div class="carousel-slide">
+            <img src="./images/competition_meeting_photo.jpg" alt="Competition meeting">
+          </div>
+          <div class="carousel-slide">
+            <img src="./images/meeting_photo_2.jpg" alt="Pi-rates meeting">
+          </div>
+          <div class="carousel-slide">
+            <img src="./images/pirates comp photo 1.jpg" alt="Student solving math problem">
+          </div>
+          <div class="carousel-slide">
+            <img src="./images/meeting_photo_4.jpg" alt="Pi-rates meeting">
+          </div>
+          <div class="carousel-slide">
+            <img src="./images/group_meeting_photo.jpg" alt="Pi-rates meeting">
+          </div>
+          <button class="carousel-button prev">❮</button>
+          <button class="carousel-button next">❯</button>
+        </div>
+      </div>
+
+      <div class="navigation">
+        <a href="about.html" class="nav-button">About Us</a>
+        <a href="calculus.html" class="nav-button">Calculus</a>
+        <a href="precalculus.html" class="nav-button">Precalculus</a>
+        <a href="algebra2.html" class="nav-button">Algebra 2</a>
+        <a href="geometry.html" class="nav-button">Geometry</a>
+        <a href="algebra1.html" class="nav-button">Algebra 1</a>
+      </div>
+    </main>
+  </div>
+  <script src="script.js"></script>
 </body>
+
 </html>
