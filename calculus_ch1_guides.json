@@ -19,38 +19,38 @@
     ]
   },
   {
-    "name": "1.2 Key Points (In Progress)",
+    "name": "1.2 Key Points: Piecewise Functions, Continuity Intuition, End Behavior, Asymptotes, Approach Statements, Composite Functions, Inverse Functions, Even and Odd Functions",
     "tags": [
       "1.2"
     ],
-    "guideLink": "",
+    "guideLink": "./guide-files/calculus_1.2_key_points.pdf",
     "practiceLinks": [],
     "extraHelpLinks": []
   },
   {
-    "name": "1.3 Key Points (In Progress)",
+    "name": "1.3 Key Points: Slope Statements",
     "tags": [
       "1.3"
     ],
-    "guideLink": "",
+    "guideLink": "./guide-files/calculus_1.3_key_points.pdf",
     "practiceLinks": [],
     "extraHelpLinks": []
   },
   {
-    "name": "1.4 Key Points (In Progress)",
+    "name": "1.4 Key Points: Distance-Velocity-Acceleration",
     "tags": [
       "1.4"
     ],
-    "guideLink": "",
+    "guideLink": "./guide-files/calculus_1.4_key_points.pdf",
     "practiceLinks": [],
     "extraHelpLinks": []
   },
   {
-    "name": "1.5 Key Points (In Progress)",
+    "name": "1.5 Key Points: Position and Velocity",
     "tags": [
       "1.5"
     ],
-    "guideLink": "",
+    "guideLink": "./guide-files/calculus_1.5_key_points.pdf",
     "practiceLinks": [],
     "extraHelpLinks": []
   }

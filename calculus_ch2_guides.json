@@ -111,9 +111,9 @@
     ]
   },
   {
-    "name": "2.3 Key Points (In Progress)",
+    "name": "2.3 Key Points: Local Linearity, Limits of Trigonometric Functions, Rate-Time-Distance Formula",
     "tags": ["2.3"], 
-    "guideLink": "",
+    "guideLink": "./guide-files/calculus_2.3_key_points.pdf",
     "practiceLinks": [
       
     ],
@@ -122,9 +122,9 @@
     ]
   },
   {
-    "name": "2.4 Key Points (In Progress)",
+    "name": "2.4 Key Points: Improving Area Approximations",
     "tags": ["2.4"], 
-    "guideLink": "",
+    "guideLink": "./guide-files/calculus_2.4_key_points.pdf",
     "practiceLinks": [
       
     ],

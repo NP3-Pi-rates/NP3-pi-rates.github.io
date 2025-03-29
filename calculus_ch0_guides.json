@@ -26,6 +26,24 @@
     ]
   },
   {
+    "name": "AP Calculus Trigonometry",
+    "tags": ["0"],
+    "guideLink": "./guide-files/ap_calculus_trigonometry.pdf",
+    "practiceLinks": [
+      {
+        "name": "",
+        "link": ""
+      }
+      
+    ],
+    "extraHelpLinks": [
+      {
+        "name": "",
+        "link": ""
+      }
+    ]
+  },
+  {
     "name": "AP Calculus AB Exam 2012",
     "tags": ["0"],
     "guideLink": "https://secure-media.collegeboard.org/digitalServices/pdf/ap/ap-calculus-ab-practice-exam-2012.pdf",
