@@ -104,14 +104,40 @@
     ]
   },
   {
-    "name": "7.4 Key Points (In Progress)",
+    "name": "7.4 Key Points: Euler's Method, Integration by Parts, Integration by Partial Fractions",
     "tags": ["7.4"], 
-    "guideLink": "",
+    "guideLink": "./guide-files/calculus_7.4_key_points.pdf",
     "practiceLinks": [
-      
+      {
+        "name": "Khan Academy Practice Euler's Method",
+        "link": "https://www.khanacademy.org/math/ap-calculus-bc/bc-differential-equations-new/bc-7-5/e/euler-s-metho"
+      },
+      {
+        "name": "Kuta Practice Integration by Parts",
+        "link": "https://cdn.kutasoftware.com/Worksheets/Calc/05%20-%20Integration%20by%20Parts.pdf"
+      },
+      {
+        "name": "Kuta Practice Integration by Partial Fractions",
+        "link": "https://cdn.kutasoftware.com/Worksheets/Precalc/09%20-%20Partial%20Fraction%20Decomposition.pdf"
+      }
     ],
     "extraHelpLinks": [
-      
+      {
+        "name": "The Organic Chemistry Tutor Video Euler's Method",
+        "link": "https://www.youtube.com/watch?v=ukNbG7muKho"
+      },
+      {
+        "name": "Professor Dave Explains Video Integration by Parts",
+        "link": "https://www.youtube.com/watch?v=Wr9VOum9Co0"
+      },
+      {
+        "name": "The Organic Chemistry Tutor Video Integration by Parts",
+        "link": "https://www.youtube.com/watch?v=Wr9VOum9Co0"
+      },
+      {
+        "name": "The Organic Chemistry Tutor Video Integration by Partial Fractions",
+        "link": "https://www.youtube.com/watch?v=Wr9VOum9Co0"
+      }
     ]
   }
         

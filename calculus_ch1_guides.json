@@ -24,8 +24,66 @@
       "1.2"
     ],
     "guideLink": "./guide-files/calculus_1.2_key_points.pdf",
-    "practiceLinks": [],
-    "extraHelpLinks": []
+    "practiceLinks": [
+      {
+        "name": "Kuta Practice Composite Functions",
+        "link": "https://iblog.dearbornschools.org/singley/wp-content/uploads/sites/781/2017/09/Composite-Functions.pdf"
+      },
+      {
+        "name": "TSC Practice Composite Functions",
+        "link": "https://www.tsc.fl.edu/media/divisions/learning-commons/resources-by-subject/math/college-algebra/CompositeFunctions-Practice(and-solutions).pdf"
+      },
+      {
+        "name": "Kuta Practice Inverse Functions",
+        "link": "https://cdn.kutasoftware.com/Worksheets/Alg2/Function%20Inverses.pdf"
+      },
+      {
+        "name": "SharpSchool Practice Inverse Functions",
+        "link": "https://cdnsm5-ss2.sharpschool.com/UserFiles/Servers/Server_5219792/File/Boulton/Classwork%20Inverses.pdf"
+      },
+      {
+        "name": "Ms. Mackay Practice Piecewise Functions",
+        "link": "https://mamackay.weebly.com/uploads/1/3/3/8/13382344/piecewise_functions_practice_quiz.pdf"
+      },
+      {
+        "name": "Kuta Practice Piecewise Functions",
+        "link": "https://cdn.kutasoftware.com/Worksheets/Precalc/01%20-%20Piecewise%20Functions.pdf"
+      },
+      {
+        "name": "Khan Academy Practice Even and Odd Functions",
+        "link": "https://www.khanacademy.org/math/algebra2/x2ec2f6f830c9fb89:transformations/x2ec2f6f830c9fb89:symmetry/e/determine-if-a-polynomial-is-even-or-odd"
+      }
+    ],
+    "extraHelpLinks": [
+      {
+        "name": "The Organic Chemistry Tutor Video Composite Functions",
+        "link": "https://www.youtube.com/watch?v=ZFPkQkURSxk"
+      },
+      {
+        "name": "Mathispower4u Video Composite Functions",
+        "link": "https://www.youtube.com/watch?v=qxBmISCJSME"
+      },
+      {
+        "name": "The Organic Chemistry Tutor Video Inverse Functions",
+        "link": "https://www.youtube.com/watch?v=etMK3xViMAc"
+      },
+      {
+        "name": "The Organic Chemistry Tutor Video Evaluating Piecewise Functions",
+        "link": "https://www.youtube.com/watch?v=OYOXMyFKotc"
+      },
+      {
+        "name": "The Organic Chemistry Tutor Video Graphing Piecewise Functions",
+        "link": "https://www.youtube.com/watch?v=Uzw9tsGq2Pw"
+      },
+      {
+        "name": "Professor Dave Explains Video Piecewise Functions and Continuity",
+        "link": "https://www.youtube.com/watch?v=BIQrnx-vvx8"
+      },
+      {
+        "name": "Kimberly Brehm Video Analyzing Graphs of Functions and Even and Odd Functions",
+        "link": "https://www.youtube.com/watch?v=E3S-ll9AdaY"
+      }
+    ]
   },
   {
     "name": "1.3 Key Points: Slope Statements",
@@ -33,8 +91,18 @@
       "1.3"
     ],
     "guideLink": "./guide-files/calculus_1.3_key_points.pdf",
-    "practiceLinks": [],
-    "extraHelpLinks": []
+    "practiceLinks": [
+      {
+        "name": "Khan Academy Practice Interpreting Slope of a Curve",
+        "link": "https://www.khanacademy.org/math/old-ap-calculus-ab/ab-derivative-intro/ab-derivative-intuition/e/recognizing_slope"
+      }
+    ],
+    "extraHelpLinks": [
+      {
+        "name": "Khan Academy Video Interpreting Slope of a Curve",
+        "link": "https://www.youtube.com/watch?v=E3S-ll9AdaY"
+      }
+    ]
   },
   {
     "name": "1.4 Key Points: Distance-Velocity-Acceleration",
@@ -42,8 +110,18 @@
       "1.4"
     ],
     "guideLink": "./guide-files/calculus_1.4_key_points.pdf",
-    "practiceLinks": [],
-    "extraHelpLinks": []
+    "practiceLinks": [
+      {
+        "name": "Khan Academy Practice Speed and Velocity",
+        "link": "https://www.khanacademy.org/test-prep/mcat/physical-processes/speed-and-velocity/e/speed-and-velocity-questions"
+      }
+    ],
+    "extraHelpLinks": [
+      {
+        "name": "The Organic Chemistry Tutor Video Distance, Displacement, Speed, Velocity",
+        "link": "https://www.youtube.com/watch?v=E3S-ll9AdaY"
+      }
+    ]
   },
   {
     "name": "1.5 Key Points: Position and Velocity",
@@ -51,7 +129,17 @@
       "1.5"
     ],
     "guideLink": "./guide-files/calculus_1.5_key_points.pdf",
-    "practiceLinks": [],
-    "extraHelpLinks": []
+    "practiceLinks": [
+      {
+        "name": "Khan Academy Position, Velocity, and Acceleration",
+        "link": "https://www.khanacademy.org/computing/pixar/effects/particle-physics/e/position--velocity-and-acceleration"
+      }
+    ],
+    "extraHelpLinks": [
+      {
+        "name": "Derek Owens Video Position and Velocity",
+        "link": "https://www.youtube.com/watch?v=h3wGK1e2nuw"
+      }
+    ]
   }
 ]

@@ -31,15 +31,87 @@
     "guideLink": "./guide-files/ap_calculus_trigonometry.pdf",
     "practiceLinks": [
       {
-        "name": "",
-        "link": ""
+        "name": "Khan Academy Practice (Basic)",
+        "link": "https://www.khanacademy.org/math/ap-calculus-ab/ab-limits-new/ab-1-5b/e/determining-trigonometric-limits"
+      },
+      {
+        "name": "Khan Academy Practice (Identities)",
+        "link": "https://www.khanacademy.org/math/ap-calculus-ab/ab-limits-new/ab-1-6/e/find-limits-using-trig-identities"
       }
       
     ],
     "extraHelpLinks": [
       {
-        "name": "",
-        "link": ""
+        "name": "Paul's Online Math Notes Trig Brief Overview",
+        "link": "https://tutorial.math.lamar.edu/classes/calci/trigfcns.aspx"
+      },
+      {
+        "name": "Tully's Trig Identities List",
+        "link": "https://calcwithtully.weebly.com/trig-identities.html"
+      }
+    ]
+  },
+  {
+    "name": "AP Calculus Geometry",
+    "tags": ["0"],
+    "guideLink": "./guide-files/ap_calculus_geometry.pdf",
+    "practiceLinks": [
+      {
+        "name": "Paul's Online Math Notes Practice Related Rates",
+        "link": "https://tutorial.math.lamar.edu/problems/calci/relatedrates.aspx"
+      },
+      {
+        "name": "Paul's Online Math Notes Practice Optimization",
+        "link": "https://tutorial.math.lamar.edu/problems/calci/optimization.aspx"
+      },
+      {
+        "name": "Kuta Practice Related Rates",
+        "link": "https://cdn.kutasoftware.com/Worksheets/Calc/04%20-%20Related%20Rates.pdf"
+      },
+      {
+        "name": "Kuta Practice Related Rates(2)",
+        "link": "https://tajimasolis.weebly.com/uploads/3/7/3/4/37346235/calculus_related_rates_practice.pdf"
+      },
+      {
+        "name": "Kuta Practice Optimization",
+        "link": "https://cdn.kutasoftware.com/Worksheets/Calc/04%20-%20Optimization.pdf"
+      }
+      
+    ],
+    "extraHelpLinks": [
+      {
+        "name": "MGA Geometry Formulas Sheet",
+        "link": "https://www.mga.edu/computing/mathematics-statistics/docs/Math_Resources_Geometry_Formulas.pdf"
+      },
+      {
+        "name": "EEWeb Geometry Formulas Sheet",
+        "link": "https://www.eeweb.com/wp-content/uploads/geometry-shapes-solids.pdf"
+      }
+    ]
+  },
+  {
+    "name": "AP Calculus Limits",
+    "tags": ["0"],
+    "guideLink": "./guide-files/ap_calculus_limits.pdf",
+    "practiceLinks": [
+      {
+        "name": "Khan Academy Limits Practice",
+        "link": "https://www.khanacademy.org/math/calculus-1/cs1-limits-and-continuity/cs1-strategy-in-finding-limits/e/selecting-procedures-for-calculating-limits-3"
+      },
+      {
+        "name": "Mr. Hadley's Limits Practice",
+        "link": "https://hadleysclasses.weebly.com/uploads/1/6/3/2/16327174/limit_worksheets_with_answers.pdf"
+      }
+      
+    ],
+    "extraHelpLinks": [
+      {
+        "name": "Khan Academy Limits Flowchart",
+        "link": "https://www.khanacademy.org/math/calculus-1/cs1-limits-and-continuity/cs1-strategy-in-finding-limits/a/limit-strategies-flow-chart"
+      },
+      {
+        "name": "Khan Academy Limits Review Video",
+        "link": "https://www.youtube.com/watch?v=ZaLw1cunN3s"
       }
     ]
   },

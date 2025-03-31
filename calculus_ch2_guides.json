@@ -75,14 +75,29 @@
     ]
   },
   {
-    "name": "Evaluating Limits (In Progress)",
+    "name": "AP Calculus Limits",
     "tags": ["2.2"], 
-    "guideLink": "",
+    "guideLink": "./guide-files/ap_calculus_limits.pdf",
     "practiceLinks": [
-
+      {
+        "name": "Khan Academy Limits Practice",
+        "link": "https://www.khanacademy.org/math/calculus-1/cs1-limits-and-continuity/cs1-strategy-in-finding-limits/e/selecting-procedures-for-calculating-limits-3"
+      },
+      {
+        "name": "Mr. Hadley's Limits Practice",
+        "link": "https://hadleysclasses.weebly.com/uploads/1/6/3/2/16327174/limit_worksheets_with_answers.pdf"
+      }
+      
     ],
     "extraHelpLinks": [
-      
+      {
+        "name": "Khan Academy Limits Flowchart",
+        "link": "https://www.khanacademy.org/math/calculus-1/cs1-limits-and-continuity/cs1-strategy-in-finding-limits/a/limit-strategies-flow-chart"
+      },
+      {
+        "name": "Khan Academy Limits Review Video",
+        "link": "https://www.youtube.com/watch?v=ZaLw1cunN3s"
+      }
     ]
   },
   {
@@ -115,10 +130,16 @@
     "tags": ["2.3"], 
     "guideLink": "./guide-files/calculus_2.3_key_points.pdf",
     "practiceLinks": [
-      
+      {
+        "name": "JMath Rate-Time-Distance Practice",
+        "link": "http://jaysnyder.mydomain.com/uploads/3/5/4/7/3547473/mot1.pdf"
+      }
     ],
     "extraHelpLinks": [
-      
+      {
+        "name": "Khan Academy Video Local Linearity",
+        "link": "https://www.youtube.com/watch?v=h2lARdo7Xko"
+      }
     ]
   },
   {
@@ -126,10 +147,16 @@
     "tags": ["2.4"], 
     "guideLink": "./guide-files/calculus_2.4_key_points.pdf",
     "practiceLinks": [
-      
+      {
+        "name": "Flipped Math Practice Riemann Sums",
+        "link": "https://calculus.flippedmath.com/uploads/1/1/3/0/11305589/calc_6.2_packet.pdf"
+      }
     ],
     "extraHelpLinks": [
-      
+      {
+      "name": "The Organic Chemistry Tutor Video Riemann Sums",
+      "link": "https://www.youtube.com/watch?v=4L9ffuwj4Lk"
+      }
     ]
   }
         
