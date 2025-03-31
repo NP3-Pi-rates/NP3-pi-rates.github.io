@@ -57,6 +57,10 @@
     "guideLink": "./guide-files/ap_calculus_geometry.pdf",
     "practiceLinks": [
       {
+        "name": "Pi-Rates Formulas Practice",
+        "link": "https://quizlet.com/1025351078/ap-calculus-geometric-formulas-flash-cards/"
+      },
+      {
         "name": "Paul's Online Math Notes Practice Related Rates",
         "link": "https://tutorial.math.lamar.edu/problems/calci/relatedrates.aspx"
       },
