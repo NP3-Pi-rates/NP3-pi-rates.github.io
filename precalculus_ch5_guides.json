@@ -1,56 +1,46 @@
 [
   {
-    "name": "5.1 Key Points: (In Progress)",
+    "name": "5.1 Key Points: Exponential Functions, Transforming Exponential Functions, e",
     "tags": ["5.1"], 
-    "guideLink": "",
+    "guideLink": "./guide-files/precalculus_5.1_key_points.pdf",
     "practiceLinks": [
       {
-        "name": "",
-        "link": ""
+        "name": "Kuta Practice Graphing Exponential Functions",
+        "link": "https://cdn.kutasoftware.com/Worksheets/Alg2/Graphing%20Exponential%20Functions.pdf"
       }
       
       
     ],
     "extraHelpLinks": [
       {
-        "name": "",
-        "link": ""
+        "name": "Ms. Jaros Video Exponential Functions From Scenario",
+        "link": "https://www.youtube.com/watch?v=Kqmnu7QHOho"
       }
     ]
   },
   {
-    "name": "5.2 Key Points: (In Progress)",
+    "name": "5.2 Key Points: Logarithms, Logarithm Properties",
     "tags": ["5.2"], 
-    "guideLink": "",
+    "guideLink": "./guide-files/precalculus_5.2_key_points.pdf",
     "practiceLinks": [
       {
-        "name": "",
-        "link": ""
+        "name": "Kuta Practice Exponents and Logarithms",
+        "link": "https://cdn.kutasoftware.com/Worksheets/Precalc/03%20-%20Exponents%20and%20Logarithms.pdf"
+      },
+      {
+        "name": "Kuta Practice Logarithm Properties",
+        "link": "https://cdn.kutasoftware.com/Worksheets/Alg2/Properties%20of%20Logarithms.pdf"
       }
     
     ],
     "extraHelpLinks": [
       {
-        "name": "",
-        "link": ""
-      }
-    ]
-  },
-  {
-    "name": "5.3 Key Points: (In Progress)",
-    "tags": ["5.3"], 
-    "guideLink": "",
-    "practiceLinks": [
+        "name": "The Organic Chemistry Tutor Video Writing Logarithmic Equations In Exponential Form",
+        "link": "https://www.youtube.com/watch?v=f0C1KL7GkqY"
+      },
       {
-        "name": "",
-        "link": ""
-      }
-      
-    ],
-    "extraHelpLinks": [
-      {
-        "name": "",
-        "link": ""
+        "name": "The Organic Chemistry Tutor Video Logarithm Properties",
+        "link": "https://www.youtube.com/watch?v=Jtv9Lnf7Zw8"
       }
     ]
   }
