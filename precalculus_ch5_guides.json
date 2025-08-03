@@ -19,7 +19,7 @@
     ]
   },
   {
-    "name": "5.2 Key Points: Logarithms, Logarithm Properties",
+    "name": "5.2 Key Points: Logarithms, Logarithm Properties, Graphing Logarithms",
     "tags": ["5.2"], 
     "guideLink": "./guide-files/precalculus_5.2_key_points.pdf",
     "practiceLinks": [
@@ -41,6 +41,10 @@
       {
         "name": "The Organic Chemistry Tutor Video Logarithm Properties",
         "link": "https://www.youtube.com/watch?v=Jtv9Lnf7Zw8"
+      },
+      {
+        "name": "The Organic Chemistry Tutor Video Graphing Logarithms",
+        "link": "https://www.youtube.com/watch?v=-nptxS9rZNA"
       }
     ]
   }

@@ -39,20 +39,28 @@
     ]
   },
   {
-    "name": "6.2 Key Points: (In Progress)",
+    "name": "6.2 Key Points: Vector, Vector Addition, Vector Multiplication",
     "tags": ["6.2"], 
-    "guideLink": "",
+    "guideLink": "./guide-files/precalculus_6.2_key_points.pdf",
     "practiceLinks": [
       {
-        "name": "",
-        "link": ""
+        "name": "Kuta Practice Vectors 1",
+        "link": "https://cdn.kutasoftware.com/Worksheets/Precalc/07%20-%20Vector%20Operations.pdf"
+      },
+      {
+        "name": "Kuta Practice Vectors 2",
+        "link": "https://cdn.kutasoftware.com/Worksheets/Precalc/07%20-%20Vector%20Basics.pdf"
       }
     
     ],
     "extraHelpLinks": [
       {
-        "name": "",
-        "link": ""
+        "name": "Mario's Math Tutoring Video Vector Additon and Subtraction",
+        "link": "https://www.youtube.com/watch?v=ci29I7a0HI8"
+      },
+      {
+        "name": "Professor Dave Video Dot Product",
+        "link": "https://www.youtube.com/watch?v=0iNrGpwZwog"
       }
     ]
   }
